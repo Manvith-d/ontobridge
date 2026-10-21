@@ -1,0 +1,3802 @@
+[
+ {
+  "txnRef": "AUTH761461616",
+  "card": {
+   "last4": "6355",
+   "holderId": "C100074"
+  },
+  "auth_ts": "2024-07-30T11:46:08Z",
+  "amount": {
+   "value": 879.06,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH503978199",
+  "card": {
+   "last4": "8245",
+   "holderId": "C100059"
+  },
+  "auth_ts": "2024-02-23T19:49:12Z",
+  "amount": {
+   "value": 1362.01,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH300340402",
+  "card": {
+   "last4": "6206",
+   "holderId": "C100011"
+  },
+  "auth_ts": "2024-12-10T18:18:49Z",
+  "amount": {
+   "value": 1451.27,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5541",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH783480909",
+  "card": {
+   "last4": "8929",
+   "holderId": "C100064"
+  },
+  "auth_ts": "2024-11-04T05:58:03Z",
+  "amount": {
+   "value": 876.71,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH896699840",
+  "card": {
+   "last4": "6620",
+   "holderId": "C100022"
+  },
+  "auth_ts": "2024-11-23T14:41:02Z",
+  "amount": {
+   "value": 822.48,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH145820736",
+  "card": {
+   "last4": "7408",
+   "holderId": "C100014"
+  },
+  "auth_ts": "2024-05-13T11:51:21Z",
+  "amount": {
+   "value": 961.41,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH988993835",
+  "card": {
+   "last4": "8412",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-09-20T12:40:07Z",
+  "amount": {
+   "value": 1292.84,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH385448740",
+  "card": {
+   "last4": "2951",
+   "holderId": "C100047"
+  },
+  "auth_ts": "2024-12-28T16:25:18Z",
+  "amount": {
+   "value": 299.09,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH324082022",
+  "card": {
+   "last4": "9211",
+   "holderId": "C100055"
+  },
+  "auth_ts": "2024-06-01T23:09:50Z",
+  "amount": {
+   "value": 207.34,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH556046507",
+  "card": {
+   "last4": "4523",
+   "holderId": "C100047"
+  },
+  "auth_ts": "2024-05-02T21:38:57Z",
+  "amount": {
+   "value": 1123.21,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH820132800",
+  "card": {
+   "last4": "9610",
+   "holderId": "C100028"
+  },
+  "auth_ts": "2024-09-24T17:07:47Z",
+  "amount": {
+   "value": 524.11,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH297689337",
+  "card": {
+   "last4": "0282",
+   "holderId": "C100073"
+  },
+  "auth_ts": "2024-10-06T04:26:43Z",
+  "amount": {
+   "value": 340.42,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5814",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH702087193",
+  "card": {
+   "last4": "0885",
+   "holderId": "C100066"
+  },
+  "auth_ts": "2024-06-27T22:02:21Z",
+  "amount": {
+   "value": 1001.89,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH423161740",
+  "card": {
+   "last4": "7516",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-01-28T17:27:36Z",
+  "amount": {
+   "value": 735.15,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH131850862",
+  "card": {
+   "last4": "9416",
+   "holderId": "C100119"
+  },
+  "auth_ts": "2024-08-02T17:24:14Z",
+  "amount": {
+   "value": 195.7,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH164246887",
+  "card": {
+   "last4": "1755",
+   "holderId": "C100107"
+  },
+  "auth_ts": "2024-03-17T21:31:05Z",
+  "amount": {
+   "value": 311.75,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7832",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH243970108",
+  "card": {
+   "last4": "1165",
+   "holderId": "C100082"
+  },
+  "auth_ts": "2024-04-07T03:24:24Z",
+  "amount": {
+   "value": 1303.16,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH773248083",
+  "card": {
+   "last4": "5489",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-07-27T02:10:59Z",
+  "amount": {
+   "value": 1479.83,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH767238338",
+  "card": {
+   "last4": "4013",
+   "holderId": "C100019"
+  },
+  "auth_ts": "2024-12-04T08:28:45Z",
+  "amount": {
+   "value": 677.9,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH278569148",
+  "card": {
+   "last4": "1275",
+   "holderId": "C100001"
+  },
+  "auth_ts": "2024-04-28T09:30:27Z",
+  "amount": {
+   "value": 34.83,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5541",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH435910959",
+  "card": {
+   "last4": "4593",
+   "holderId": "C100084"
+  },
+  "auth_ts": "2024-10-02T14:20:11Z",
+  "amount": {
+   "value": 1469.11,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH187930692",
+  "card": {
+   "last4": "7899",
+   "holderId": "C100005"
+  },
+  "auth_ts": "2024-09-08T09:08:07Z",
+  "amount": {
+   "value": 921.54,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH485573965",
+  "card": {
+   "last4": "3947",
+   "holderId": "C100049"
+  },
+  "auth_ts": "2024-03-29T01:17:32Z",
+  "amount": {
+   "value": 87.33,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH535174425",
+  "card": {
+   "last4": "7437",
+   "holderId": "C100014"
+  },
+  "auth_ts": "2024-03-03T19:16:42Z",
+  "amount": {
+   "value": 54.97,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5541",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH103842918",
+  "card": {
+   "last4": "6148",
+   "holderId": "C100058"
+  },
+  "auth_ts": "2024-03-31T15:17:18Z",
+  "amount": {
+   "value": 1339.13,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH772180807",
+  "card": {
+   "last4": "1868",
+   "holderId": "C100002"
+  },
+  "auth_ts": "2024-08-13T22:45:07Z",
+  "amount": {
+   "value": 1344.99,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH796140047",
+  "card": {
+   "last4": "7494",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-03-24T18:14:27Z",
+  "amount": {
+   "value": 1442.41,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH249764341",
+  "card": {
+   "last4": "6789",
+   "holderId": "C100026"
+  },
+  "auth_ts": "2024-07-01T11:15:31Z",
+  "amount": {
+   "value": 1453.38,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH118776293",
+  "card": {
+   "last4": "4080",
+   "holderId": "C100101"
+  },
+  "auth_ts": "2024-02-05T00:12:13Z",
+  "amount": {
+   "value": 896.43,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH271776932",
+  "card": {
+   "last4": "0382",
+   "holderId": "C100014"
+  },
+  "auth_ts": "2024-06-15T18:10:59Z",
+  "amount": {
+   "value": 333.21,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH167002411",
+  "card": {
+   "last4": "5374",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-09-03T15:34:11Z",
+  "amount": {
+   "value": 1244.96,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH340014423",
+  "card": {
+   "last4": "2876",
+   "holderId": "C100097"
+  },
+  "auth_ts": "2024-02-16T04:36:59Z",
+  "amount": {
+   "value": 977.32,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH208090874",
+  "card": {
+   "last4": "4156",
+   "holderId": "C100105"
+  },
+  "auth_ts": "2024-05-24T19:56:10Z",
+  "amount": {
+   "value": 374.93,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH396373130",
+  "card": {
+   "last4": "0027",
+   "holderId": "C100118"
+  },
+  "auth_ts": "2024-09-21T08:38:57Z",
+  "amount": {
+   "value": 407.22,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH412253455",
+  "card": {
+   "last4": "7782",
+   "holderId": "C100111"
+  },
+  "auth_ts": "2024-08-06T11:06:44Z",
+  "amount": {
+   "value": 782.9,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7011",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH716879723",
+  "card": {
+   "last4": "3092",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-05-16T20:52:10Z",
+  "amount": {
+   "value": 1195.56,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH640650982",
+  "card": {
+   "last4": "1564",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-02-28T22:10:41Z",
+  "amount": {
+   "value": 944.96,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH983767322",
+  "card": {
+   "last4": "2923",
+   "holderId": "C100035"
+  },
+  "auth_ts": "2024-11-17T15:42:11Z",
+  "amount": {
+   "value": 6.04,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH960685315",
+  "card": {
+   "last4": "5427",
+   "holderId": "C100043"
+  },
+  "auth_ts": "2024-05-02T05:54:39Z",
+  "amount": {
+   "value": 133.03,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH131489635",
+  "card": {
+   "last4": "4148",
+   "holderId": "C100035"
+  },
+  "auth_ts": "2024-09-16T22:04:41Z",
+  "amount": {
+   "value": 661.51,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH915766785",
+  "card": {
+   "last4": "3209",
+   "holderId": "C100038"
+  },
+  "auth_ts": "2024-10-02T08:43:10Z",
+  "amount": {
+   "value": 361.74,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH109218984",
+  "card": {
+   "last4": "0033",
+   "holderId": "C100060"
+  },
+  "auth_ts": "2024-05-04T03:57:03Z",
+  "amount": {
+   "value": 541.82,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH858920454",
+  "card": {
+   "last4": "3933",
+   "holderId": "C100005"
+  },
+  "auth_ts": "2024-07-16T19:39:49Z",
+  "amount": {
+   "value": 442.82,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH770387584",
+  "card": {
+   "last4": "7256",
+   "holderId": "C100028"
+  },
+  "auth_ts": "2024-03-13T03:06:12Z",
+  "amount": {
+   "value": 1397.53,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH838473238",
+  "card": {
+   "last4": "8475",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-09-20T22:15:12Z",
+  "amount": {
+   "value": 273.94,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH685389849",
+  "card": {
+   "last4": "2523",
+   "holderId": "C100076"
+  },
+  "auth_ts": "2024-09-27T18:23:59Z",
+  "amount": {
+   "value": 999.95,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH360021869",
+  "card": {
+   "last4": "9421",
+   "holderId": "C100118"
+  },
+  "auth_ts": "2024-04-13T04:31:39Z",
+  "amount": {
+   "value": 1280.46,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH735678084",
+  "card": {
+   "last4": "7227",
+   "holderId": "C100112"
+  },
+  "auth_ts": "2024-02-21T10:54:09Z",
+  "amount": {
+   "value": 921.53,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH740894308",
+  "card": {
+   "last4": "8758",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-06-15T04:35:19Z",
+  "amount": {
+   "value": 199.64,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7011",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH766662854",
+  "card": {
+   "last4": "7276",
+   "holderId": "C100088"
+  },
+  "auth_ts": "2024-06-07T09:10:15Z",
+  "amount": {
+   "value": 611.73,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7011",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH489470579",
+  "card": {
+   "last4": "4363",
+   "holderId": "C100104"
+  },
+  "auth_ts": "2024-07-12T19:13:31Z",
+  "amount": {
+   "value": 424.46,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7011",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH636335139",
+  "card": {
+   "last4": "5525",
+   "holderId": "C100109"
+  },
+  "auth_ts": "2024-01-24T15:18:17Z",
+  "amount": {
+   "value": 161.13,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH984300699",
+  "card": {
+   "last4": "0769",
+   "holderId": "C100102"
+  },
+  "auth_ts": "2024-05-04T15:08:16Z",
+  "amount": {
+   "value": 635.74,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH792259989",
+  "card": {
+   "last4": "0163",
+   "holderId": "C100050"
+  },
+  "auth_ts": "2024-06-08T09:46:14Z",
+  "amount": {
+   "value": 651.9,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH479887480",
+  "card": {
+   "last4": "5744",
+   "holderId": "C100000"
+  },
+  "auth_ts": "2024-03-17T12:46:01Z",
+  "amount": {
+   "value": 407.27,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH932755268",
+  "card": {
+   "last4": "3681",
+   "holderId": "C100039"
+  },
+  "auth_ts": "2024-02-29T11:44:58Z",
+  "amount": {
+   "value": 689.86,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH858851744",
+  "card": {
+   "last4": "9540",
+   "holderId": "C100011"
+  },
+  "auth_ts": "2024-08-14T14:51:56Z",
+  "amount": {
+   "value": 356.52,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH558092923",
+  "card": {
+   "last4": "4781",
+   "holderId": "C100105"
+  },
+  "auth_ts": "2024-11-18T09:52:21Z",
+  "amount": {
+   "value": 507.94,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH677607439",
+  "card": {
+   "last4": "4006",
+   "holderId": "C100060"
+  },
+  "auth_ts": "2024-10-15T11:30:51Z",
+  "amount": {
+   "value": 1281.57,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH794950586",
+  "card": {
+   "last4": "5786",
+   "holderId": "C100024"
+  },
+  "auth_ts": "2024-07-02T21:31:06Z",
+  "amount": {
+   "value": 247.69,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH378553156",
+  "card": {
+   "last4": "8791",
+   "holderId": "C100078"
+  },
+  "auth_ts": "2024-10-10T13:59:11Z",
+  "amount": {
+   "value": 1090.97,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH858287723",
+  "card": {
+   "last4": "5335",
+   "holderId": "C100076"
+  },
+  "auth_ts": "2024-05-28T10:25:16Z",
+  "amount": {
+   "value": 546.43,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH808214533",
+  "card": {
+   "last4": "6110",
+   "holderId": "C100088"
+  },
+  "auth_ts": "2024-04-10T05:36:53Z",
+  "amount": {
+   "value": 1077.22,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH903954022",
+  "card": {
+   "last4": "9587",
+   "holderId": "C100055"
+  },
+  "auth_ts": "2024-10-10T17:21:21Z",
+  "amount": {
+   "value": 921.14,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH328170109",
+  "card": {
+   "last4": "1285",
+   "holderId": "C100054"
+  },
+  "auth_ts": "2024-03-15T18:30:43Z",
+  "amount": {
+   "value": 604.36,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5814",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH920557739",
+  "card": {
+   "last4": "5955",
+   "holderId": "C100082"
+  },
+  "auth_ts": "2024-03-18T08:42:01Z",
+  "amount": {
+   "value": 302.94,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH686717574",
+  "card": {
+   "last4": "7393",
+   "holderId": "C100061"
+  },
+  "auth_ts": "2024-01-06T18:45:52Z",
+  "amount": {
+   "value": 125.84,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7011",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH203198503",
+  "card": {
+   "last4": "9339",
+   "holderId": "C100037"
+  },
+  "auth_ts": "2024-07-07T01:52:54Z",
+  "amount": {
+   "value": 1062.19,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH885527644",
+  "card": {
+   "last4": "6114",
+   "holderId": "C100020"
+  },
+  "auth_ts": "2024-08-26T19:13:59Z",
+  "amount": {
+   "value": 890.14,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH104476558",
+  "card": {
+   "last4": "5411",
+   "holderId": "C100005"
+  },
+  "auth_ts": "2024-03-15T10:22:47Z",
+  "amount": {
+   "value": 336.96,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH622742145",
+  "card": {
+   "last4": "4763",
+   "holderId": "C100092"
+  },
+  "auth_ts": "2024-03-10T09:55:11Z",
+  "amount": {
+   "value": 1044.38,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5411",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH394414488",
+  "card": {
+   "last4": "6188",
+   "holderId": "C100028"
+  },
+  "auth_ts": "2024-10-10T03:16:01Z",
+  "amount": {
+   "value": 9.89,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH582993222",
+  "card": {
+   "last4": "0872",
+   "holderId": "C100026"
+  },
+  "auth_ts": "2024-07-18T08:20:31Z",
+  "amount": {
+   "value": 1017.9,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH111585139",
+  "card": {
+   "last4": "0455",
+   "holderId": "C100042"
+  },
+  "auth_ts": "2024-05-07T01:55:33Z",
+  "amount": {
+   "value": 1434.6,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH333557098",
+  "card": {
+   "last4": "2160",
+   "holderId": "C100026"
+  },
+  "auth_ts": "2024-11-11T10:12:21Z",
+  "amount": {
+   "value": 539.86,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH202155022",
+  "card": {
+   "last4": "2014",
+   "holderId": "C100034"
+  },
+  "auth_ts": "2024-06-18T10:12:17Z",
+  "amount": {
+   "value": 1258.12,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5411",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH386661243",
+  "card": {
+   "last4": "1222",
+   "holderId": "C100034"
+  },
+  "auth_ts": "2024-03-17T08:58:39Z",
+  "amount": {
+   "value": 1125.33,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5411",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH741710933",
+  "card": {
+   "last4": "9635",
+   "holderId": "C100030"
+  },
+  "auth_ts": "2024-06-02T14:48:12Z",
+  "amount": {
+   "value": 310.18,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH177014631",
+  "card": {
+   "last4": "1689",
+   "holderId": "C100002"
+  },
+  "auth_ts": "2024-06-16T04:07:01Z",
+  "amount": {
+   "value": 344.82,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7832",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH993207511",
+  "card": {
+   "last4": "6643",
+   "holderId": "C100012"
+  },
+  "auth_ts": "2024-04-29T15:14:05Z",
+  "amount": {
+   "value": 1420.99,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH239347453",
+  "card": {
+   "last4": "6915",
+   "holderId": "C100092"
+  },
+  "auth_ts": "2024-10-24T17:04:01Z",
+  "amount": {
+   "value": 1203.33,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH300828322",
+  "card": {
+   "last4": "6983",
+   "holderId": "C100008"
+  },
+  "auth_ts": "2024-05-23T23:24:38Z",
+  "amount": {
+   "value": 1252.2,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH739490527",
+  "card": {
+   "last4": "6525",
+   "holderId": "C100053"
+  },
+  "auth_ts": "2024-07-25T15:28:30Z",
+  "amount": {
+   "value": 633.6,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH319850039",
+  "card": {
+   "last4": "6685",
+   "holderId": "C100089"
+  },
+  "auth_ts": "2024-02-04T12:11:47Z",
+  "amount": {
+   "value": 395.59,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH420715883",
+  "card": {
+   "last4": "6292",
+   "holderId": "C100101"
+  },
+  "auth_ts": "2024-01-24T10:38:19Z",
+  "amount": {
+   "value": 883.42,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH978916951",
+  "card": {
+   "last4": "0672",
+   "holderId": "C100065"
+  },
+  "auth_ts": "2024-03-03T18:19:45Z",
+  "amount": {
+   "value": 598.4,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH576345230",
+  "card": {
+   "last4": "4281",
+   "holderId": "C100036"
+  },
+  "auth_ts": "2024-07-15T05:48:25Z",
+  "amount": {
+   "value": 718.65,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH137178549",
+  "card": {
+   "last4": "4065",
+   "holderId": "C100111"
+  },
+  "auth_ts": "2024-02-01T05:40:05Z",
+  "amount": {
+   "value": 596.46,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH477631996",
+  "card": {
+   "last4": "9246",
+   "holderId": "C100112"
+  },
+  "auth_ts": "2024-01-17T17:04:08Z",
+  "amount": {
+   "value": 752.94,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7832",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH992171005",
+  "card": {
+   "last4": "6596",
+   "holderId": "C100091"
+  },
+  "auth_ts": "2024-06-15T16:56:16Z",
+  "amount": {
+   "value": 845.09,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH255225137",
+  "card": {
+   "last4": "5152",
+   "holderId": "C100086"
+  },
+  "auth_ts": "2024-09-22T05:52:06Z",
+  "amount": {
+   "value": 925.72,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH276731656",
+  "card": {
+   "last4": "2538",
+   "holderId": "C100103"
+  },
+  "auth_ts": "2024-07-02T16:16:12Z",
+  "amount": {
+   "value": 728.12,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH584467970",
+  "card": {
+   "last4": "9607",
+   "holderId": "C100063"
+  },
+  "auth_ts": "2024-10-20T22:09:03Z",
+  "amount": {
+   "value": 1233.74,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH327128196",
+  "card": {
+   "last4": "6861",
+   "holderId": "C100060"
+  },
+  "auth_ts": "2024-07-20T17:54:56Z",
+  "amount": {
+   "value": 467.19,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH524762106",
+  "card": {
+   "last4": "5278",
+   "holderId": "C100100"
+  },
+  "auth_ts": "2024-09-07T18:59:48Z",
+  "amount": {
+   "value": 600.67,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH687611861",
+  "card": {
+   "last4": "3273",
+   "holderId": "C100058"
+  },
+  "auth_ts": "2024-12-19T15:11:01Z",
+  "amount": {
+   "value": 1080.59,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH881959466",
+  "card": {
+   "last4": "8837",
+   "holderId": "C100103"
+  },
+  "auth_ts": "2024-12-16T02:50:23Z",
+  "amount": {
+   "value": 878.13,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH972389880",
+  "card": {
+   "last4": "9540",
+   "holderId": "C100002"
+  },
+  "auth_ts": "2024-09-27T13:44:20Z",
+  "amount": {
+   "value": 408.6,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH370642748",
+  "card": {
+   "last4": "9637",
+   "holderId": "C100064"
+  },
+  "auth_ts": "2024-08-22T12:27:33Z",
+  "amount": {
+   "value": 698.85,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH584542923",
+  "card": {
+   "last4": "5352",
+   "holderId": "C100021"
+  },
+  "auth_ts": "2024-03-28T21:29:52Z",
+  "amount": {
+   "value": 1392.46,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH681678964",
+  "card": {
+   "last4": "2415",
+   "holderId": "C100059"
+  },
+  "auth_ts": "2024-01-20T06:36:16Z",
+  "amount": {
+   "value": 100.9,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH620087400",
+  "card": {
+   "last4": "6163",
+   "holderId": "C100077"
+  },
+  "auth_ts": "2024-08-03T07:03:05Z",
+  "amount": {
+   "value": 1118.54,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH784860964",
+  "card": {
+   "last4": "9563",
+   "holderId": "C100049"
+  },
+  "auth_ts": "2024-03-29T22:26:04Z",
+  "amount": {
+   "value": 978.05,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH414134624",
+  "card": {
+   "last4": "7675",
+   "holderId": "C100098"
+  },
+  "auth_ts": "2024-01-29T12:50:27Z",
+  "amount": {
+   "value": 67.87,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH995675523",
+  "card": {
+   "last4": "1702",
+   "holderId": "C100035"
+  },
+  "auth_ts": "2024-05-18T13:14:57Z",
+  "amount": {
+   "value": 404.89,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH880375839",
+  "card": {
+   "last4": "9747",
+   "holderId": "C100006"
+  },
+  "auth_ts": "2024-02-02T16:47:58Z",
+  "amount": {
+   "value": 139.62,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH491779806",
+  "card": {
+   "last4": "0935",
+   "holderId": "C100082"
+  },
+  "auth_ts": "2024-04-08T19:39:44Z",
+  "amount": {
+   "value": 1348.2,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH720168364",
+  "card": {
+   "last4": "7839",
+   "holderId": "C100096"
+  },
+  "auth_ts": "2024-05-06T05:16:45Z",
+  "amount": {
+   "value": 898.04,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH115374219",
+  "card": {
+   "last4": "4583",
+   "holderId": "C100103"
+  },
+  "auth_ts": "2024-11-17T01:11:50Z",
+  "amount": {
+   "value": 494.37,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH707918942",
+  "card": {
+   "last4": "9922",
+   "holderId": "C100065"
+  },
+  "auth_ts": "2024-02-24T21:35:11Z",
+  "amount": {
+   "value": 901.01,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH984808294",
+  "card": {
+   "last4": "3150",
+   "holderId": "C100101"
+  },
+  "auth_ts": "2024-05-15T07:54:55Z",
+  "amount": {
+   "value": 1481.61,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH727610733",
+  "card": {
+   "last4": "8324",
+   "holderId": "C100106"
+  },
+  "auth_ts": "2024-02-15T21:59:48Z",
+  "amount": {
+   "value": 459.0,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH551675651",
+  "card": {
+   "last4": "7372",
+   "holderId": "C100058"
+  },
+  "auth_ts": "2024-08-05T21:54:54Z",
+  "amount": {
+   "value": 749.3,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH177809056",
+  "card": {
+   "last4": "4481",
+   "holderId": "C100052"
+  },
+  "auth_ts": "2024-01-19T06:02:09Z",
+  "amount": {
+   "value": 393.58,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH579594933",
+  "card": {
+   "last4": "1898",
+   "holderId": "C100099"
+  },
+  "auth_ts": "2024-07-30T19:07:26Z",
+  "amount": {
+   "value": 447.03,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH118632068",
+  "card": {
+   "last4": "2057",
+   "holderId": "C100051"
+  },
+  "auth_ts": "2024-12-13T14:09:59Z",
+  "amount": {
+   "value": 1380.67,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH235914511",
+  "card": {
+   "last4": "7161",
+   "holderId": "C100038"
+  },
+  "auth_ts": "2024-12-14T13:15:29Z",
+  "amount": {
+   "value": 1119.11,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH332821794",
+  "card": {
+   "last4": "2376",
+   "holderId": "C100083"
+  },
+  "auth_ts": "2024-05-02T11:54:32Z",
+  "amount": {
+   "value": 161.56,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH517143001",
+  "card": {
+   "last4": "3591",
+   "holderId": "C100011"
+  },
+  "auth_ts": "2024-06-29T02:29:25Z",
+  "amount": {
+   "value": 497.83,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH980519134",
+  "card": {
+   "last4": "6714",
+   "holderId": "C100114"
+  },
+  "auth_ts": "2024-10-10T22:23:59Z",
+  "amount": {
+   "value": 1225.13,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH469355420",
+  "card": {
+   "last4": "3369",
+   "holderId": "C100111"
+  },
+  "auth_ts": "2024-12-05T14:06:13Z",
+  "amount": {
+   "value": 1120.99,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH811816151",
+  "card": {
+   "last4": "8870",
+   "holderId": "C100058"
+  },
+  "auth_ts": "2024-10-31T15:26:11Z",
+  "amount": {
+   "value": 1041.33,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5814",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH316278573",
+  "card": {
+   "last4": "8560",
+   "holderId": "C100010"
+  },
+  "auth_ts": "2024-08-21T14:56:29Z",
+  "amount": {
+   "value": 1328.9,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH565113115",
+  "card": {
+   "last4": "2286",
+   "holderId": "C100030"
+  },
+  "auth_ts": "2024-07-01T15:29:19Z",
+  "amount": {
+   "value": 1340.17,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7832",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH575044606",
+  "card": {
+   "last4": "8863",
+   "holderId": "C100029"
+  },
+  "auth_ts": "2024-06-16T20:28:45Z",
+  "amount": {
+   "value": 144.06,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH817321137",
+  "card": {
+   "last4": "2100",
+   "holderId": "C100019"
+  },
+  "auth_ts": "2024-06-23T01:12:26Z",
+  "amount": {
+   "value": 119.44,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH879788558",
+  "card": {
+   "last4": "9280",
+   "holderId": "C100095"
+  },
+  "auth_ts": "2024-06-16T06:43:49Z",
+  "amount": {
+   "value": 1238.53,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH857233065",
+  "card": {
+   "last4": "9072",
+   "holderId": "C100106"
+  },
+  "auth_ts": "2024-09-15T06:44:59Z",
+  "amount": {
+   "value": 1438.12,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH542435665",
+  "card": {
+   "last4": "1472",
+   "holderId": "C100085"
+  },
+  "auth_ts": "2024-03-27T18:42:54Z",
+  "amount": {
+   "value": 1414.56,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH573994847",
+  "card": {
+   "last4": "0700",
+   "holderId": "C100075"
+  },
+  "auth_ts": "2024-12-18T10:00:43Z",
+  "amount": {
+   "value": 758.61,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH938744683",
+  "card": {
+   "last4": "2618",
+   "holderId": "C100055"
+  },
+  "auth_ts": "2024-06-28T16:30:02Z",
+  "amount": {
+   "value": 222.06,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH380607016",
+  "card": {
+   "last4": "9941",
+   "holderId": "C100033"
+  },
+  "auth_ts": "2024-12-09T04:37:25Z",
+  "amount": {
+   "value": 699.38,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH321653688",
+  "card": {
+   "last4": "1805",
+   "holderId": "C100028"
+  },
+  "auth_ts": "2024-08-23T00:35:53Z",
+  "amount": {
+   "value": 682.7,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH570831783",
+  "card": {
+   "last4": "4077",
+   "holderId": "C100072"
+  },
+  "auth_ts": "2024-09-14T13:09:22Z",
+  "amount": {
+   "value": 360.47,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7011",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH951566400",
+  "card": {
+   "last4": "2356",
+   "holderId": "C100078"
+  },
+  "auth_ts": "2024-02-21T18:56:32Z",
+  "amount": {
+   "value": 1148.97,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH491808235",
+  "card": {
+   "last4": "7477",
+   "holderId": "C100040"
+  },
+  "auth_ts": "2024-02-22T10:29:24Z",
+  "amount": {
+   "value": 593.76,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH782534214",
+  "card": {
+   "last4": "3421",
+   "holderId": "C100089"
+  },
+  "auth_ts": "2024-08-05T05:03:54Z",
+  "amount": {
+   "value": 492.01,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH395034789",
+  "card": {
+   "last4": "5830",
+   "holderId": "C100089"
+  },
+  "auth_ts": "2024-03-27T23:52:04Z",
+  "amount": {
+   "value": 55.05,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH958250631",
+  "card": {
+   "last4": "6561",
+   "holderId": "C100102"
+  },
+  "auth_ts": "2024-02-21T17:16:43Z",
+  "amount": {
+   "value": 119.11,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH579890793",
+  "card": {
+   "last4": "1382",
+   "holderId": "C100019"
+  },
+  "auth_ts": "2024-03-25T23:16:07Z",
+  "amount": {
+   "value": 338.15,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH471244553",
+  "card": {
+   "last4": "7195",
+   "holderId": "C100029"
+  },
+  "auth_ts": "2024-06-23T16:58:43Z",
+  "amount": {
+   "value": 872.13,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH725193447",
+  "card": {
+   "last4": "8109",
+   "holderId": "C100086"
+  },
+  "auth_ts": "2024-10-02T00:17:30Z",
+  "amount": {
+   "value": 637.03,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH551849526",
+  "card": {
+   "last4": "1643",
+   "holderId": "C100072"
+  },
+  "auth_ts": "2024-08-23T15:10:56Z",
+  "amount": {
+   "value": 1474.4,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH579311233",
+  "card": {
+   "last4": "4427",
+   "holderId": "C100073"
+  },
+  "auth_ts": "2024-09-26T14:13:51Z",
+  "amount": {
+   "value": 273.6,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH146552818",
+  "card": {
+   "last4": "9093",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-05-13T09:55:07Z",
+  "amount": {
+   "value": 439.06,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH275357159",
+  "card": {
+   "last4": "5509",
+   "holderId": "C100047"
+  },
+  "auth_ts": "2024-05-30T08:56:29Z",
+  "amount": {
+   "value": 239.37,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH899573546",
+  "card": {
+   "last4": "0495",
+   "holderId": "C100049"
+  },
+  "auth_ts": "2024-05-17T17:34:28Z",
+  "amount": {
+   "value": 804.44,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH199254611",
+  "card": {
+   "last4": "3097",
+   "holderId": "C100070"
+  },
+  "auth_ts": "2024-01-09T19:05:51Z",
+  "amount": {
+   "value": 547.63,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH559941045",
+  "card": {
+   "last4": "5490",
+   "holderId": "C100055"
+  },
+  "auth_ts": "2024-01-04T16:20:17Z",
+  "amount": {
+   "value": 856.12,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH638621434",
+  "card": {
+   "last4": "1037",
+   "holderId": "C100012"
+  },
+  "auth_ts": "2024-05-22T02:04:40Z",
+  "amount": {
+   "value": 1237.55,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH337480039",
+  "card": {
+   "last4": "3178",
+   "holderId": "C100029"
+  },
+  "auth_ts": "2024-07-25T18:38:01Z",
+  "amount": {
+   "value": 1126.59,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5541",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH735133096",
+  "card": {
+   "last4": "6484",
+   "holderId": "C100050"
+  },
+  "auth_ts": "2024-06-30T14:06:36Z",
+  "amount": {
+   "value": 182.1,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5411",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH816882239",
+  "card": {
+   "last4": "2468",
+   "holderId": "C100072"
+  },
+  "auth_ts": "2024-06-28T11:53:00Z",
+  "amount": {
+   "value": 52.18,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH390690858",
+  "card": {
+   "last4": "5134",
+   "holderId": "C100057"
+  },
+  "auth_ts": "2024-01-11T06:21:09Z",
+  "amount": {
+   "value": 1200.72,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH956728164",
+  "card": {
+   "last4": "1648",
+   "holderId": "C100057"
+  },
+  "auth_ts": "2024-10-31T07:38:24Z",
+  "amount": {
+   "value": 1161.96,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH529822287",
+  "card": {
+   "last4": "0683",
+   "holderId": "C100106"
+  },
+  "auth_ts": "2024-03-13T06:14:55Z",
+  "amount": {
+   "value": 1288.31,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5814",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH190731879",
+  "card": {
+   "last4": "5818",
+   "holderId": "C100074"
+  },
+  "auth_ts": "2024-04-14T07:14:38Z",
+  "amount": {
+   "value": 1323.92,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7011",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH557680318",
+  "card": {
+   "last4": "7275",
+   "holderId": "C100089"
+  },
+  "auth_ts": "2024-11-23T00:44:21Z",
+  "amount": {
+   "value": 423.56,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH603580869",
+  "card": {
+   "last4": "4707",
+   "holderId": "C100119"
+  },
+  "auth_ts": "2024-09-16T17:16:36Z",
+  "amount": {
+   "value": 1147.97,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH791547783",
+  "card": {
+   "last4": "5128",
+   "holderId": "C100045"
+  },
+  "auth_ts": "2024-07-04T23:26:10Z",
+  "amount": {
+   "value": 937.07,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH584292388",
+  "card": {
+   "last4": "0152",
+   "holderId": "C100116"
+  },
+  "auth_ts": "2024-06-11T14:31:56Z",
+  "amount": {
+   "value": 1061.4,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH691188725",
+  "card": {
+   "last4": "2452",
+   "holderId": "C100021"
+  },
+  "auth_ts": "2024-12-01T07:54:59Z",
+  "amount": {
+   "value": 296.11,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "7011",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH139636119",
+  "card": {
+   "last4": "1324",
+   "holderId": "C100034"
+  },
+  "auth_ts": "2024-10-29T08:12:57Z",
+  "amount": {
+   "value": 900.53,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH997932624",
+  "card": {
+   "last4": "7070",
+   "holderId": "C100109"
+  },
+  "auth_ts": "2024-04-18T02:24:46Z",
+  "amount": {
+   "value": 636.43,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH383714323",
+  "card": {
+   "last4": "2618",
+   "holderId": "C100040"
+  },
+  "auth_ts": "2024-07-23T01:27:17Z",
+  "amount": {
+   "value": 984.45,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH125780300",
+  "card": {
+   "last4": "3185",
+   "holderId": "C100079"
+  },
+  "auth_ts": "2024-07-05T02:40:12Z",
+  "amount": {
+   "value": 1142.76,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5814",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH501188542",
+  "card": {
+   "last4": "7408",
+   "holderId": "C100053"
+  },
+  "auth_ts": "2024-05-28T14:50:05Z",
+  "amount": {
+   "value": 645.1,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH429335172",
+  "card": {
+   "last4": "0217",
+   "holderId": "C100108"
+  },
+  "auth_ts": "2024-10-25T12:10:02Z",
+  "amount": {
+   "value": 626.29,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH265236405",
+  "card": {
+   "last4": "9904",
+   "holderId": "C100069"
+  },
+  "auth_ts": "2024-11-05T07:00:20Z",
+  "amount": {
+   "value": 711.38,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7011",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH287840988",
+  "card": {
+   "last4": "4507",
+   "holderId": "C100029"
+  },
+  "auth_ts": "2024-05-13T07:36:17Z",
+  "amount": {
+   "value": 900.41,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH554659865",
+  "card": {
+   "last4": "1139",
+   "holderId": "C100065"
+  },
+  "auth_ts": "2024-11-24T20:02:04Z",
+  "amount": {
+   "value": 376.44,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7011",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH949946677",
+  "card": {
+   "last4": "5000",
+   "holderId": "C100108"
+  },
+  "auth_ts": "2024-11-28T23:37:49Z",
+  "amount": {
+   "value": 1076.87,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Columbus",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH217686471",
+  "card": {
+   "last4": "8517",
+   "holderId": "C100093"
+  },
+  "auth_ts": "2024-01-08T03:35:31Z",
+  "amount": {
+   "value": 1001.28,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7011",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH285476397",
+  "card": {
+   "last4": "1067",
+   "holderId": "C100002"
+  },
+  "auth_ts": "2024-04-30T18:49:15Z",
+  "amount": {
+   "value": 573.42,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH168899105",
+  "card": {
+   "last4": "5907",
+   "holderId": "C100069"
+  },
+  "auth_ts": "2024-02-18T07:43:22Z",
+  "amount": {
+   "value": 995.85,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5411",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH662699401",
+  "card": {
+   "last4": "7969",
+   "holderId": "C100063"
+  },
+  "auth_ts": "2024-06-12T05:12:45Z",
+  "amount": {
+   "value": 473.35,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH107888328",
+  "card": {
+   "last4": "8063",
+   "holderId": "C100052"
+  },
+  "auth_ts": "2024-08-02T18:47:37Z",
+  "amount": {
+   "value": 998.93,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH337807531",
+  "card": {
+   "last4": "2051",
+   "holderId": "C100029"
+  },
+  "auth_ts": "2024-07-05T00:51:22Z",
+  "amount": {
+   "value": 1442.49,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5541",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH697292863",
+  "card": {
+   "last4": "9724",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-02-18T10:13:39Z",
+  "amount": {
+   "value": 1079.6,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH593410809",
+  "card": {
+   "last4": "4112",
+   "holderId": "C100051"
+  },
+  "auth_ts": "2024-12-30T01:14:49Z",
+  "amount": {
+   "value": 623.32,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH889345338",
+  "card": {
+   "last4": "0102",
+   "holderId": "C100079"
+  },
+  "auth_ts": "2024-12-11T23:48:10Z",
+  "amount": {
+   "value": 812.15,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5411",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH384168480",
+  "card": {
+   "last4": "6038",
+   "holderId": "C100034"
+  },
+  "auth_ts": "2024-01-10T05:31:44Z",
+  "amount": {
+   "value": 778.48,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "5541",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH673287216",
+  "card": {
+   "last4": "3563",
+   "holderId": "C100014"
+  },
+  "auth_ts": "2024-06-15T10:50:06Z",
+  "amount": {
+   "value": 50.86,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Seattle",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH789271555",
+  "card": {
+   "last4": "4482",
+   "holderId": "C100066"
+  },
+  "auth_ts": "2024-03-16T07:16:52Z",
+  "amount": {
+   "value": 1479.11,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH134531740",
+  "card": {
+   "last4": "5111",
+   "holderId": "C100115"
+  },
+  "auth_ts": "2024-07-16T05:19:39Z",
+  "amount": {
+   "value": 280.16,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7832",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH902423669",
+  "card": {
+   "last4": "4567",
+   "holderId": "C100041"
+  },
+  "auth_ts": "2024-01-02T15:45:37Z",
+  "amount": {
+   "value": 424.29,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH879527333",
+  "card": {
+   "last4": "2837",
+   "holderId": "C100110"
+  },
+  "auth_ts": "2024-08-01T09:00:51Z",
+  "amount": {
+   "value": 512.58,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Cinema 9",
+   "mcc": "7832",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH764400710",
+  "card": {
+   "last4": "2909",
+   "holderId": "C100049"
+  },
+  "auth_ts": "2024-08-07T03:52:51Z",
+  "amount": {
+   "value": 1051.05,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH217370872",
+  "card": {
+   "last4": "6188",
+   "holderId": "C100057"
+  },
+  "auth_ts": "2024-07-17T12:24:02Z",
+  "amount": {
+   "value": 874.43,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Harbor Hotel",
+   "mcc": "5814",
+   "city": "Boston",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH555448522",
+  "card": {
+   "last4": "1701",
+   "holderId": "C100007"
+  },
+  "auth_ts": "2024-01-11T17:06:00Z",
+  "amount": {
+   "value": 1345.32,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "San Diego",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH834186234",
+  "card": {
+   "last4": "7989",
+   "holderId": "C100079"
+  },
+  "auth_ts": "2024-09-17T00:26:32Z",
+  "amount": {
+   "value": 870.23,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": true
+ },
+ {
+  "txnRef": "AUTH191878767",
+  "card": {
+   "last4": "2529",
+   "holderId": "C100067"
+  },
+  "auth_ts": "2024-09-15T22:29:05Z",
+  "amount": {
+   "value": 1016.3,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Chicago",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH384289229",
+  "card": {
+   "last4": "2762",
+   "holderId": "C100010"
+  },
+  "auth_ts": "2024-10-11T00:53:21Z",
+  "amount": {
+   "value": 440.17,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "5814",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH728426907",
+  "card": {
+   "last4": "9668",
+   "holderId": "C100080"
+  },
+  "auth_ts": "2024-04-28T15:12:02Z",
+  "amount": {
+   "value": 340.05,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH571848559",
+  "card": {
+   "last4": "3305",
+   "holderId": "C100074"
+  },
+  "auth_ts": "2024-09-29T08:18:53Z",
+  "amount": {
+   "value": 1078.39,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5814",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH511437038",
+  "card": {
+   "last4": "1195",
+   "holderId": "C100017"
+  },
+  "auth_ts": "2024-07-19T18:10:12Z",
+  "amount": {
+   "value": 812.04,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Phoenix",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH893409172",
+  "card": {
+   "last4": "2242",
+   "holderId": "C100051"
+  },
+  "auth_ts": "2024-07-16T15:17:02Z",
+  "amount": {
+   "value": 672.99,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Metro Fuel",
+   "mcc": "7011",
+   "city": "Albany",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH529528760",
+  "card": {
+   "last4": "0219",
+   "holderId": "C100064"
+  },
+  "auth_ts": "2024-10-21T13:16:43Z",
+  "amount": {
+   "value": 1312.73,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Shopwise",
+   "mcc": "5411",
+   "city": "Austin",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH324338639",
+  "card": {
+   "last4": "4257",
+   "holderId": "C100066"
+  },
+  "auth_ts": "2024-08-25T04:20:26Z",
+  "amount": {
+   "value": 713.38,
+   "currency": "CAD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "7832",
+   "city": "Atlanta",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ },
+ {
+  "txnRef": "AUTH207597753",
+  "card": {
+   "last4": "0168",
+   "holderId": "C100007"
+  },
+  "auth_ts": "2024-03-21T19:07:22Z",
+  "amount": {
+   "value": 930.98,
+   "currency": "USD"
+  },
+  "merchant": {
+   "name": "Blue Bottle",
+   "mcc": "5541",
+   "city": "Raleigh",
+   "country": "US"
+  },
+  "isFraudFlag": false
+ }
+]

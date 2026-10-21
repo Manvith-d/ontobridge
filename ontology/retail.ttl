@@ -1,0 +1,144 @@
+@prefix ob:   <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://manvith-d.github.io/ontobridge/ontology/retail> a owl:Ontology ;
+  dcterms:title "OntoBridge retail ontology" ;
+  rdfs:comment "Properties used to align retail sources. Synonyms are generic industry terms, not copies of any source column." .
+
+# ---- Properties ---------------------------------------------------------------------
+ob:transactionId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "sales transaction identifier"@en ;
+  skos:altLabel "transaction id"@en, "receipt number"@en, "sale id"@en ;
+  rdfs:comment "Business key of a point-of-sale transaction."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "retail" .
+
+ob:storeId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "store identifier"@en ;
+  skos:altLabel "store number"@en, "store id"@en, "store code"@en ;
+  rdfs:comment "Business key of a store."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:StoreDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "retail" .
+
+ob:productSku a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "product SKU"@en ;
+  skos:altLabel "sku"@en, "item number"@en, "product code"@en, "stock keeping unit"@en ;
+  rdfs:comment "Stock keeping unit of a product."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProductDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "retail" .
+
+ob:quantity a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "quantity sold"@en ;
+  skos:altLabel "quantity"@en, "units"@en, "units sold"@en ;
+  rdfs:comment "Units sold on the line."@en ;
+  rdfs:range xsd:integer ;
+  ob:domainArea "retail" .
+
+ob:unitPrice a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "unit price"@en ;
+  skos:altLabel "selling price"@en, "price each"@en ;
+  rdfs:comment "Price per unit at the time of sale."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "retail" .
+
+ob:discountAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "discount amount"@en ;
+  skos:altLabel "discount"@en, "markdown"@en, "promotion amount"@en ;
+  rdfs:comment "Discount applied to the line."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "retail" .
+
+ob:saleTimestamp a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "sale timestamp"@en ;
+  skos:altLabel "transaction time"@en, "sold at"@en, "sale time"@en, "transaction timestamp"@en ;
+  rdfs:comment "When the sale happened."@en ;
+  rdfs:range xsd:dateTime ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "retail" .
+
+ob:orderId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "order identifier"@en ;
+  skos:altLabel "order id"@en, "order number"@en ;
+  rdfs:comment "Business key of an online order."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "retail" .
+
+ob:orderTimestamp a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "order placed timestamp"@en ;
+  skos:altLabel "order date"@en, "ordered at"@en, "placed at"@en, "order time"@en ;
+  rdfs:comment "When the order was placed."@en ;
+  rdfs:range xsd:dateTime ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "retail" .
+
+ob:orderSubtotal a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "order item total"@en ;
+  skos:altLabel "subtotal"@en, "merchandise total"@en, "items total"@en ;
+  rdfs:comment "Value of the items before shipping."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "retail" .
+
+ob:shippingFee a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "shipping fee"@en ;
+  skos:altLabel "shipping cost"@en, "delivery fee"@en, "freight"@en ;
+  rdfs:comment "Shipping charged to the customer."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "retail" .
+
+ob:salesChannel a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "sales channel"@en ;
+  skos:altLabel "channel"@en, "order channel"@en ;
+  rdfs:comment "Channel the order came through."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "retail" .
+
+ob:productName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "product name"@en ;
+  skos:altLabel "product title"@en, "item name"@en, "item description"@en ;
+  rdfs:comment "Customer-facing product name."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProductDimension ;
+  ob:domainArea "retail" .
+
+ob:productCategory a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "product category"@en ;
+  skos:altLabel "category"@en, "department"@en, "merchandise category"@en ;
+  rdfs:comment "Top-level merchandise category."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProductDimension ;
+  ob:domainArea "retail" .
+
+ob:brandName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "brand name"@en ;
+  skos:altLabel "brand"@en, "manufacturer brand"@en ;
+  rdfs:comment "Brand of the product."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProductDimension ;
+  ob:domainArea "retail" .
+
+ob:listPrice a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "list price"@en ;
+  skos:altLabel "msrp"@en, "retail price"@en, "regular price"@en ;
+  rdfs:comment "Manufacturer list price."@en ;
+  rdfs:range xsd:decimal ;
+  ob:conformedDimension ob:ProductDimension ;
+  ob:domainArea "retail" .
+
+ob:productLaunchDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "product launch date"@en ;
+  skos:altLabel "launch date"@en, "release date"@en, "introduction date"@en ;
+  rdfs:comment "Date the product went on sale."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "retail" .
+

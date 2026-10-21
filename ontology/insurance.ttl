@@ -1,0 +1,155 @@
+@prefix ob:   <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://manvith-d.github.io/ontobridge/ontology/insurance> a owl:Ontology ;
+  dcterms:title "OntoBridge insurance ontology" ;
+  rdfs:comment "Properties used to align insurance sources. Synonyms are generic industry terms, not copies of any source column." .
+
+# ---- Properties ---------------------------------------------------------------------
+ob:policyNumber a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "policy number"@en ;
+  skos:altLabel "policy id"@en, "policy no"@en, "policy reference"@en ;
+  rdfs:comment "Business key of an insurance policy."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:PolicyDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "insurance" .
+
+ob:lineOfBusiness a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "line of business"@en ;
+  skos:altLabel "lob"@en, "product line"@en, "coverage line"@en, "line"@en ;
+  rdfs:comment "Insurance line, e.g. auto or home."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:PolicyDimension ;
+  ob:domainArea "insurance" .
+
+ob:policyEffectiveDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "policy effective date"@en ;
+  skos:altLabel "effective date"@en, "inception date"@en, "policy start date"@en ;
+  rdfs:comment "Date coverage begins."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "insurance" .
+
+ob:policyExpirationDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "policy expiration date"@en ;
+  skos:altLabel "expiration date"@en, "expiry date"@en, "policy end date"@en ;
+  rdfs:comment "Date coverage ends."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "insurance" .
+
+ob:premiumAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "premium amount"@en ;
+  skos:altLabel "premium"@en, "written premium"@en, "annual premium"@en ;
+  rdfs:comment "Premium charged for the policy term."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "insurance" .
+
+ob:agentId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "agent identifier"@en ;
+  skos:altLabel "agent id"@en, "producer code"@en, "agent number"@en, "agent code"@en ;
+  rdfs:comment "Business key of the selling agent."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AgentDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "insurance" .
+
+ob:agentName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "agent name"@en ;
+  skos:altLabel "producer name"@en, "agent full name"@en ;
+  rdfs:comment "Name of the selling agent."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AgentDimension ;
+  ob:domainArea "insurance" .
+
+ob:agencyName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "agency name"@en ;
+  skos:altLabel "agency"@en, "brokerage"@en, "agency office"@en ;
+  rdfs:comment "Agency the agent belongs to."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AgentDimension ;
+  ob:domainArea "insurance" .
+
+ob:salesRegion a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "sales region"@en ;
+  skos:altLabel "region"@en, "territory"@en, "sales territory"@en ;
+  rdfs:comment "Sales region an agent covers."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AgentDimension ;
+  ob:domainArea "insurance" .
+
+ob:agentHireDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "agent hire date"@en ;
+  skos:altLabel "hire date"@en, "hired on"@en, "appointment date"@en ;
+  rdfs:comment "Date the agent was appointed."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "insurance" .
+
+ob:agentEmail a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "agent email address"@en ;
+  skos:altLabel "email"@en, "agent email"@en, "producer email"@en ;
+  rdfs:comment "Work email of the agent."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AgentDimension ;
+  ob:valuePattern "^[^@\\s]+@[^@\\s]+\\.[a-z]{2,}$" ;
+  ob:domainArea "insurance" .
+
+ob:claimId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "claim identifier"@en ;
+  skos:altLabel "claim id"@en, "claim number"@en, "claim reference"@en ;
+  rdfs:comment "Business key of a claim."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "insurance" .
+
+ob:lossDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "date of loss"@en ;
+  skos:altLabel "loss date"@en, "incident date"@en, "accident date"@en ;
+  rdfs:comment "Date the insured event occurred."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "insurance" .
+
+ob:claimReportedTimestamp a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "claim reported timestamp"@en ;
+  skos:altLabel "reported at"@en, "report date"@en, "first notice of loss"@en, "fnol time"@en ;
+  rdfs:comment "When the claim was first reported."@en ;
+  rdfs:range xsd:dateTime ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "insurance" .
+
+ob:reserveAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "reserve amount"@en ;
+  skos:altLabel "case reserve"@en, "loss reserve"@en, "reserve"@en ;
+  rdfs:comment "Amount reserved for expected claim payments."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "insurance" .
+
+ob:paidAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "paid amount"@en ;
+  skos:altLabel "loss paid"@en, "claim paid"@en, "paid loss"@en ;
+  rdfs:comment "Amount paid on the claim to date."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "insurance" .
+
+ob:claimStatus a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "claim status"@en ;
+  skos:altLabel "status"@en, "claim state"@en ;
+  rdfs:comment "Lifecycle status of the claim."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "insurance" .
+
+ob:lossCause a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "cause of loss"@en ;
+  skos:altLabel "peril"@en, "loss cause"@en, "cause"@en ;
+  rdfs:comment "What caused the loss."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "insurance" .
+

@@ -1,0 +1,329 @@
+{
+ "description": "Held-out column names, written after the ontology was frozen and never used to tune it. Each entry renames a real column (keeping its values) to measure how alignment generalizes to unseen naming.",
+ "columns": [
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "POL_NO",
+   "renamed": "PolicyNum",
+   "expected": "policyNumber"
+  },
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "HOLDER_NM",
+   "renamed": "insured_nm",
+   "expected": "customerName"
+  },
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "PREM_AMT",
+   "renamed": "annual_prem",
+   "expected": "premiumAmount"
+  },
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "ST_CD",
+   "renamed": "risk_state",
+   "expected": "stateCode"
+  },
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "EFF_DT",
+   "renamed": "coverage_start",
+   "expected": "policyEffectiveDate"
+  },
+  {
+   "source": "insurance/policy_admin.csv",
+   "column": "ETL_BATCH_ID",
+   "renamed": "src_system_batch",
+   "expected": null
+  },
+  {
+   "source": "insurance/claims_events.json",
+   "column": "lossDate",
+   "renamed": "dt_of_loss",
+   "expected": "lossDate"
+  },
+  {
+   "source": "insurance/claims_events.json",
+   "column": "reserveAmount",
+   "renamed": "case_rsv_amt",
+   "expected": "reserveAmount"
+  },
+  {
+   "source": "insurance/claims_events.json",
+   "column": "paidAmount",
+   "renamed": "indemnity_paid",
+   "expected": "paidAmount"
+  },
+  {
+   "source": "insurance/claims_events.json",
+   "column": "status",
+   "renamed": "clm_status",
+   "expected": "claimStatus"
+  },
+  {
+   "source": "insurance/claims_events.json",
+   "column": "_ingest_ts",
+   "renamed": "lake_ingest_time",
+   "expected": null
+  },
+  {
+   "source": "insurance/agents_crm.csv",
+   "column": "agent_code",
+   "renamed": "producer_cd",
+   "expected": "agentId"
+  },
+  {
+   "source": "insurance/agents_crm.csv",
+   "column": "agency",
+   "renamed": "agency_nm",
+   "expected": "agencyName"
+  },
+  {
+   "source": "insurance/agents_crm.csv",
+   "column": "hire_date",
+   "renamed": "appointed_on",
+   "expected": "agentHireDate"
+  },
+  {
+   "source": "insurance/agents_crm.csv",
+   "column": "email",
+   "renamed": "work_email",
+   "expected": "agentEmail"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "sku",
+   "renamed": "item_sku",
+   "expected": "productSku"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "qty",
+   "renamed": "units_sold",
+   "expected": "quantity"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "unit_price",
+   "renamed": "sell_price",
+   "expected": "unitPrice"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "txn_ts",
+   "renamed": "sold_ts",
+   "expected": "saleTimestamp"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "store_no",
+   "renamed": "loc_store_id",
+   "expected": "storeId"
+  },
+  {
+   "source": "retail/pos_sales.csv",
+   "column": "cashier",
+   "renamed": "register_operator",
+   "expected": null
+  },
+  {
+   "source": "retail/ecommerce_orders.json",
+   "column": "placed_at",
+   "renamed": "order_created",
+   "expected": "orderTimestamp"
+  },
+  {
+   "source": "retail/ecommerce_orders.json",
+   "column": "shipping_fee",
+   "renamed": "ship_cost",
+   "expected": "shippingFee"
+  },
+  {
+   "source": "retail/ecommerce_orders.json",
+   "column": "items_total",
+   "renamed": "merch_subtotal",
+   "expected": "orderSubtotal"
+  },
+  {
+   "source": "retail/ecommerce_orders.json",
+   "column": "channel",
+   "renamed": "sales_chnl",
+   "expected": "salesChannel"
+  },
+  {
+   "source": "retail/product_catalog.csv",
+   "column": "product_title",
+   "renamed": "item_desc",
+   "expected": "productName"
+  },
+  {
+   "source": "retail/product_catalog.csv",
+   "column": "brand_name",
+   "renamed": "mfr_brand",
+   "expected": "brandName"
+  },
+  {
+   "source": "retail/product_catalog.csv",
+   "column": "list_price",
+   "renamed": "msrp_usd",
+   "expected": "listPrice"
+  },
+  {
+   "source": "retail/product_catalog.csv",
+   "column": "launch_dt",
+   "renamed": "intro_date",
+   "expected": "productLaunchDate"
+  },
+  {
+   "source": "healthcare/ehr_encounters.json",
+   "column": "admitDate",
+   "renamed": "adm_dt",
+   "expected": "admitDate"
+  },
+  {
+   "source": "healthcare/ehr_encounters.json",
+   "column": "totalCharges",
+   "renamed": "billed_amt",
+   "expected": "totalCharges"
+  },
+  {
+   "source": "healthcare/ehr_encounters.json",
+   "column": "primaryDx",
+   "renamed": "principal_dx_cd",
+   "expected": "primaryDiagnosisCode"
+  },
+  {
+   "source": "healthcare/ehr_encounters.json",
+   "column": "patient.sex",
+   "renamed": "gender_cd",
+   "expected": "patientSex"
+  },
+  {
+   "source": "healthcare/pharmacy_fills.csv",
+   "column": "fill_dt",
+   "renamed": "dispense_date",
+   "expected": "fillDate"
+  },
+  {
+   "source": "healthcare/pharmacy_fills.csv",
+   "column": "days_supply",
+   "renamed": "supply_days",
+   "expected": "daysSupply"
+  },
+  {
+   "source": "healthcare/pharmacy_fills.csv",
+   "column": "copay_amt",
+   "renamed": "pt_copay",
+   "expected": "copayAmount"
+  },
+  {
+   "source": "healthcare/pharmacy_fills.csv",
+   "column": "ndc_code",
+   "renamed": "ndc11",
+   "expected": "ndcCode"
+  },
+  {
+   "source": "healthcare/provider_directory.csv",
+   "column": "specialty",
+   "renamed": "primary_specialty",
+   "expected": "providerSpecialty"
+  },
+  {
+   "source": "healthcare/provider_directory.csv",
+   "column": "provider_name",
+   "renamed": "physician_full_name",
+   "expected": "providerName"
+  },
+  {
+   "source": "healthcare/provider_directory.csv",
+   "column": "npi",
+   "renamed": "provider_npi_num",
+   "expected": "providerNpi"
+  },
+  {
+   "source": "healthcare/provider_directory.csv",
+   "column": "accepting_new",
+   "renamed": "new_patients_flag",
+   "expected": "acceptingNewPatients"
+  },
+  {
+   "source": "finance/ledger_entries.csv",
+   "column": "acct_no",
+   "renamed": "gl_acct",
+   "expected": "accountNumber"
+  },
+  {
+   "source": "finance/ledger_entries.csv",
+   "column": "posting_date",
+   "renamed": "gl_post_dt",
+   "expected": "postingDate"
+  },
+  {
+   "source": "finance/ledger_entries.csv",
+   "column": "debit_amt",
+   "renamed": "dr_amt",
+   "expected": "debitAmount"
+  },
+  {
+   "source": "finance/ledger_entries.csv",
+   "column": "cost_center",
+   "renamed": "cost_ctr_cd",
+   "expected": "costCenter"
+  },
+  {
+   "source": "finance/ledger_entries.csv",
+   "column": "memo",
+   "renamed": "je_comment",
+   "expected": null
+  },
+  {
+   "source": "finance/card_transactions.json",
+   "column": "amount.value",
+   "renamed": "purchase_amt",
+   "expected": "transactionAmount"
+  },
+  {
+   "source": "finance/card_transactions.json",
+   "column": "merchant.mcc",
+   "renamed": "merchant_cat_code",
+   "expected": "merchantCategoryCode"
+  },
+  {
+   "source": "finance/card_transactions.json",
+   "column": "auth_ts",
+   "renamed": "authorized_ts",
+   "expected": "authorizationTimestamp"
+  },
+  {
+   "source": "finance/card_transactions.json",
+   "column": "isFraudFlag",
+   "renamed": "suspected_fraud_ind",
+   "expected": "fraudFlag"
+  },
+  {
+   "source": "finance/branch_registry.csv",
+   "column": "branch_name",
+   "renamed": "office_nm",
+   "expected": "branchName"
+  },
+  {
+   "source": "finance/branch_registry.csv",
+   "column": "opened_on",
+   "renamed": "branch_open_dt",
+   "expected": "branchOpenDate"
+  },
+  {
+   "source": "finance/branch_registry.csv",
+   "column": "manager_name",
+   "renamed": "mgr_name",
+   "expected": "managerName"
+  },
+  {
+   "source": "finance/branch_registry.csv",
+   "column": "branch_city",
+   "renamed": "office_city",
+   "expected": "city"
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+@prefix ob:   <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://manvith-d.github.io/ontobridge/ontology/healthcare> a owl:Ontology ;
+  dcterms:title "OntoBridge healthcare ontology" ;
+  rdfs:comment "Properties used to align healthcare sources. Synonyms are generic industry terms, not copies of any source column." .
+
+# ---- Properties ---------------------------------------------------------------------
+ob:encounterId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "encounter identifier"@en ;
+  skos:altLabel "encounter id"@en, "visit id"@en, "visit number"@en ;
+  rdfs:comment "Business key of a patient encounter."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "healthcare" .
+
+ob:patientMrn a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "patient medical record number"@en ;
+  skos:altLabel "mrn"@en, "medical record number"@en, "patient id"@en ;
+  rdfs:comment "Medical record number of the patient."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:PatientDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "healthcare" .
+
+ob:patientBirthDate a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "patient date of birth"@en ;
+  skos:altLabel "date of birth"@en, "dob"@en, "birth date"@en ;
+  rdfs:comment "Birth date of the patient."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:PatientDimension ;
+  ob:domainArea "healthcare" .
+
+ob:patientSex a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "patient sex"@en ;
+  skos:altLabel "sex"@en, "gender"@en ;
+  rdfs:comment "Administrative sex of the patient."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:PatientDimension ;
+  ob:domainArea "healthcare" .
+
+ob:admitDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "admission date"@en ;
+  skos:altLabel "admit date"@en, "admitted on"@en ;
+  rdfs:comment "Date the encounter started."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "healthcare" .
+
+ob:dischargeDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "discharge date"@en ;
+  skos:altLabel "discharged on"@en, "discharge"@en ;
+  rdfs:comment "Date the encounter ended."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "healthcare" .
+
+ob:encounterType a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "encounter type"@en ;
+  skos:altLabel "visit type"@en, "encounter class"@en, "care setting"@en ;
+  rdfs:comment "Inpatient, outpatient, or emergency."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "healthcare" .
+
+ob:primaryDiagnosisCode a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "primary diagnosis code"@en ;
+  skos:altLabel "diagnosis code"@en, "icd10 code"@en, "principal diagnosis"@en ;
+  rdfs:comment "ICD-10 code of the principal diagnosis."@en ;
+  rdfs:range xsd:string ;
+  ob:valuePattern "^[A-Z]\\d{2}(\\.\\d+)?$" ;
+  ob:domainArea "healthcare" .
+
+ob:providerNpi a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "provider NPI"@en ;
+  skos:altLabel "npi"@en, "national provider identifier"@en, "provider id"@en ;
+  rdfs:comment "National Provider Identifier of a clinician."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProviderDimension ;
+  ob:naturalKey true ;
+  ob:valuePattern "^\\d{10}$" ;
+  ob:domainArea "healthcare" .
+
+ob:facilityCode a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "facility code"@en ;
+  skos:altLabel "facility id"@en, "hospital code"@en, "site code"@en ;
+  rdfs:comment "Business key of the care facility."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:FacilityDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "healthcare" .
+
+ob:totalCharges a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "total charges"@en ;
+  skos:altLabel "billed amount"@en, "charges"@en, "total charge"@en ;
+  rdfs:comment "Total billed charges for the encounter."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "healthcare" .
+
+ob:prescriptionId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "prescription fill identifier"@en ;
+  skos:altLabel "prescription id"@en, "rx number"@en, "fill id"@en ;
+  rdfs:comment "Business key of a pharmacy fill."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "healthcare" .
+
+ob:ndcCode a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "national drug code"@en ;
+  skos:altLabel "ndc"@en, "drug code"@en ;
+  rdfs:comment "NDC of the dispensed drug."@en ;
+  rdfs:range xsd:string ;
+  ob:valuePattern "^\\d{5}-\\d{4}-\\d{2}$" ;
+  ob:domainArea "healthcare" .
+
+ob:fillDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "fill date"@en ;
+  skos:altLabel "dispensed date"@en, "date filled"@en ;
+  rdfs:comment "Date the prescription was filled."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "healthcare" .
+
+ob:daysSupply a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "days supply"@en ;
+  skos:altLabel "supply days"@en, "day supply"@en ;
+  rdfs:comment "Days the dispensed quantity should last."@en ;
+  rdfs:range xsd:integer ;
+  ob:domainArea "healthcare" .
+
+ob:quantityDispensed a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "quantity dispensed"@en ;
+  skos:altLabel "dispensed quantity"@en, "units dispensed"@en ;
+  rdfs:comment "Units of drug dispensed."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "healthcare" .
+
+ob:copayAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "copay amount"@en ;
+  skos:altLabel "copay"@en, "copayment"@en, "patient pay"@en ;
+  rdfs:comment "Amount the patient paid at the pharmacy."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "healthcare" .
+
+ob:providerName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "provider name"@en ;
+  skos:altLabel "physician name"@en, "clinician name"@en, "doctor name"@en ;
+  rdfs:comment "Name of the clinician."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProviderDimension ;
+  ob:domainArea "healthcare" .
+
+ob:providerSpecialty a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "provider specialty"@en ;
+  skos:altLabel "specialty"@en, "taxonomy"@en, "clinical specialty"@en ;
+  rdfs:comment "Clinical specialty of the provider."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:ProviderDimension ;
+  ob:domainArea "healthcare" .
+
+ob:acceptingNewPatients a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "accepting new patients"@en ;
+  skos:altLabel "open panel"@en, "new patients"@en ;
+  rdfs:comment "Whether the provider takes new patients."@en ;
+  rdfs:range xsd:boolean ;
+  ob:conformedDimension ob:ProviderDimension ;
+  ob:domainArea "healthcare" .
+

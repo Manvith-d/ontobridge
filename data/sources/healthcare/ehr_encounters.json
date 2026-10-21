@@ -1,0 +1,3602 @@
+[
+ {
+  "encounterId": "ENC-600000",
+  "patient": {
+   "mrn": "MRN8000035",
+   "dob": "1958-06-12",
+   "sex": "X"
+  },
+  "admitDate": "2024-02-07",
+  "dischargeDate": "2024-02-14",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1315738116",
+  "facility": {
+   "code": "FAC5",
+   "state": "OH"
+  },
+  "totalCharges": 35368.48
+ },
+ {
+  "encounterId": "ENC-600001",
+  "patient": {
+   "mrn": "MRN8000062",
+   "dob": "1995-07-08",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-12",
+  "dischargeDate": "2024-06-15",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC5",
+   "state": "GA"
+  },
+  "totalCharges": 5532.01
+ },
+ {
+  "encounterId": "ENC-600002",
+  "patient": {
+   "mrn": "MRN8000104",
+   "dob": "1972-05-10",
+   "sex": "F"
+  },
+  "admitDate": "2024-11-17",
+  "dischargeDate": "2024-11-23",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1827206481",
+  "facility": {
+   "code": "FAC4",
+   "state": "NY"
+  },
+  "totalCharges": 35761.47
+ },
+ {
+  "encounterId": "ENC-600003",
+  "patient": {
+   "mrn": "MRN8000108",
+   "dob": "1952-05-15",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-22",
+  "dischargeDate": "2024-07-27",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC4",
+   "state": "CA"
+  },
+  "totalCharges": 5365.77
+ },
+ {
+  "encounterId": "ENC-600004",
+  "patient": {
+   "mrn": "MRN8000009",
+   "dob": "2004-07-15",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-03",
+  "dischargeDate": "2024-08-10",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC6",
+   "state": "IL"
+  },
+  "totalCharges": 15728.99
+ },
+ {
+  "encounterId": "ENC-600005",
+  "patient": {
+   "mrn": "MRN8000028",
+   "dob": "1959-09-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-19",
+  "dischargeDate": "2024-08-21",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC4",
+   "state": "AZ"
+  },
+  "totalCharges": 9531.85
+ },
+ {
+  "encounterId": "ENC-600006",
+  "patient": {
+   "mrn": "MRN8000062",
+   "dob": "1958-11-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-10-03",
+  "dischargeDate": "2024-10-09",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC4",
+   "state": "OH"
+  },
+  "totalCharges": 6147.28
+ },
+ {
+  "encounterId": "ENC-600007",
+  "patient": {
+   "mrn": "MRN8000038",
+   "dob": "1999-11-09",
+   "sex": "F"
+  },
+  "admitDate": "2024-11-12",
+  "dischargeDate": "2024-11-12",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC4",
+   "state": "OH"
+  },
+  "totalCharges": 13182.68
+ },
+ {
+  "encounterId": "ENC-600008",
+  "patient": {
+   "mrn": "MRN8000024",
+   "dob": "1956-08-07",
+   "sex": "X"
+  },
+  "admitDate": "2024-10-01",
+  "dischargeDate": "2024-10-03",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1338169154",
+  "facility": {
+   "code": "FAC2",
+   "state": "GA"
+  },
+  "totalCharges": 18843.58
+ },
+ {
+  "encounterId": "ENC-600009",
+  "patient": {
+   "mrn": "MRN8000019",
+   "dob": "1992-08-04",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-03",
+  "dischargeDate": "2024-03-06",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1882784747",
+  "facility": {
+   "code": "FAC6",
+   "state": "OH"
+  },
+  "totalCharges": 33899.84
+ },
+ {
+  "encounterId": "ENC-600010",
+  "patient": {
+   "mrn": "MRN8000076",
+   "dob": "1965-08-23",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-15",
+  "dischargeDate": "2024-03-17",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306094830",
+  "facility": {
+   "code": "FAC8",
+   "state": "TX"
+  },
+  "totalCharges": 1042.15
+ },
+ {
+  "encounterId": "ENC-600011",
+  "patient": {
+   "mrn": "MRN8000070",
+   "dob": "1972-02-16",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-08",
+  "dischargeDate": "2024-07-10",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 15822.12
+ },
+ {
+  "encounterId": "ENC-600012",
+  "patient": {
+   "mrn": "MRN8000098",
+   "dob": "1980-07-26",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-29",
+  "dischargeDate": "2024-04-02",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1882784747",
+  "facility": {
+   "code": "FAC4",
+   "state": "OH"
+  },
+  "totalCharges": 13707.73
+ },
+ {
+  "encounterId": "ENC-600013",
+  "patient": {
+   "mrn": "MRN8000005",
+   "dob": "1960-10-23",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-07",
+  "dischargeDate": "2024-04-09",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC4",
+   "state": "NC"
+  },
+  "totalCharges": 45162.28
+ },
+ {
+  "encounterId": "ENC-600014",
+  "patient": {
+   "mrn": "MRN8000067",
+   "dob": "2001-01-24",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-30",
+  "dischargeDate": "2024-05-07",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC7",
+   "state": "OH"
+  },
+  "totalCharges": 20109.27
+ },
+ {
+  "encounterId": "ENC-600015",
+  "patient": {
+   "mrn": "MRN8000073",
+   "dob": "2007-12-01",
+   "sex": "X"
+  },
+  "admitDate": "2024-03-20",
+  "dischargeDate": "2024-03-20",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306094830",
+  "facility": {
+   "code": "FAC6",
+   "state": "MA"
+  },
+  "totalCharges": 22298.58
+ },
+ {
+  "encounterId": "ENC-600016",
+  "patient": {
+   "mrn": "MRN8000105",
+   "dob": "1944-05-12",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-16",
+  "dischargeDate": "2024-08-21",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC3",
+   "state": "OH"
+  },
+  "totalCharges": 30506.63
+ },
+ {
+  "encounterId": "ENC-600017",
+  "patient": {
+   "mrn": "MRN8000106",
+   "dob": "1978-06-30",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-14",
+  "dischargeDate": "2024-06-20",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1877095028",
+  "facility": {
+   "code": "FAC8",
+   "state": "NC"
+  },
+  "totalCharges": 9442.36
+ },
+ {
+  "encounterId": "ENC-600018",
+  "patient": {
+   "mrn": "MRN8000054",
+   "dob": "1960-02-22",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-13",
+  "dischargeDate": "2024-06-20",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC2",
+   "state": "GA"
+  },
+  "totalCharges": 12993.84
+ },
+ {
+  "encounterId": "ENC-600019",
+  "patient": {
+   "mrn": "MRN8000064",
+   "dob": "1981-10-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-14",
+  "dischargeDate": "2024-09-20",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC4",
+   "state": "NC"
+  },
+  "totalCharges": 24643.83
+ },
+ {
+  "encounterId": "ENC-600020",
+  "patient": {
+   "mrn": "MRN8000045",
+   "dob": "1971-04-10",
+   "sex": "X"
+  },
+  "admitDate": "2024-11-07",
+  "dischargeDate": "2024-11-07",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC4",
+   "state": "NY"
+  },
+  "totalCharges": 16885.53
+ },
+ {
+  "encounterId": "ENC-600021",
+  "patient": {
+   "mrn": "MRN8000008",
+   "dob": "1966-02-21",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-04",
+  "dischargeDate": "2024-10-07",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC8",
+   "state": "AZ"
+  },
+  "totalCharges": 9786.44
+ },
+ {
+  "encounterId": "ENC-600022",
+  "patient": {
+   "mrn": "MRN8000071",
+   "dob": "1975-11-10",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-22",
+  "dischargeDate": "2024-06-22",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC7",
+   "state": "AZ"
+  },
+  "totalCharges": 15494.18
+ },
+ {
+  "encounterId": "ENC-600023",
+  "patient": {
+   "mrn": "MRN8000007",
+   "dob": "1968-07-18",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-11",
+  "dischargeDate": "2024-02-11",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1306094830",
+  "facility": {
+   "code": "FAC8",
+   "state": "NC"
+  },
+  "totalCharges": 31868.82
+ },
+ {
+  "encounterId": "ENC-600024",
+  "patient": {
+   "mrn": "MRN8000052",
+   "dob": "1944-10-10",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-23",
+  "dischargeDate": "2024-05-23",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC6",
+   "state": "IL"
+  },
+  "totalCharges": 40983.5
+ },
+ {
+  "encounterId": "ENC-600025",
+  "patient": {
+   "mrn": "MRN8000001",
+   "dob": "1964-03-18",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-24",
+  "dischargeDate": "2024-08-30",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1449523158",
+  "facility": {
+   "code": "FAC5",
+   "state": "OH"
+  },
+  "totalCharges": 46383.0
+ },
+ {
+  "encounterId": "ENC-600026",
+  "patient": {
+   "mrn": "MRN8000034",
+   "dob": "1990-08-06",
+   "sex": "X"
+  },
+  "admitDate": "2024-03-12",
+  "dischargeDate": "2024-03-15",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1449523158",
+  "facility": {
+   "code": "FAC6",
+   "state": "MA"
+  },
+  "totalCharges": 28050.28
+ },
+ {
+  "encounterId": "ENC-600027",
+  "patient": {
+   "mrn": "MRN8000046",
+   "dob": "1989-04-10",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-10",
+  "dischargeDate": "2024-05-10",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC3",
+   "state": "CA"
+  },
+  "totalCharges": 42817.45
+ },
+ {
+  "encounterId": "ENC-600028",
+  "patient": {
+   "mrn": "MRN8000053",
+   "dob": "2003-02-12",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-26",
+  "dischargeDate": "2024-10-31",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC4",
+   "state": "CA"
+  },
+  "totalCharges": 39529.62
+ },
+ {
+  "encounterId": "ENC-600029",
+  "patient": {
+   "mrn": "MRN8000020",
+   "dob": "1989-07-12",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-20",
+  "dischargeDate": "2024-09-27",
+  "encounterType": "outpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC1",
+   "state": "MA"
+  },
+  "totalCharges": 30282.76
+ },
+ {
+  "encounterId": "ENC-600030",
+  "patient": {
+   "mrn": "MRN8000043",
+   "dob": "1972-01-25",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-11",
+  "dischargeDate": "2024-03-15",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC7",
+   "state": "IL"
+  },
+  "totalCharges": 42974.16
+ },
+ {
+  "encounterId": "ENC-600031",
+  "patient": {
+   "mrn": "MRN8000095",
+   "dob": "1947-09-18",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-12",
+  "dischargeDate": "2024-03-17",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 27519.65
+ },
+ {
+  "encounterId": "ENC-600032",
+  "patient": {
+   "mrn": "MRN8000106",
+   "dob": "1981-04-01",
+   "sex": "F"
+  },
+  "admitDate": "2024-02-06",
+  "dischargeDate": "2024-02-09",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC5",
+   "state": "MA"
+  },
+  "totalCharges": 46771.82
+ },
+ {
+  "encounterId": "ENC-600033",
+  "patient": {
+   "mrn": "MRN8000021",
+   "dob": "1993-10-27",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-13",
+  "dischargeDate": "2024-08-20",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC1",
+   "state": "WA"
+  },
+  "totalCharges": 8142.79
+ },
+ {
+  "encounterId": "ENC-600034",
+  "patient": {
+   "mrn": "MRN8000004",
+   "dob": "1957-05-06",
+   "sex": "M"
+  },
+  "admitDate": "2024-05-28",
+  "dischargeDate": "2024-06-04",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1771672724",
+  "facility": {
+   "code": "FAC2",
+   "state": "GA"
+  },
+  "totalCharges": 4920.77
+ },
+ {
+  "encounterId": "ENC-600035",
+  "patient": {
+   "mrn": "MRN8000024",
+   "dob": "1981-02-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-11-25",
+  "dischargeDate": "2024-11-28",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC4",
+   "state": "MA"
+  },
+  "totalCharges": 45955.32
+ },
+ {
+  "encounterId": "ENC-600036",
+  "patient": {
+   "mrn": "MRN8000070",
+   "dob": "1953-05-02",
+   "sex": "F"
+  },
+  "admitDate": "2024-11-05",
+  "dischargeDate": "2024-11-10",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC7",
+   "state": "IL"
+  },
+  "totalCharges": 44032.22
+ },
+ {
+  "encounterId": "ENC-600037",
+  "patient": {
+   "mrn": "MRN8000046",
+   "dob": "1941-08-17",
+   "sex": "X"
+  },
+  "admitDate": "2024-10-09",
+  "dischargeDate": "2024-10-10",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC3",
+   "state": "TX"
+  },
+  "totalCharges": 4912.77
+ },
+ {
+  "encounterId": "ENC-600038",
+  "patient": {
+   "mrn": "MRN8000078",
+   "dob": "1955-05-15",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-07",
+  "dischargeDate": "2024-05-09",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC2",
+   "state": "GA"
+  },
+  "totalCharges": 19540.78
+ },
+ {
+  "encounterId": "ENC-600039",
+  "patient": {
+   "mrn": "MRN8000108",
+   "dob": "1974-05-11",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-17",
+  "dischargeDate": "2024-01-19",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 2127.99
+ },
+ {
+  "encounterId": "ENC-600040",
+  "patient": {
+   "mrn": "MRN8000091",
+   "dob": "1946-06-29",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-08",
+  "dischargeDate": "2024-03-11",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC7",
+   "state": "WA"
+  },
+  "totalCharges": 38100.63
+ },
+ {
+  "encounterId": "ENC-600041",
+  "patient": {
+   "mrn": "MRN8000078",
+   "dob": "1997-01-24",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-24",
+  "dischargeDate": "2024-09-30",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC5",
+   "state": "IL"
+  },
+  "totalCharges": 4554.85
+ },
+ {
+  "encounterId": "ENC-600042",
+  "patient": {
+   "mrn": "MRN8000077",
+   "dob": "1988-03-05",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-05",
+  "dischargeDate": "2024-07-10",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 15780.53
+ },
+ {
+  "encounterId": "ENC-600043",
+  "patient": {
+   "mrn": "MRN8000036",
+   "dob": "1953-10-19",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-27",
+  "dischargeDate": "2024-01-29",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1771672724",
+  "facility": {
+   "code": "FAC1",
+   "state": "NC"
+  },
+  "totalCharges": 42220.57
+ },
+ {
+  "encounterId": "ENC-600044",
+  "patient": {
+   "mrn": "MRN8000049",
+   "dob": "2008-03-25",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-31",
+  "dischargeDate": "2024-09-07",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC1",
+   "state": "OH"
+  },
+  "totalCharges": 27459.58
+ },
+ {
+  "encounterId": "ENC-600045",
+  "patient": {
+   "mrn": "MRN8000077",
+   "dob": "1984-10-31",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-06",
+  "dischargeDate": "2024-01-08",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 33467.43
+ },
+ {
+  "encounterId": "ENC-600046",
+  "patient": {
+   "mrn": "MRN8000019",
+   "dob": "1981-07-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-14",
+  "dischargeDate": "2024-09-14",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1863772255",
+  "facility": {
+   "code": "FAC6",
+   "state": "AZ"
+  },
+  "totalCharges": 24876.34
+ },
+ {
+  "encounterId": "ENC-600047",
+  "patient": {
+   "mrn": "MRN8000108",
+   "dob": "1977-12-23",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-11",
+  "dischargeDate": "2024-04-11",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC7",
+   "state": "IL"
+  },
+  "totalCharges": 28504.54
+ },
+ {
+  "encounterId": "ENC-600048",
+  "patient": {
+   "mrn": "MRN8000073",
+   "dob": "1951-02-05",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-28",
+  "dischargeDate": "2024-07-28",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1549437857",
+  "facility": {
+   "code": "FAC4",
+   "state": "GA"
+  },
+  "totalCharges": 15388.19
+ },
+ {
+  "encounterId": "ENC-600049",
+  "patient": {
+   "mrn": "MRN8000085",
+   "dob": "1982-07-04",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-05",
+  "dischargeDate": "2024-04-09",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1771672724",
+  "facility": {
+   "code": "FAC3",
+   "state": "TX"
+  },
+  "totalCharges": 39250.22
+ },
+ {
+  "encounterId": "ENC-600050",
+  "patient": {
+   "mrn": "MRN8000023",
+   "dob": "1974-11-17",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-15",
+  "dischargeDate": "2024-02-16",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1247500915",
+  "facility": {
+   "code": "FAC7",
+   "state": "IL"
+  },
+  "totalCharges": 22143.98
+ },
+ {
+  "encounterId": "ENC-600051",
+  "patient": {
+   "mrn": "MRN8000018",
+   "dob": "1950-04-22",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-30",
+  "dischargeDate": "2024-07-05",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC8",
+   "state": "MA"
+  },
+  "totalCharges": 9430.66
+ },
+ {
+  "encounterId": "ENC-600052",
+  "patient": {
+   "mrn": "MRN8000071",
+   "dob": "1986-06-14",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-10",
+  "dischargeDate": "2024-01-10",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC5",
+   "state": "TX"
+  },
+  "totalCharges": 34109.55
+ },
+ {
+  "encounterId": "ENC-600053",
+  "patient": {
+   "mrn": "MRN8000008",
+   "dob": "1958-08-27",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-27",
+  "dischargeDate": "2024-10-30",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1863772255",
+  "facility": {
+   "code": "FAC1",
+   "state": "IL"
+  },
+  "totalCharges": 14646.06
+ },
+ {
+  "encounterId": "ENC-600054",
+  "patient": {
+   "mrn": "MRN8000106",
+   "dob": "1976-10-23",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-27",
+  "dischargeDate": "2024-05-03",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC4",
+   "state": "NY"
+  },
+  "totalCharges": 9947.78
+ },
+ {
+  "encounterId": "ENC-600055",
+  "patient": {
+   "mrn": "MRN8000060",
+   "dob": "2006-03-12",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-28",
+  "dischargeDate": "2024-05-04",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC5",
+   "state": "NC"
+  },
+  "totalCharges": 10557.33
+ },
+ {
+  "encounterId": "ENC-600056",
+  "patient": {
+   "mrn": "MRN8000026",
+   "dob": "1957-10-17",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-19",
+  "dischargeDate": "2024-03-24",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC5",
+   "state": "TX"
+  },
+  "totalCharges": 37298.79
+ },
+ {
+  "encounterId": "ENC-600057",
+  "patient": {
+   "mrn": "MRN8000072",
+   "dob": "1968-06-18",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-28",
+  "dischargeDate": "2024-06-28",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC8",
+   "state": "TX"
+  },
+  "totalCharges": 33380.89
+ },
+ {
+  "encounterId": "ENC-600058",
+  "patient": {
+   "mrn": "MRN8000070",
+   "dob": "1943-06-18",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-04",
+  "dischargeDate": "2024-05-05",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1247500915",
+  "facility": {
+   "code": "FAC7",
+   "state": "NY"
+  },
+  "totalCharges": 30554.85
+ },
+ {
+  "encounterId": "ENC-600059",
+  "patient": {
+   "mrn": "MRN8000096",
+   "dob": "1979-11-12",
+   "sex": "X"
+  },
+  "admitDate": "2024-11-06",
+  "dischargeDate": "2024-11-09",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC3",
+   "state": "GA"
+  },
+  "totalCharges": 2167.78
+ },
+ {
+  "encounterId": "ENC-600060",
+  "patient": {
+   "mrn": "MRN8000000",
+   "dob": "1950-01-02",
+   "sex": "X"
+  },
+  "admitDate": "2024-07-04",
+  "dischargeDate": "2024-07-11",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC8",
+   "state": "MA"
+  },
+  "totalCharges": 25804.19
+ },
+ {
+  "encounterId": "ENC-600061",
+  "patient": {
+   "mrn": "MRN8000057",
+   "dob": "1978-07-13",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-07",
+  "dischargeDate": "2024-01-13",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC6",
+   "state": "GA"
+  },
+  "totalCharges": 14964.78
+ },
+ {
+  "encounterId": "ENC-600062",
+  "patient": {
+   "mrn": "MRN8000000",
+   "dob": "1954-03-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-02-20",
+  "dischargeDate": "2024-02-22",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC2",
+   "state": "NC"
+  },
+  "totalCharges": 18605.5
+ },
+ {
+  "encounterId": "ENC-600063",
+  "patient": {
+   "mrn": "MRN8000046",
+   "dob": "1946-02-18",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-17",
+  "dischargeDate": "2024-08-23",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC1",
+   "state": "WA"
+  },
+  "totalCharges": 24201.92
+ },
+ {
+  "encounterId": "ENC-600064",
+  "patient": {
+   "mrn": "MRN8000087",
+   "dob": "1993-12-24",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-02",
+  "dischargeDate": "2024-07-04",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC2",
+   "state": "TX"
+  },
+  "totalCharges": 46349.81
+ },
+ {
+  "encounterId": "ENC-600065",
+  "patient": {
+   "mrn": "MRN8000023",
+   "dob": "1958-03-29",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-20",
+  "dischargeDate": "2024-06-21",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 38551.85
+ },
+ {
+  "encounterId": "ENC-600066",
+  "patient": {
+   "mrn": "MRN8000037",
+   "dob": "1978-04-27",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-17",
+  "dischargeDate": "2024-07-23",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1449523158",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 5813.79
+ },
+ {
+  "encounterId": "ENC-600067",
+  "patient": {
+   "mrn": "MRN8000082",
+   "dob": "1946-08-27",
+   "sex": "M"
+  },
+  "admitDate": "2024-05-02",
+  "dischargeDate": "2024-05-07",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC7",
+   "state": "NC"
+  },
+  "totalCharges": 19614.84
+ },
+ {
+  "encounterId": "ENC-600068",
+  "patient": {
+   "mrn": "MRN8000024",
+   "dob": "1980-08-24",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-01",
+  "dischargeDate": "2024-04-01",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC5",
+   "state": "OH"
+  },
+  "totalCharges": 25004.16
+ },
+ {
+  "encounterId": "ENC-600069",
+  "patient": {
+   "mrn": "MRN8000009",
+   "dob": "1974-09-27",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-01",
+  "dischargeDate": "2024-07-01",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC8",
+   "state": "NY"
+  },
+  "totalCharges": 44300.07
+ },
+ {
+  "encounterId": "ENC-600070",
+  "patient": {
+   "mrn": "MRN8000060",
+   "dob": "2006-12-01",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-03",
+  "dischargeDate": "2024-06-05",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC5",
+   "state": "NY"
+  },
+  "totalCharges": 35678.15
+ },
+ {
+  "encounterId": "ENC-600071",
+  "patient": {
+   "mrn": "MRN8000062",
+   "dob": "1941-05-27",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-26",
+  "dischargeDate": "2024-06-26",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC2",
+   "state": "NC"
+  },
+  "totalCharges": 27145.74
+ },
+ {
+  "encounterId": "ENC-600072",
+  "patient": {
+   "mrn": "MRN8000054",
+   "dob": "1947-05-28",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-06",
+  "dischargeDate": "2024-01-10",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1549437857",
+  "facility": {
+   "code": "FAC1",
+   "state": "CA"
+  },
+  "totalCharges": 1140.53
+ },
+ {
+  "encounterId": "ENC-600073",
+  "patient": {
+   "mrn": "MRN8000027",
+   "dob": "1981-02-07",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-05",
+  "dischargeDate": "2024-04-08",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC4",
+   "state": "AZ"
+  },
+  "totalCharges": 46011.04
+ },
+ {
+  "encounterId": "ENC-600074",
+  "patient": {
+   "mrn": "MRN8000089",
+   "dob": "1963-09-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-18",
+  "dischargeDate": "2024-01-18",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC3",
+   "state": "MA"
+  },
+  "totalCharges": 24013.62
+ },
+ {
+  "encounterId": "ENC-600075",
+  "patient": {
+   "mrn": "MRN8000032",
+   "dob": "1972-06-29",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-11",
+  "dischargeDate": "2024-07-13",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC6",
+   "state": "IL"
+  },
+  "totalCharges": 8876.09
+ },
+ {
+  "encounterId": "ENC-600076",
+  "patient": {
+   "mrn": "MRN8000053",
+   "dob": "1953-11-18",
+   "sex": "F"
+  },
+  "admitDate": "2024-08-17",
+  "dischargeDate": "2024-08-20",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC3",
+   "state": "GA"
+  },
+  "totalCharges": 28745.99
+ },
+ {
+  "encounterId": "ENC-600077",
+  "patient": {
+   "mrn": "MRN8000074",
+   "dob": "1976-04-14",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-17",
+  "dischargeDate": "2024-06-22",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC5",
+   "state": "NC"
+  },
+  "totalCharges": 44989.86
+ },
+ {
+  "encounterId": "ENC-600078",
+  "patient": {
+   "mrn": "MRN8000102",
+   "dob": "1961-02-08",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-03",
+  "dischargeDate": "2024-07-03",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC7",
+   "state": "AZ"
+  },
+  "totalCharges": 7193.04
+ },
+ {
+  "encounterId": "ENC-600079",
+  "patient": {
+   "mrn": "MRN8000046",
+   "dob": "1991-10-11",
+   "sex": "X"
+  },
+  "admitDate": "2024-11-20",
+  "dischargeDate": "2024-11-21",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC6",
+   "state": "CA"
+  },
+  "totalCharges": 8854.83
+ },
+ {
+  "encounterId": "ENC-600080",
+  "patient": {
+   "mrn": "MRN8000109",
+   "dob": "1948-08-18",
+   "sex": "X"
+  },
+  "admitDate": "2024-11-14",
+  "dischargeDate": "2024-11-18",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC6",
+   "state": "OH"
+  },
+  "totalCharges": 22838.66
+ },
+ {
+  "encounterId": "ENC-600081",
+  "patient": {
+   "mrn": "MRN8000009",
+   "dob": "1955-05-11",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-20",
+  "dischargeDate": "2024-09-24",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC6",
+   "state": "GA"
+  },
+  "totalCharges": 27439.99
+ },
+ {
+  "encounterId": "ENC-600082",
+  "patient": {
+   "mrn": "MRN8000101",
+   "dob": "1955-08-12",
+   "sex": "F"
+  },
+  "admitDate": "2024-08-02",
+  "dischargeDate": "2024-08-09",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 30484.31
+ },
+ {
+  "encounterId": "ENC-600083",
+  "patient": {
+   "mrn": "MRN8000103",
+   "dob": "1958-10-14",
+   "sex": "F"
+  },
+  "admitDate": "2024-11-15",
+  "dischargeDate": "2024-11-15",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC3",
+   "state": "GA"
+  },
+  "totalCharges": 42543.25
+ },
+ {
+  "encounterId": "ENC-600084",
+  "patient": {
+   "mrn": "MRN8000035",
+   "dob": "1944-10-05",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-03",
+  "dischargeDate": "2024-08-06",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC8",
+   "state": "MA"
+  },
+  "totalCharges": 10699.5
+ },
+ {
+  "encounterId": "ENC-600085",
+  "patient": {
+   "mrn": "MRN8000088",
+   "dob": "1953-03-12",
+   "sex": "X"
+  },
+  "admitDate": "2024-03-14",
+  "dischargeDate": "2024-03-15",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC2",
+   "state": "WA"
+  },
+  "totalCharges": 18097.7
+ },
+ {
+  "encounterId": "ENC-600086",
+  "patient": {
+   "mrn": "MRN8000045",
+   "dob": "1975-01-31",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-13",
+  "dischargeDate": "2024-04-17",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC3",
+   "state": "NY"
+  },
+  "totalCharges": 6175.56
+ },
+ {
+  "encounterId": "ENC-600087",
+  "patient": {
+   "mrn": "MRN8000084",
+   "dob": "1982-04-20",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-12",
+  "dischargeDate": "2024-05-18",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1175265203",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 23761.71
+ },
+ {
+  "encounterId": "ENC-600088",
+  "patient": {
+   "mrn": "MRN8000095",
+   "dob": "2007-01-27",
+   "sex": "X"
+  },
+  "admitDate": "2024-03-10",
+  "dischargeDate": "2024-03-15",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC6",
+   "state": "IL"
+  },
+  "totalCharges": 19530.87
+ },
+ {
+  "encounterId": "ENC-600089",
+  "patient": {
+   "mrn": "MRN8000052",
+   "dob": "1978-07-19",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-04",
+  "dischargeDate": "2024-02-09",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC8",
+   "state": "TX"
+  },
+  "totalCharges": 28142.43
+ },
+ {
+  "encounterId": "ENC-600090",
+  "patient": {
+   "mrn": "MRN8000049",
+   "dob": "1950-08-02",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-09",
+  "dischargeDate": "2024-10-13",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1338169154",
+  "facility": {
+   "code": "FAC7",
+   "state": "GA"
+  },
+  "totalCharges": 15457.51
+ },
+ {
+  "encounterId": "ENC-600091",
+  "patient": {
+   "mrn": "MRN8000065",
+   "dob": "1976-11-17",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-04",
+  "dischargeDate": "2024-04-05",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC3",
+   "state": "IL"
+  },
+  "totalCharges": 41717.06
+ },
+ {
+  "encounterId": "ENC-600092",
+  "patient": {
+   "mrn": "MRN8000079",
+   "dob": "1946-05-15",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-21",
+  "dischargeDate": "2024-03-21",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC7",
+   "state": "MA"
+  },
+  "totalCharges": 17851.74
+ },
+ {
+  "encounterId": "ENC-600093",
+  "patient": {
+   "mrn": "MRN8000053",
+   "dob": "1959-08-24",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-08",
+  "dischargeDate": "2024-07-10",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC5",
+   "state": "MA"
+  },
+  "totalCharges": 27544.31
+ },
+ {
+  "encounterId": "ENC-600094",
+  "patient": {
+   "mrn": "MRN8000013",
+   "dob": "1993-06-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-07-23",
+  "dischargeDate": "2024-07-30",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC5",
+   "state": "MA"
+  },
+  "totalCharges": 38278.59
+ },
+ {
+  "encounterId": "ENC-600095",
+  "patient": {
+   "mrn": "MRN8000094",
+   "dob": "1973-06-23",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-24",
+  "dischargeDate": "2024-04-26",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 5331.02
+ },
+ {
+  "encounterId": "ENC-600096",
+  "patient": {
+   "mrn": "MRN8000048",
+   "dob": "1986-09-23",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-18",
+  "dischargeDate": "2024-02-22",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC1",
+   "state": "IL"
+  },
+  "totalCharges": 442.85
+ },
+ {
+  "encounterId": "ENC-600097",
+  "patient": {
+   "mrn": "MRN8000059",
+   "dob": "1998-12-26",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-06",
+  "dischargeDate": "2024-04-10",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1315738116",
+  "facility": {
+   "code": "FAC4",
+   "state": "WA"
+  },
+  "totalCharges": 19031.96
+ },
+ {
+  "encounterId": "ENC-600098",
+  "patient": {
+   "mrn": "MRN8000002",
+   "dob": "1997-05-17",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-11",
+  "dischargeDate": "2024-04-18",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC1",
+   "state": "NC"
+  },
+  "totalCharges": 18526.1
+ },
+ {
+  "encounterId": "ENC-600099",
+  "patient": {
+   "mrn": "MRN8000010",
+   "dob": "1966-11-11",
+   "sex": "X"
+  },
+  "admitDate": "2024-07-16",
+  "dischargeDate": "2024-07-19",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC4",
+   "state": "OH"
+  },
+  "totalCharges": 42311.29
+ },
+ {
+  "encounterId": "ENC-600100",
+  "patient": {
+   "mrn": "MRN8000085",
+   "dob": "1975-05-25",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-31",
+  "dischargeDate": "2024-02-01",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1882784747",
+  "facility": {
+   "code": "FAC3",
+   "state": "OH"
+  },
+  "totalCharges": 7774.0
+ },
+ {
+  "encounterId": "ENC-600101",
+  "patient": {
+   "mrn": "MRN8000037",
+   "dob": "1969-06-24",
+   "sex": "X"
+  },
+  "admitDate": "2024-03-05",
+  "dischargeDate": "2024-03-12",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 46230.68
+ },
+ {
+  "encounterId": "ENC-600102",
+  "patient": {
+   "mrn": "MRN8000020",
+   "dob": "1977-02-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-27",
+  "dischargeDate": "2024-02-28",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC7",
+   "state": "WA"
+  },
+  "totalCharges": 10933.04
+ },
+ {
+  "encounterId": "ENC-600103",
+  "patient": {
+   "mrn": "MRN8000041",
+   "dob": "1954-11-24",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-04",
+  "dischargeDate": "2024-07-11",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC3",
+   "state": "TX"
+  },
+  "totalCharges": 22538.82
+ },
+ {
+  "encounterId": "ENC-600104",
+  "patient": {
+   "mrn": "MRN8000031",
+   "dob": "1956-09-23",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-26",
+  "dischargeDate": "2024-01-26",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC3",
+   "state": "CA"
+  },
+  "totalCharges": 33798.94
+ },
+ {
+  "encounterId": "ENC-600105",
+  "patient": {
+   "mrn": "MRN8000051",
+   "dob": "1989-09-05",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-26",
+  "dischargeDate": "2024-06-30",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC2",
+   "state": "NC"
+  },
+  "totalCharges": 30402.59
+ },
+ {
+  "encounterId": "ENC-600106",
+  "patient": {
+   "mrn": "MRN8000056",
+   "dob": "1999-12-02",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-29",
+  "dischargeDate": "2024-06-04",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC2",
+   "state": "TX"
+  },
+  "totalCharges": 36431.28
+ },
+ {
+  "encounterId": "ENC-600107",
+  "patient": {
+   "mrn": "MRN8000103",
+   "dob": "1951-04-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-18",
+  "dischargeDate": "2024-04-21",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 46121.65
+ },
+ {
+  "encounterId": "ENC-600108",
+  "patient": {
+   "mrn": "MRN8000012",
+   "dob": "1967-04-04",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-12",
+  "dischargeDate": "2024-01-18",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC5",
+   "state": "IL"
+  },
+  "totalCharges": 30405.38
+ },
+ {
+  "encounterId": "ENC-600109",
+  "patient": {
+   "mrn": "MRN8000004",
+   "dob": "1990-02-21",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-27",
+  "dischargeDate": "2024-05-01",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC3",
+   "state": "NC"
+  },
+  "totalCharges": 21641.87
+ },
+ {
+  "encounterId": "ENC-600110",
+  "patient": {
+   "mrn": "MRN8000006",
+   "dob": "1973-12-03",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-24",
+  "dischargeDate": "2024-06-28",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC1",
+   "state": "NC"
+  },
+  "totalCharges": 40836.33
+ },
+ {
+  "encounterId": "ENC-600111",
+  "patient": {
+   "mrn": "MRN8000015",
+   "dob": "1941-07-17",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-16",
+  "dischargeDate": "2024-10-16",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC3",
+   "state": "NY"
+  },
+  "totalCharges": 33331.46
+ },
+ {
+  "encounterId": "ENC-600112",
+  "patient": {
+   "mrn": "MRN8000086",
+   "dob": "1971-02-16",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-20",
+  "dischargeDate": "2024-05-27",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC7",
+   "state": "NY"
+  },
+  "totalCharges": 33613.62
+ },
+ {
+  "encounterId": "ENC-600113",
+  "patient": {
+   "mrn": "MRN8000043",
+   "dob": "1940-11-26",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-11",
+  "dischargeDate": "2024-03-16",
+  "encounterType": "outpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1247500915",
+  "facility": {
+   "code": "FAC2",
+   "state": "OH"
+  },
+  "totalCharges": 31989.73
+ },
+ {
+  "encounterId": "ENC-600114",
+  "patient": {
+   "mrn": "MRN8000049",
+   "dob": "1955-09-09",
+   "sex": "X"
+  },
+  "admitDate": "2024-02-25",
+  "dischargeDate": "2024-03-03",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC2",
+   "state": "TX"
+  },
+  "totalCharges": 35828.3
+ },
+ {
+  "encounterId": "ENC-600115",
+  "patient": {
+   "mrn": "MRN8000011",
+   "dob": "1949-12-05",
+   "sex": "F"
+  },
+  "admitDate": "2024-08-21",
+  "dischargeDate": "2024-08-28",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1877095028",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 31135.38
+ },
+ {
+  "encounterId": "ENC-600116",
+  "patient": {
+   "mrn": "MRN8000010",
+   "dob": "1947-08-03",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-25",
+  "dischargeDate": "2024-01-25",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC4",
+   "state": "MA"
+  },
+  "totalCharges": 27197.35
+ },
+ {
+  "encounterId": "ENC-600117",
+  "patient": {
+   "mrn": "MRN8000000",
+   "dob": "1998-02-09",
+   "sex": "F"
+  },
+  "admitDate": "2024-08-29",
+  "dischargeDate": "2024-08-30",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC2",
+   "state": "NY"
+  },
+  "totalCharges": 9030.99
+ },
+ {
+  "encounterId": "ENC-600118",
+  "patient": {
+   "mrn": "MRN8000100",
+   "dob": "1995-09-28",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-26",
+  "dischargeDate": "2024-04-27",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC7",
+   "state": "NC"
+  },
+  "totalCharges": 32837.39
+ },
+ {
+  "encounterId": "ENC-600119",
+  "patient": {
+   "mrn": "MRN8000002",
+   "dob": "1966-03-27",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-14",
+  "dischargeDate": "2024-10-18",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1811735335",
+  "facility": {
+   "code": "FAC2",
+   "state": "OH"
+  },
+  "totalCharges": 10810.45
+ },
+ {
+  "encounterId": "ENC-600120",
+  "patient": {
+   "mrn": "MRN8000063",
+   "dob": "1969-03-20",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-04",
+  "dischargeDate": "2024-05-07",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC6",
+   "state": "WA"
+  },
+  "totalCharges": 177.46
+ },
+ {
+  "encounterId": "ENC-600121",
+  "patient": {
+   "mrn": "MRN8000029",
+   "dob": "1953-08-09",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-22",
+  "dischargeDate": "2024-03-23",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1338169154",
+  "facility": {
+   "code": "FAC8",
+   "state": "AZ"
+  },
+  "totalCharges": 26529.85
+ },
+ {
+  "encounterId": "ENC-600122",
+  "patient": {
+   "mrn": "MRN8000087",
+   "dob": "1993-07-31",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-04",
+  "dischargeDate": "2024-01-08",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC7",
+   "state": "NY"
+  },
+  "totalCharges": 17944.25
+ },
+ {
+  "encounterId": "ENC-600123",
+  "patient": {
+   "mrn": "MRN8000025",
+   "dob": "1956-07-30",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-08",
+  "dischargeDate": "2024-06-08",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC1",
+   "state": "CA"
+  },
+  "totalCharges": 12508.85
+ },
+ {
+  "encounterId": "ENC-600124",
+  "patient": {
+   "mrn": "MRN8000049",
+   "dob": "2007-08-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-20",
+  "dischargeDate": "2024-08-20",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1877095028",
+  "facility": {
+   "code": "FAC5",
+   "state": "MA"
+  },
+  "totalCharges": 23796.17
+ },
+ {
+  "encounterId": "ENC-600125",
+  "patient": {
+   "mrn": "MRN8000043",
+   "dob": "2001-06-17",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-15",
+  "dischargeDate": "2024-09-17",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1136795790",
+  "facility": {
+   "code": "FAC2",
+   "state": "OH"
+  },
+  "totalCharges": 1188.11
+ },
+ {
+  "encounterId": "ENC-600126",
+  "patient": {
+   "mrn": "MRN8000050",
+   "dob": "1978-05-22",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-11",
+  "dischargeDate": "2024-10-18",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC2",
+   "state": "TX"
+  },
+  "totalCharges": 16306.14
+ },
+ {
+  "encounterId": "ENC-600127",
+  "patient": {
+   "mrn": "MRN8000060",
+   "dob": "2001-01-31",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-23",
+  "dischargeDate": "2024-05-28",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC8",
+   "state": "TX"
+  },
+  "totalCharges": 27160.06
+ },
+ {
+  "encounterId": "ENC-600128",
+  "patient": {
+   "mrn": "MRN8000038",
+   "dob": "1969-03-17",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-31",
+  "dischargeDate": "2024-11-05",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC4",
+   "state": "IL"
+  },
+  "totalCharges": 39701.3
+ },
+ {
+  "encounterId": "ENC-600129",
+  "patient": {
+   "mrn": "MRN8000006",
+   "dob": "1954-12-10",
+   "sex": "M"
+  },
+  "admitDate": "2024-09-15",
+  "dischargeDate": "2024-09-19",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC4",
+   "state": "CA"
+  },
+  "totalCharges": 19627.69
+ },
+ {
+  "encounterId": "ENC-600130",
+  "patient": {
+   "mrn": "MRN8000088",
+   "dob": "1970-08-06",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-31",
+  "dischargeDate": "2024-02-05",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC6",
+   "state": "WA"
+  },
+  "totalCharges": 24827.69
+ },
+ {
+  "encounterId": "ENC-600131",
+  "patient": {
+   "mrn": "MRN8000000",
+   "dob": "1979-07-13",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-23",
+  "dischargeDate": "2024-03-28",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1827206481",
+  "facility": {
+   "code": "FAC8",
+   "state": "AZ"
+  },
+  "totalCharges": 33797.09
+ },
+ {
+  "encounterId": "ENC-600132",
+  "patient": {
+   "mrn": "MRN8000026",
+   "dob": "1986-03-20",
+   "sex": "F"
+  },
+  "admitDate": "2024-02-15",
+  "dischargeDate": "2024-02-16",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC1",
+   "state": "WA"
+  },
+  "totalCharges": 36325.91
+ },
+ {
+  "encounterId": "ENC-600133",
+  "patient": {
+   "mrn": "MRN8000031",
+   "dob": "1967-04-22",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-26",
+  "dischargeDate": "2024-07-26",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1175265203",
+  "facility": {
+   "code": "FAC5",
+   "state": "OH"
+  },
+  "totalCharges": 13842.43
+ },
+ {
+  "encounterId": "ENC-600134",
+  "patient": {
+   "mrn": "MRN8000037",
+   "dob": "1954-08-07",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-28",
+  "dischargeDate": "2024-02-04",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1247500915",
+  "facility": {
+   "code": "FAC3",
+   "state": "IL"
+  },
+  "totalCharges": 14477.31
+ },
+ {
+  "encounterId": "ENC-600135",
+  "patient": {
+   "mrn": "MRN8000100",
+   "dob": "1947-03-26",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-09",
+  "dischargeDate": "2024-05-11",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC5",
+   "state": "CA"
+  },
+  "totalCharges": 45545.63
+ },
+ {
+  "encounterId": "ENC-600136",
+  "patient": {
+   "mrn": "MRN8000049",
+   "dob": "1992-12-09",
+   "sex": "F"
+  },
+  "admitDate": "2024-11-21",
+  "dischargeDate": "2024-11-24",
+  "encounterType": "outpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1508792982",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 37939.1
+ },
+ {
+  "encounterId": "ENC-600137",
+  "patient": {
+   "mrn": "MRN8000036",
+   "dob": "2007-02-27",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-28",
+  "dischargeDate": "2024-09-29",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 13057.45
+ },
+ {
+  "encounterId": "ENC-600138",
+  "patient": {
+   "mrn": "MRN8000003",
+   "dob": "2001-03-03",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-03",
+  "dischargeDate": "2024-09-08",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC3",
+   "state": "MA"
+  },
+  "totalCharges": 11315.11
+ },
+ {
+  "encounterId": "ENC-600139",
+  "patient": {
+   "mrn": "MRN8000029",
+   "dob": "1997-04-26",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-31",
+  "dischargeDate": "2024-08-06",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC7",
+   "state": "MA"
+  },
+  "totalCharges": 22727.21
+ },
+ {
+  "encounterId": "ENC-600140",
+  "patient": {
+   "mrn": "MRN8000025",
+   "dob": "1997-10-31",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-12",
+  "dischargeDate": "2024-07-14",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 46814.42
+ },
+ {
+  "encounterId": "ENC-600141",
+  "patient": {
+   "mrn": "MRN8000002",
+   "dob": "1944-05-06",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-10",
+  "dischargeDate": "2024-06-17",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC5",
+   "state": "NY"
+  },
+  "totalCharges": 4915.14
+ },
+ {
+  "encounterId": "ENC-600142",
+  "patient": {
+   "mrn": "MRN8000006",
+   "dob": "1979-08-18",
+   "sex": "M"
+  },
+  "admitDate": "2024-09-30",
+  "dischargeDate": "2024-10-02",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1877095028",
+  "facility": {
+   "code": "FAC2",
+   "state": "WA"
+  },
+  "totalCharges": 7228.32
+ },
+ {
+  "encounterId": "ENC-600143",
+  "patient": {
+   "mrn": "MRN8000057",
+   "dob": "2000-07-04",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-25",
+  "dischargeDate": "2024-05-25",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC7",
+   "state": "AZ"
+  },
+  "totalCharges": 10172.01
+ },
+ {
+  "encounterId": "ENC-600144",
+  "patient": {
+   "mrn": "MRN8000077",
+   "dob": "2004-06-17",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-08",
+  "dischargeDate": "2024-09-11",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1175265203",
+  "facility": {
+   "code": "FAC5",
+   "state": "GA"
+  },
+  "totalCharges": 42289.47
+ },
+ {
+  "encounterId": "ENC-600145",
+  "patient": {
+   "mrn": "MRN8000097",
+   "dob": "1972-12-25",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-16",
+  "dischargeDate": "2024-08-22",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC1",
+   "state": "GA"
+  },
+  "totalCharges": 39885.81
+ },
+ {
+  "encounterId": "ENC-600146",
+  "patient": {
+   "mrn": "MRN8000076",
+   "dob": "1961-07-04",
+   "sex": "M"
+  },
+  "admitDate": "2024-09-13",
+  "dischargeDate": "2024-09-20",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC2",
+   "state": "OH"
+  },
+  "totalCharges": 1104.18
+ },
+ {
+  "encounterId": "ENC-600147",
+  "patient": {
+   "mrn": "MRN8000022",
+   "dob": "1951-08-09",
+   "sex": "F"
+  },
+  "admitDate": "2024-07-21",
+  "dischargeDate": "2024-07-24",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1579764764",
+  "facility": {
+   "code": "FAC2",
+   "state": "IL"
+  },
+  "totalCharges": 28611.0
+ },
+ {
+  "encounterId": "ENC-600148",
+  "patient": {
+   "mrn": "MRN8000033",
+   "dob": "1951-02-14",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-15",
+  "dischargeDate": "2024-08-17",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC7",
+   "state": "WA"
+  },
+  "totalCharges": 22594.07
+ },
+ {
+  "encounterId": "ENC-600149",
+  "patient": {
+   "mrn": "MRN8000094",
+   "dob": "2004-10-28",
+   "sex": "M"
+  },
+  "admitDate": "2024-08-08",
+  "dischargeDate": "2024-08-15",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1827206481",
+  "facility": {
+   "code": "FAC5",
+   "state": "NC"
+  },
+  "totalCharges": 1071.43
+ },
+ {
+  "encounterId": "ENC-600150",
+  "patient": {
+   "mrn": "MRN8000032",
+   "dob": "1944-05-28",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-23",
+  "dischargeDate": "2024-06-26",
+  "encounterType": "outpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1338169154",
+  "facility": {
+   "code": "FAC1",
+   "state": "NC"
+  },
+  "totalCharges": 31390.89
+ },
+ {
+  "encounterId": "ENC-600151",
+  "patient": {
+   "mrn": "MRN8000063",
+   "dob": "1993-10-23",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-27",
+  "dischargeDate": "2024-09-28",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC1",
+   "state": "MA"
+  },
+  "totalCharges": 38484.59
+ },
+ {
+  "encounterId": "ENC-600152",
+  "patient": {
+   "mrn": "MRN8000107",
+   "dob": "2005-10-27",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-25",
+  "dischargeDate": "2024-10-25",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1863772255",
+  "facility": {
+   "code": "FAC5",
+   "state": "WA"
+  },
+  "totalCharges": 39866.88
+ },
+ {
+  "encounterId": "ENC-600153",
+  "patient": {
+   "mrn": "MRN8000022",
+   "dob": "1988-10-09",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-06",
+  "dischargeDate": "2024-02-10",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1247500915",
+  "facility": {
+   "code": "FAC1",
+   "state": "WA"
+  },
+  "totalCharges": 25800.89
+ },
+ {
+  "encounterId": "ENC-600154",
+  "patient": {
+   "mrn": "MRN8000002",
+   "dob": "1992-09-13",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-23",
+  "dischargeDate": "2024-03-27",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1869367023",
+  "facility": {
+   "code": "FAC3",
+   "state": "TX"
+  },
+  "totalCharges": 29828.96
+ },
+ {
+  "encounterId": "ENC-600155",
+  "patient": {
+   "mrn": "MRN8000107",
+   "dob": "1975-02-11",
+   "sex": "F"
+  },
+  "admitDate": "2024-08-13",
+  "dischargeDate": "2024-08-19",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 16652.24
+ },
+ {
+  "encounterId": "ENC-600156",
+  "patient": {
+   "mrn": "MRN8000047",
+   "dob": "1993-09-02",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-23",
+  "dischargeDate": "2024-09-25",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC2",
+   "state": "AZ"
+  },
+  "totalCharges": 12224.53
+ },
+ {
+  "encounterId": "ENC-600157",
+  "patient": {
+   "mrn": "MRN8000032",
+   "dob": "1987-06-14",
+   "sex": "X"
+  },
+  "admitDate": "2024-07-29",
+  "dischargeDate": "2024-07-30",
+  "encounterType": "outpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1549437857",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 14689.23
+ },
+ {
+  "encounterId": "ENC-600158",
+  "patient": {
+   "mrn": "MRN8000008",
+   "dob": "1959-03-17",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-21",
+  "dischargeDate": "2024-04-23",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 46550.16
+ },
+ {
+  "encounterId": "ENC-600159",
+  "patient": {
+   "mrn": "MRN8000025",
+   "dob": "1962-11-08",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-16",
+  "dischargeDate": "2024-09-23",
+  "encounterType": "emergency",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC6",
+   "state": "IL"
+  },
+  "totalCharges": 30424.1
+ },
+ {
+  "encounterId": "ENC-600160",
+  "patient": {
+   "mrn": "MRN8000005",
+   "dob": "1959-05-18",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-09",
+  "dischargeDate": "2024-10-14",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC1",
+   "state": "TX"
+  },
+  "totalCharges": 14878.93
+ },
+ {
+  "encounterId": "ENC-600161",
+  "patient": {
+   "mrn": "MRN8000041",
+   "dob": "1975-08-03",
+   "sex": "M"
+  },
+  "admitDate": "2024-09-22",
+  "dischargeDate": "2024-09-23",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1577629107",
+  "facility": {
+   "code": "FAC5",
+   "state": "WA"
+  },
+  "totalCharges": 47703.71
+ },
+ {
+  "encounterId": "ENC-600162",
+  "patient": {
+   "mrn": "MRN8000038",
+   "dob": "1953-02-05",
+   "sex": "X"
+  },
+  "admitDate": "2024-07-28",
+  "dischargeDate": "2024-08-03",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1549437857",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 8693.99
+ },
+ {
+  "encounterId": "ENC-600163",
+  "patient": {
+   "mrn": "MRN8000020",
+   "dob": "1964-02-13",
+   "sex": "M"
+  },
+  "admitDate": "2024-05-04",
+  "dischargeDate": "2024-05-06",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC5",
+   "state": "NY"
+  },
+  "totalCharges": 3792.9
+ },
+ {
+  "encounterId": "ENC-600164",
+  "patient": {
+   "mrn": "MRN8000032",
+   "dob": "1947-11-16",
+   "sex": "M"
+  },
+  "admitDate": "2024-06-30",
+  "dischargeDate": "2024-07-02",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC5",
+   "state": "MA"
+  },
+  "totalCharges": 183.84
+ },
+ {
+  "encounterId": "ENC-600165",
+  "patient": {
+   "mrn": "MRN8000050",
+   "dob": "1958-07-14",
+   "sex": "X"
+  },
+  "admitDate": "2024-06-23",
+  "dischargeDate": "2024-06-24",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC2",
+   "state": "WA"
+  },
+  "totalCharges": 28795.38
+ },
+ {
+  "encounterId": "ENC-600166",
+  "patient": {
+   "mrn": "MRN8000090",
+   "dob": "1978-12-23",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-23",
+  "dischargeDate": "2024-04-23",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC2",
+   "state": "IL"
+  },
+  "totalCharges": 7155.74
+ },
+ {
+  "encounterId": "ENC-600167",
+  "patient": {
+   "mrn": "MRN8000074",
+   "dob": "2005-03-24",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-21",
+  "dischargeDate": "2024-06-23",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC1",
+   "state": "WA"
+  },
+  "totalCharges": 24860.11
+ },
+ {
+  "encounterId": "ENC-600168",
+  "patient": {
+   "mrn": "MRN8000058",
+   "dob": "1956-10-08",
+   "sex": "F"
+  },
+  "admitDate": "2024-06-26",
+  "dischargeDate": "2024-06-27",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1882784747",
+  "facility": {
+   "code": "FAC5",
+   "state": "OH"
+  },
+  "totalCharges": 9723.72
+ },
+ {
+  "encounterId": "ENC-600169",
+  "patient": {
+   "mrn": "MRN8000067",
+   "dob": "1951-08-05",
+   "sex": "M"
+  },
+  "admitDate": "2024-02-09",
+  "dischargeDate": "2024-02-13",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1877095028",
+  "facility": {
+   "code": "FAC4",
+   "state": "WA"
+  },
+  "totalCharges": 36316.16
+ },
+ {
+  "encounterId": "ENC-600170",
+  "patient": {
+   "mrn": "MRN8000092",
+   "dob": "2000-12-11",
+   "sex": "X"
+  },
+  "admitDate": "2024-08-19",
+  "dischargeDate": "2024-08-24",
+  "encounterType": "emergency",
+  "primaryDx": "I10",
+  "attendingNpi": "1827206481",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 23816.89
+ },
+ {
+  "encounterId": "ENC-600171",
+  "patient": {
+   "mrn": "MRN8000074",
+   "dob": "1982-12-28",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-15",
+  "dischargeDate": "2024-10-17",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC2",
+   "state": "WA"
+  },
+  "totalCharges": 34230.35
+ },
+ {
+  "encounterId": "ENC-600172",
+  "patient": {
+   "mrn": "MRN8000065",
+   "dob": "1991-08-10",
+   "sex": "F"
+  },
+  "admitDate": "2024-01-31",
+  "dischargeDate": "2024-02-02",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1449523158",
+  "facility": {
+   "code": "FAC5",
+   "state": "AZ"
+  },
+  "totalCharges": 40617.35
+ },
+ {
+  "encounterId": "ENC-600173",
+  "patient": {
+   "mrn": "MRN8000039",
+   "dob": "1964-05-31",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-05",
+  "dischargeDate": "2024-01-05",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1534799032",
+  "facility": {
+   "code": "FAC5",
+   "state": "GA"
+  },
+  "totalCharges": 8451.59
+ },
+ {
+  "encounterId": "ENC-600174",
+  "patient": {
+   "mrn": "MRN8000091",
+   "dob": "1946-11-06",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-30",
+  "dischargeDate": "2024-11-06",
+  "encounterType": "emergency",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC7",
+   "state": "CA"
+  },
+  "totalCharges": 31595.83
+ },
+ {
+  "encounterId": "ENC-600175",
+  "patient": {
+   "mrn": "MRN8000046",
+   "dob": "1969-12-12",
+   "sex": "X"
+  },
+  "admitDate": "2024-10-22",
+  "dischargeDate": "2024-10-24",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC4",
+   "state": "TX"
+  },
+  "totalCharges": 22985.51
+ },
+ {
+  "encounterId": "ENC-600176",
+  "patient": {
+   "mrn": "MRN8000088",
+   "dob": "1977-06-30",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-25",
+  "dischargeDate": "2024-10-27",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1696018008",
+  "facility": {
+   "code": "FAC5",
+   "state": "WA"
+  },
+  "totalCharges": 19583.77
+ },
+ {
+  "encounterId": "ENC-600177",
+  "patient": {
+   "mrn": "MRN8000057",
+   "dob": "1970-11-25",
+   "sex": "X"
+  },
+  "admitDate": "2024-04-30",
+  "dischargeDate": "2024-05-01",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC8",
+   "state": "NY"
+  },
+  "totalCharges": 37786.95
+ },
+ {
+  "encounterId": "ENC-600178",
+  "patient": {
+   "mrn": "MRN8000097",
+   "dob": "1965-11-02",
+   "sex": "X"
+  },
+  "admitDate": "2024-02-13",
+  "dischargeDate": "2024-02-20",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1315738116",
+  "facility": {
+   "code": "FAC3",
+   "state": "WA"
+  },
+  "totalCharges": 27767.4
+ },
+ {
+  "encounterId": "ENC-600179",
+  "patient": {
+   "mrn": "MRN8000085",
+   "dob": "2000-03-14",
+   "sex": "M"
+  },
+  "admitDate": "2024-07-30",
+  "dischargeDate": "2024-08-03",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1578329749",
+  "facility": {
+   "code": "FAC6",
+   "state": "MA"
+  },
+  "totalCharges": 36628.66
+ },
+ {
+  "encounterId": "ENC-600180",
+  "patient": {
+   "mrn": "MRN8000075",
+   "dob": "1991-04-16",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-23",
+  "dischargeDate": "2024-05-23",
+  "encounterType": "emergency",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1489509403",
+  "facility": {
+   "code": "FAC1",
+   "state": "NC"
+  },
+  "totalCharges": 26762.89
+ },
+ {
+  "encounterId": "ENC-600181",
+  "patient": {
+   "mrn": "MRN8000009",
+   "dob": "1996-07-24",
+   "sex": "M"
+  },
+  "admitDate": "2024-10-03",
+  "dischargeDate": "2024-10-08",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 31985.05
+ },
+ {
+  "encounterId": "ENC-600182",
+  "patient": {
+   "mrn": "MRN8000086",
+   "dob": "1964-06-11",
+   "sex": "M"
+  },
+  "admitDate": "2024-04-15",
+  "dischargeDate": "2024-04-22",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1306058807",
+  "facility": {
+   "code": "FAC2",
+   "state": "AZ"
+  },
+  "totalCharges": 9172.29
+ },
+ {
+  "encounterId": "ENC-600183",
+  "patient": {
+   "mrn": "MRN8000054",
+   "dob": "1991-03-04",
+   "sex": "F"
+  },
+  "admitDate": "2024-02-15",
+  "dischargeDate": "2024-02-18",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC4",
+   "state": "WA"
+  },
+  "totalCharges": 39156.12
+ },
+ {
+  "encounterId": "ENC-600184",
+  "patient": {
+   "mrn": "MRN8000035",
+   "dob": "2001-11-22",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-02",
+  "dischargeDate": "2024-01-08",
+  "encounterType": "outpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC7",
+   "state": "AZ"
+  },
+  "totalCharges": 30462.03
+ },
+ {
+  "encounterId": "ENC-600185",
+  "patient": {
+   "mrn": "MRN8000040",
+   "dob": "1954-10-15",
+   "sex": "M"
+  },
+  "admitDate": "2024-03-30",
+  "dischargeDate": "2024-03-30",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1748552707",
+  "facility": {
+   "code": "FAC6",
+   "state": "GA"
+  },
+  "totalCharges": 37409.3
+ },
+ {
+  "encounterId": "ENC-600186",
+  "patient": {
+   "mrn": "MRN8000106",
+   "dob": "1953-08-10",
+   "sex": "F"
+  },
+  "admitDate": "2024-09-09",
+  "dischargeDate": "2024-09-15",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1833823688",
+  "facility": {
+   "code": "FAC5",
+   "state": "AZ"
+  },
+  "totalCharges": 26987.46
+ },
+ {
+  "encounterId": "ENC-600187",
+  "patient": {
+   "mrn": "MRN8000069",
+   "dob": "1972-01-18",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-06",
+  "dischargeDate": "2024-04-09",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1771672724",
+  "facility": {
+   "code": "FAC3",
+   "state": "MA"
+  },
+  "totalCharges": 46813.29
+ },
+ {
+  "encounterId": "ENC-600188",
+  "patient": {
+   "mrn": "MRN8000104",
+   "dob": "1988-01-02",
+   "sex": "F"
+  },
+  "admitDate": "2024-04-15",
+  "dischargeDate": "2024-04-19",
+  "encounterType": "inpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC1",
+   "state": "NY"
+  },
+  "totalCharges": 30037.28
+ },
+ {
+  "encounterId": "ENC-600189",
+  "patient": {
+   "mrn": "MRN8000069",
+   "dob": "1946-08-20",
+   "sex": "X"
+  },
+  "admitDate": "2024-02-07",
+  "dischargeDate": "2024-02-08",
+  "encounterType": "outpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1175265203",
+  "facility": {
+   "code": "FAC7",
+   "state": "TX"
+  },
+  "totalCharges": 10423.01
+ },
+ {
+  "encounterId": "ENC-600190",
+  "patient": {
+   "mrn": "MRN8000047",
+   "dob": "1946-12-03",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-07",
+  "dischargeDate": "2024-03-12",
+  "encounterType": "emergency",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1507223578",
+  "facility": {
+   "code": "FAC4",
+   "state": "MA"
+  },
+  "totalCharges": 33467.05
+ },
+ {
+  "encounterId": "ENC-600191",
+  "patient": {
+   "mrn": "MRN8000009",
+   "dob": "1962-10-01",
+   "sex": "M"
+  },
+  "admitDate": "2024-11-22",
+  "dischargeDate": "2024-11-28",
+  "encounterType": "outpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1549437857",
+  "facility": {
+   "code": "FAC3",
+   "state": "WA"
+  },
+  "totalCharges": 3230.4
+ },
+ {
+  "encounterId": "ENC-600192",
+  "patient": {
+   "mrn": "MRN8000067",
+   "dob": "1981-07-24",
+   "sex": "X"
+  },
+  "admitDate": "2024-11-12",
+  "dischargeDate": "2024-11-12",
+  "encounterType": "outpatient",
+  "primaryDx": "J45.909",
+  "attendingNpi": "1827206481",
+  "facility": {
+   "code": "FAC8",
+   "state": "MA"
+  },
+  "totalCharges": 23049.28
+ },
+ {
+  "encounterId": "ENC-600193",
+  "patient": {
+   "mrn": "MRN8000048",
+   "dob": "2006-01-15",
+   "sex": "X"
+  },
+  "admitDate": "2024-01-12",
+  "dischargeDate": "2024-01-18",
+  "encounterType": "outpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1293989323",
+  "facility": {
+   "code": "FAC3",
+   "state": "OH"
+  },
+  "totalCharges": 23628.25
+ },
+ {
+  "encounterId": "ENC-600194",
+  "patient": {
+   "mrn": "MRN8000004",
+   "dob": "2007-04-24",
+   "sex": "F"
+  },
+  "admitDate": "2024-05-14",
+  "dischargeDate": "2024-05-17",
+  "encounterType": "inpatient",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC5",
+   "state": "WA"
+  },
+  "totalCharges": 40462.61
+ },
+ {
+  "encounterId": "ENC-600195",
+  "patient": {
+   "mrn": "MRN8000090",
+   "dob": "1958-12-18",
+   "sex": "F"
+  },
+  "admitDate": "2024-10-31",
+  "dischargeDate": "2024-11-03",
+  "encounterType": "inpatient",
+  "primaryDx": "M54.5",
+  "attendingNpi": "1652675644",
+  "facility": {
+   "code": "FAC5",
+   "state": "GA"
+  },
+  "totalCharges": 45697.34
+ },
+ {
+  "encounterId": "ENC-600196",
+  "patient": {
+   "mrn": "MRN8000059",
+   "dob": "1973-10-02",
+   "sex": "X"
+  },
+  "admitDate": "2024-05-01",
+  "dischargeDate": "2024-05-02",
+  "encounterType": "inpatient",
+  "primaryDx": "E11.9",
+  "attendingNpi": "1338169154",
+  "facility": {
+   "code": "FAC2",
+   "state": "NC"
+  },
+  "totalCharges": 41395.95
+ },
+ {
+  "encounterId": "ENC-600197",
+  "patient": {
+   "mrn": "MRN8000016",
+   "dob": "1983-09-26",
+   "sex": "X"
+  },
+  "admitDate": "2024-09-24",
+  "dischargeDate": "2024-09-26",
+  "encounterType": "inpatient",
+  "primaryDx": "I10",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC6",
+   "state": "AZ"
+  },
+  "totalCharges": 10030.28
+ },
+ {
+  "encounterId": "ENC-600198",
+  "patient": {
+   "mrn": "MRN8000038",
+   "dob": "1988-12-02",
+   "sex": "M"
+  },
+  "admitDate": "2024-01-23",
+  "dischargeDate": "2024-01-26",
+  "encounterType": "inpatient",
+  "primaryDx": "F41.1",
+  "attendingNpi": "1624289168",
+  "facility": {
+   "code": "FAC2",
+   "state": "CA"
+  },
+  "totalCharges": 31051.87
+ },
+ {
+  "encounterId": "ENC-600199",
+  "patient": {
+   "mrn": "MRN8000069",
+   "dob": "1992-02-04",
+   "sex": "F"
+  },
+  "admitDate": "2024-03-21",
+  "dischargeDate": "2024-03-23",
+  "encounterType": "emergency",
+  "primaryDx": "K21.9",
+  "attendingNpi": "1154358443",
+  "facility": {
+   "code": "FAC1",
+   "state": "TX"
+  },
+  "totalCharges": 39886.05
+ }
+]

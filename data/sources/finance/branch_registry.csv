@@ -1,0 +1,21 @@
+branch_id,branch_name,branch_city,branch_state,opened_on,manager_name
+BR100,Boston Downtown,Boston,MA,2015-06-03,Kofi Reddy
+BR101,Albany North,Albany,NY,2018-05-22,Noah Okafor
+BR102,Chicago Main,Chicago,IL,2009-11-10,Mateo Smith
+BR103,Austin Downtown,Austin,TX,2010-10-15,Chloe Ito
+BR104,San Diego Harbor,San Diego,CA,2016-02-04,Hana Kim
+BR105,Seattle Downtown,Seattle,WA,2017-12-24,Lucas Reddy
+BR106,Atlanta Main,Atlanta,GA,1997-10-09,Lucas Silva
+BR107,Columbus Downtown,Columbus,OH,2002-03-20,Elena Haddad
+BR108,Raleigh North,Raleigh,NC,2010-06-10,Isla Cohen
+BR109,Phoenix North,Phoenix,AZ,2008-08-05,Kofi Murphy
+BR110,Boston Downtown,Boston,MA,2015-10-23,Ethan Patel
+BR111,Albany Downtown,Albany,NY,2002-12-22,Isla Silva
+BR112,Chicago North,Chicago,IL,2006-10-27,Arjun Haddad
+BR113,Austin North,Austin,TX,2016-09-26,Elena Kim
+BR114,San Diego Harbor,San Diego,CA,2006-04-12,Kofi Larsen
+BR115,Seattle Harbor,Seattle,WA,2005-04-27,Zara Okafor
+BR116,Atlanta Harbor,Atlanta,GA,2017-05-19,Omar Haddad
+BR117,Columbus Main,Columbus,OH,2019-04-29,Noah Patel
+BR118,Raleigh Downtown,Raleigh,NC,2003-12-01,Kofi Garcia
+BR119,Phoenix North,Phoenix,AZ,1997-05-02,Chloe Silva

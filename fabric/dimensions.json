@@ -1,0 +1,296 @@
+[
+  {
+    "name": "AccountDimension",
+    "label": "account",
+    "table": "dim_account",
+    "natural_key": "accountNumber",
+    "attributes": [
+      "costCenter"
+    ],
+    "sources": [
+      "finance/ledger_entries.csv"
+    ],
+    "domains": [
+      "finance"
+    ],
+    "description": "Account dimension, conformed across finance from 1 source. One row per GL account number (ob:accountNumber): General ledger account. Attributes: cost center.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "AgentDimension",
+    "label": "agent",
+    "table": "dim_agent",
+    "natural_key": "agentId",
+    "attributes": [
+      "agencyName",
+      "agentEmail",
+      "agentName",
+      "salesRegion"
+    ],
+    "sources": [
+      "insurance/agents_crm.csv",
+      "insurance/policy_admin.csv"
+    ],
+    "domains": [
+      "insurance"
+    ],
+    "description": "Agent dimension, conformed across insurance from 2 sources. One row per agent identifier (ob:agentId): Business key of the selling agent. Attributes: agency name, agent email address, agent name, sales region.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "BranchDimension",
+    "label": "branch",
+    "table": "dim_branch",
+    "natural_key": "branchId",
+    "attributes": [
+      "branchName",
+      "managerName"
+    ],
+    "sources": [
+      "finance/branch_registry.csv"
+    ],
+    "domains": [
+      "finance"
+    ],
+    "description": "Branch dimension, conformed across finance from 1 source. One row per branch identifier (ob:branchId): Business key of a bank branch. Attributes: branch name, branch manager name.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "CurrencyDimension",
+    "label": "currency",
+    "table": "dim_currency",
+    "natural_key": "currencyCode",
+    "attributes": [],
+    "sources": [
+      "finance/card_transactions.json",
+      "finance/ledger_entries.csv"
+    ],
+    "domains": [
+      "finance"
+    ],
+    "description": "Currency dimension, conformed across finance from 2 sources. One row per currency code (ob:currencyCode): ISO 4217 currency code.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "CustomerDimension",
+    "label": "customer",
+    "table": "dim_customer",
+    "natural_key": "customerId",
+    "attributes": [
+      "customerEmail",
+      "customerName"
+    ],
+    "sources": [
+      "finance/card_transactions.json",
+      "insurance/claims_events.json",
+      "insurance/policy_admin.csv",
+      "retail/ecommerce_orders.json",
+      "retail/pos_sales.csv"
+    ],
+    "domains": [
+      "finance",
+      "insurance",
+      "retail"
+    ],
+    "description": "Customer dimension, conformed across finance, insurance, retail from 5 sources. One row per customer identifier (ob:customerId): Identifies the person or business that buys or holds a product. Attributes: customer email address, customer name.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "DateDimension",
+    "label": "date",
+    "table": "dim_date",
+    "natural_key": null,
+    "attributes": [
+      "admitDate",
+      "agentHireDate",
+      "authorizationTimestamp",
+      "branchOpenDate",
+      "claimReportedTimestamp",
+      "dischargeDate",
+      "fillDate",
+      "lossDate",
+      "orderTimestamp",
+      "policyEffectiveDate",
+      "policyExpirationDate",
+      "postingDate",
+      "productLaunchDate",
+      "saleTimestamp"
+    ],
+    "sources": [
+      "finance/branch_registry.csv",
+      "finance/card_transactions.json",
+      "finance/ledger_entries.csv",
+      "healthcare/ehr_encounters.json",
+      "healthcare/pharmacy_fills.csv",
+      "insurance/agents_crm.csv",
+      "insurance/claims_events.json",
+      "insurance/policy_admin.csv",
+      "retail/ecommerce_orders.json",
+      "retail/pos_sales.csv",
+      "retail/product_catalog.csv"
+    ],
+    "domains": [
+      "finance",
+      "healthcare",
+      "insurance",
+      "retail"
+    ],
+    "description": "Date dimension, conformed across finance, healthcare, insurance, retail from 11 sources. Generated from the values the sources carry. Attributes: admission date, agent hire date, authorization timestamp, branch open date, claim reported timestamp, discharge date, fill date, date of loss, order placed timestamp, policy effective date, policy expiration date, posting date, product launch date, sale timestamp.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "FacilityDimension",
+    "label": "facility",
+    "table": "dim_facility",
+    "natural_key": "facilityCode",
+    "attributes": [],
+    "sources": [
+      "healthcare/ehr_encounters.json"
+    ],
+    "domains": [
+      "healthcare"
+    ],
+    "description": "Facility dimension, conformed across healthcare from 1 source. One row per facility code (ob:facilityCode): Business key of the care facility.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "LocationDimension",
+    "label": "location",
+    "table": "dim_location",
+    "natural_key": null,
+    "attributes": [
+      "city",
+      "countryCode",
+      "postalCode",
+      "stateCode"
+    ],
+    "sources": [
+      "finance/branch_registry.csv",
+      "finance/card_transactions.json",
+      "healthcare/ehr_encounters.json",
+      "healthcare/provider_directory.csv",
+      "insurance/claims_events.json",
+      "insurance/policy_admin.csv",
+      "retail/ecommerce_orders.json"
+    ],
+    "domains": [
+      "finance",
+      "healthcare",
+      "insurance",
+      "retail"
+    ],
+    "description": "Location dimension, conformed across finance, healthcare, insurance, retail from 7 sources. Generated from the values the sources carry. Attributes: city, country code, postal code, state code.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "MerchantDimension",
+    "label": "merchant",
+    "table": "dim_merchant",
+    "natural_key": "merchantName",
+    "attributes": [
+      "merchantCategoryCode"
+    ],
+    "sources": [
+      "finance/card_transactions.json"
+    ],
+    "domains": [
+      "finance"
+    ],
+    "description": "Merchant dimension, conformed across finance from 1 source. One row per merchant name (ob:merchantName): Doing-business-as name of the merchant. Attributes: merchant category code.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "PatientDimension",
+    "label": "patient",
+    "table": "dim_patient",
+    "natural_key": "patientMrn",
+    "attributes": [
+      "patientBirthDate",
+      "patientSex"
+    ],
+    "sources": [
+      "healthcare/ehr_encounters.json",
+      "healthcare/pharmacy_fills.csv"
+    ],
+    "domains": [
+      "healthcare"
+    ],
+    "description": "Patient dimension, conformed across healthcare from 2 sources. One row per patient medical record number (ob:patientMrn): Medical record number of the patient. Attributes: patient date of birth, patient sex.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "PolicyDimension",
+    "label": "policy",
+    "table": "dim_policy",
+    "natural_key": "policyNumber",
+    "attributes": [
+      "lineOfBusiness"
+    ],
+    "sources": [
+      "insurance/claims_events.json",
+      "insurance/policy_admin.csv"
+    ],
+    "domains": [
+      "insurance"
+    ],
+    "description": "Policy dimension, conformed across insurance from 2 sources. One row per policy number (ob:policyNumber): Business key of an insurance policy. Attributes: line of business.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "ProductDimension",
+    "label": "product",
+    "table": "dim_product",
+    "natural_key": "productSku",
+    "attributes": [
+      "brandName",
+      "listPrice",
+      "productCategory",
+      "productName"
+    ],
+    "sources": [
+      "retail/pos_sales.csv",
+      "retail/product_catalog.csv"
+    ],
+    "domains": [
+      "retail"
+    ],
+    "description": "Product dimension, conformed across retail from 2 sources. One row per product SKU (ob:productSku): Stock keeping unit of a product. Attributes: brand name, list price, product category, product name.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "ProviderDimension",
+    "label": "provider",
+    "table": "dim_provider",
+    "natural_key": "providerNpi",
+    "attributes": [
+      "acceptingNewPatients",
+      "providerName",
+      "providerSpecialty"
+    ],
+    "sources": [
+      "healthcare/ehr_encounters.json",
+      "healthcare/pharmacy_fills.csv",
+      "healthcare/provider_directory.csv"
+    ],
+    "domains": [
+      "healthcare"
+    ],
+    "description": "Provider dimension, conformed across healthcare from 3 sources. One row per provider NPI (ob:providerNpi): National Provider Identifier of a clinician. Attributes: accepting new patients, provider name, provider specialty.",
+    "described_by": "ontology"
+  },
+  {
+    "name": "StoreDimension",
+    "label": "store",
+    "table": "dim_store",
+    "natural_key": "storeId",
+    "attributes": [],
+    "sources": [
+      "retail/pos_sales.csv"
+    ],
+    "domains": [
+      "retail"
+    ],
+    "description": "Store dimension, conformed across retail from 1 source. One row per store identifier (ob:storeId): Business key of a store.",
+    "described_by": "ontology"
+  }
+]

@@ -1,0 +1,4202 @@
+[
+ {
+  "claimId": "CLM-900000",
+  "policy": {
+   "number": "POL-700062"
+  },
+  "lossDate": "2023-04-27",
+  "reportedAt": "2023-05-01T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100036",
+   "fullName": "Wei Larsen"
+  },
+  "reserveAmount": 15214.67,
+  "paidAmount": 2355.58,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "55667",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-26T23:22:57Z"
+ },
+ {
+  "claimId": "CLM-900001",
+  "policy": {
+   "number": "POL-700002"
+  },
+  "lossDate": "2024-03-30",
+  "reportedAt": "2024-04-07T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100107",
+   "fullName": "Noah Brown"
+  },
+  "reserveAmount": 19646.69,
+  "paidAmount": 3309.48,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "01917",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-18T04:26:05Z"
+ },
+ {
+  "claimId": "CLM-900002",
+  "policy": {
+   "number": "POL-700058"
+  },
+  "lossDate": "2023-08-18",
+  "reportedAt": "2023-08-21T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100076",
+   "fullName": "Ethan Reddy"
+  },
+  "reserveAmount": 9306.03,
+  "paidAmount": 7705.51,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "55620",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-15T20:13:22Z"
+ },
+ {
+  "claimId": "CLM-900003",
+  "policy": {
+   "number": "POL-700036"
+  },
+  "lossDate": "2023-12-21",
+  "reportedAt": "2023-12-26T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100089",
+   "fullName": "Isla Smith"
+  },
+  "reserveAmount": 2385.28,
+  "paidAmount": 16038.01,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "13656",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-06T11:57:51Z"
+ },
+ {
+  "claimId": "CLM-900004",
+  "policy": {
+   "number": "POL-700037"
+  },
+  "lossDate": "2023-11-25",
+  "reportedAt": "2023-11-29T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100013",
+   "fullName": "Ava Haddad"
+  },
+  "reserveAmount": 17952.91,
+  "paidAmount": 11613.31,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "96695",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-06T08:47:06Z"
+ },
+ {
+  "claimId": "CLM-900005",
+  "policy": {
+   "number": "POL-700140"
+  },
+  "lossDate": "2023-11-25",
+  "reportedAt": "2023-12-02T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100017",
+   "fullName": "Maya Larsen"
+  },
+  "reserveAmount": 16795.53,
+  "paidAmount": 1738.53,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "77519",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-07T12:05:07Z"
+ },
+ {
+  "claimId": "CLM-900006",
+  "policy": {
+   "number": "POL-700029"
+  },
+  "lossDate": "2023-08-12",
+  "reportedAt": "2023-08-16T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100028",
+   "fullName": "Kofi Patel"
+  },
+  "reserveAmount": 8325.3,
+  "paidAmount": 5725.61,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "21533",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-12T17:18:01Z"
+ },
+ {
+  "claimId": "CLM-900007",
+  "policy": {
+   "number": "POL-700044"
+  },
+  "lossDate": "2024-02-05",
+  "reportedAt": "2024-02-08T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Grace Cohen"
+  },
+  "reserveAmount": 16266.41,
+  "paidAmount": 2219.43,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "31697",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-16T08:20:06Z"
+ },
+ {
+  "claimId": "CLM-900008",
+  "policy": {
+   "number": "POL-700036"
+  },
+  "lossDate": "2023-04-05",
+  "reportedAt": "2023-04-07T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100103",
+   "fullName": "Elena Chen"
+  },
+  "reserveAmount": 1191.88,
+  "paidAmount": 8822.61,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "77594",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-24T17:50:33Z"
+ },
+ {
+  "claimId": "CLM-900009",
+  "policy": {
+   "number": "POL-700124"
+  },
+  "lossDate": "2023-04-24",
+  "reportedAt": "2023-04-27T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100085",
+   "fullName": "Chloe Larsen"
+  },
+  "reserveAmount": 9767.17,
+  "paidAmount": 13599.42,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "43827",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-08T14:20:31Z"
+ },
+ {
+  "claimId": "CLM-900010",
+  "policy": {
+   "number": "POL-700032"
+  },
+  "lossDate": "2024-10-08",
+  "reportedAt": "2024-10-16T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100078",
+   "fullName": "Maya Silva"
+  },
+  "reserveAmount": 898.18,
+  "paidAmount": 3386.19,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "69346",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-28T12:48:34Z"
+ },
+ {
+  "claimId": "CLM-900011",
+  "policy": {
+   "number": "POL-700075"
+  },
+  "lossDate": "2023-08-06",
+  "reportedAt": "2023-08-10T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100048",
+   "fullName": "Mateo Brown"
+  },
+  "reserveAmount": 3360.08,
+  "paidAmount": 16963.38,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "12700",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-18T13:52:46Z"
+ },
+ {
+  "claimId": "CLM-900012",
+  "policy": {
+   "number": "POL-700136"
+  },
+  "lossDate": "2023-10-01",
+  "reportedAt": "2023-10-08T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100031",
+   "fullName": "Hana Garcia"
+  },
+  "reserveAmount": 7744.03,
+  "paidAmount": 15633.63,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "48820",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-16T14:29:32Z"
+ },
+ {
+  "claimId": "CLM-900013",
+  "policy": {
+   "number": "POL-700162"
+  },
+  "lossDate": "2024-03-08",
+  "reportedAt": "2024-03-10T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100040",
+   "fullName": "Zara Brown"
+  },
+  "reserveAmount": 22708.96,
+  "paidAmount": 3103.46,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "50741",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-18T06:52:46Z"
+ },
+ {
+  "claimId": "CLM-900014",
+  "policy": {
+   "number": "POL-700128"
+  },
+  "lossDate": "2024-04-03",
+  "reportedAt": "2024-04-05T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100058",
+   "fullName": "Liam Garcia"
+  },
+  "reserveAmount": 21841.66,
+  "paidAmount": 4777.45,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "67510",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-13T04:10:50Z"
+ },
+ {
+  "claimId": "CLM-900015",
+  "policy": {
+   "number": "POL-700117"
+  },
+  "lossDate": "2024-01-07",
+  "reportedAt": "2024-01-15T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100030",
+   "fullName": "Ava Chen"
+  },
+  "reserveAmount": 2638.45,
+  "paidAmount": 2975.84,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "62886",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-20T22:56:02Z"
+ },
+ {
+  "claimId": "CLM-900016",
+  "policy": {
+   "number": "POL-700027"
+  },
+  "lossDate": "2024-08-27",
+  "reportedAt": "2024-09-01T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100045",
+   "fullName": "Noah Garcia"
+  },
+  "reserveAmount": 11154.53,
+  "paidAmount": 14140.95,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "97055",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-06T05:44:48Z"
+ },
+ {
+  "claimId": "CLM-900017",
+  "policy": {
+   "number": "POL-700043"
+  },
+  "lossDate": "2023-10-04",
+  "reportedAt": "2023-10-07T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100111",
+   "fullName": "Arjun Rossi"
+  },
+  "reserveAmount": 7204.58,
+  "paidAmount": 5785.3,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "89473",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-09T13:08:10Z"
+ },
+ {
+  "claimId": "CLM-900018",
+  "policy": {
+   "number": "POL-700010"
+  },
+  "lossDate": "2024-08-19",
+  "reportedAt": "2024-08-21T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100108",
+   "fullName": "Chloe Cohen"
+  },
+  "reserveAmount": 12988.51,
+  "paidAmount": 4841.76,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "05626",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-05T03:10:21Z"
+ },
+ {
+  "claimId": "CLM-900019",
+  "policy": {
+   "number": "POL-700196"
+  },
+  "lossDate": "2023-11-21",
+  "reportedAt": "2023-11-25T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100074",
+   "fullName": "Sofia Ito"
+  },
+  "reserveAmount": 13755.68,
+  "paidAmount": 6775.96,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "46283",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-07T23:26:02Z"
+ },
+ {
+  "claimId": "CLM-900020",
+  "policy": {
+   "number": "POL-700169"
+  },
+  "lossDate": "2023-07-07",
+  "reportedAt": "2023-07-09T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100020",
+   "fullName": "Mateo Kim"
+  },
+  "reserveAmount": 18140.26,
+  "paidAmount": 7458.62,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "22711",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-04T08:52:56Z"
+ },
+ {
+  "claimId": "CLM-900021",
+  "policy": {
+   "number": "POL-700039"
+  },
+  "lossDate": "2024-02-25",
+  "reportedAt": "2024-02-28T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Sofia Ito"
+  },
+  "reserveAmount": 19636.14,
+  "paidAmount": 17949.0,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "05508",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-20T19:20:21Z"
+ },
+ {
+  "claimId": "CLM-900022",
+  "policy": {
+   "number": "POL-700009"
+  },
+  "lossDate": "2023-04-03",
+  "reportedAt": "2023-04-04T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100055",
+   "fullName": "Zara Patel"
+  },
+  "reserveAmount": 1784.49,
+  "paidAmount": 6244.1,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "85596",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-06T13:26:31Z"
+ },
+ {
+  "claimId": "CLM-900023",
+  "policy": {
+   "number": "POL-700095"
+  },
+  "lossDate": "2024-08-06",
+  "reportedAt": "2024-08-08T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Ravi Rossi"
+  },
+  "reserveAmount": 12822.79,
+  "paidAmount": 8550.65,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "23455",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-23T18:11:53Z"
+ },
+ {
+  "claimId": "CLM-900024",
+  "policy": {
+   "number": "POL-700176"
+  },
+  "lossDate": "2024-10-06",
+  "reportedAt": "2024-10-08T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100054",
+   "fullName": "Ravi Silva"
+  },
+  "reserveAmount": 10593.0,
+  "paidAmount": 7549.75,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "36585",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-27T05:36:14Z"
+ },
+ {
+  "claimId": "CLM-900025",
+  "policy": {
+   "number": "POL-700180"
+  },
+  "lossDate": "2023-12-07",
+  "reportedAt": "2023-12-14T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100100",
+   "fullName": "Kofi Haddad"
+  },
+  "reserveAmount": 7339.01,
+  "paidAmount": 16589.37,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "92666",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-04T04:21:10Z"
+ },
+ {
+  "claimId": "CLM-900026",
+  "policy": {
+   "number": "POL-700041"
+  },
+  "lossDate": "2024-06-10",
+  "reportedAt": "2024-06-11T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100091",
+   "fullName": "Omar Smith"
+  },
+  "reserveAmount": 6255.59,
+  "paidAmount": 1239.12,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "18515",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-23T06:51:50Z"
+ },
+ {
+  "claimId": "CLM-900027",
+  "policy": {
+   "number": "POL-700151"
+  },
+  "lossDate": "2024-04-01",
+  "reportedAt": "2024-04-07T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100107",
+   "fullName": "Grace Nguyen"
+  },
+  "reserveAmount": 22395.33,
+  "paidAmount": 16033.61,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "09631",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-12T12:36:03Z"
+ },
+ {
+  "claimId": "CLM-900028",
+  "policy": {
+   "number": "POL-700065"
+  },
+  "lossDate": "2024-03-13",
+  "reportedAt": "2024-03-18T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100067",
+   "fullName": "Ava Larsen"
+  },
+  "reserveAmount": 6627.34,
+  "paidAmount": 15981.97,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "29069",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-24T17:24:50Z"
+ },
+ {
+  "claimId": "CLM-900029",
+  "policy": {
+   "number": "POL-700058"
+  },
+  "lossDate": "2024-05-12",
+  "reportedAt": "2024-05-20T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Lucas Cohen"
+  },
+  "reserveAmount": 24974.63,
+  "paidAmount": 17613.25,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "39539",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-14T13:52:10Z"
+ },
+ {
+  "claimId": "CLM-900030",
+  "policy": {
+   "number": "POL-700095"
+  },
+  "lossDate": "2024-05-25",
+  "reportedAt": "2024-05-25T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100112",
+   "fullName": "Chloe Larsen"
+  },
+  "reserveAmount": 12037.59,
+  "paidAmount": 4596.2,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "03533",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-09T12:44:59Z"
+ },
+ {
+  "claimId": "CLM-900031",
+  "policy": {
+   "number": "POL-700154"
+  },
+  "lossDate": "2023-11-04",
+  "reportedAt": "2023-11-11T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100041",
+   "fullName": "Ava Reddy"
+  },
+  "reserveAmount": 6250.22,
+  "paidAmount": 76.73,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "12390",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-26T14:16:35Z"
+ },
+ {
+  "claimId": "CLM-900032",
+  "policy": {
+   "number": "POL-700072"
+  },
+  "lossDate": "2023-03-26",
+  "reportedAt": "2023-03-27T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100037",
+   "fullName": "Zara Murphy"
+  },
+  "reserveAmount": 16512.81,
+  "paidAmount": 2564.21,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "66412",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-09T21:51:12Z"
+ },
+ {
+  "claimId": "CLM-900033",
+  "policy": {
+   "number": "POL-700062"
+  },
+  "lossDate": "2023-04-23",
+  "reportedAt": "2023-04-23T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100113",
+   "fullName": "Grace Brown"
+  },
+  "reserveAmount": 22769.45,
+  "paidAmount": 4686.17,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "18942",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-08T22:06:04Z"
+ },
+ {
+  "claimId": "CLM-900034",
+  "policy": {
+   "number": "POL-700081"
+  },
+  "lossDate": "2024-01-05",
+  "reportedAt": "2024-01-08T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100116",
+   "fullName": "Grace Silva"
+  },
+  "reserveAmount": 20041.8,
+  "paidAmount": 13321.52,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "37480",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-04T06:41:43Z"
+ },
+ {
+  "claimId": "CLM-900035",
+  "policy": {
+   "number": "POL-700046"
+  },
+  "lossDate": "2024-04-14",
+  "reportedAt": "2024-04-21T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100078",
+   "fullName": "Sofia Smith"
+  },
+  "reserveAmount": 17116.2,
+  "paidAmount": 14269.71,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "35876",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-27T19:01:39Z"
+ },
+ {
+  "claimId": "CLM-900036",
+  "policy": {
+   "number": "POL-700104"
+  },
+  "lossDate": "2024-04-09",
+  "reportedAt": "2024-04-09T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100029",
+   "fullName": "Wei Brown"
+  },
+  "reserveAmount": 6068.08,
+  "paidAmount": 15192.23,
+  "status": "REOPENED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "40101",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-30T17:26:51Z"
+ },
+ {
+  "claimId": "CLM-900037",
+  "policy": {
+   "number": "POL-700101"
+  },
+  "lossDate": "2024-06-11",
+  "reportedAt": "2024-06-16T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100114",
+   "fullName": "Omar Larsen"
+  },
+  "reserveAmount": 5109.7,
+  "paidAmount": 11878.77,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "79970",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-25T19:36:17Z"
+ },
+ {
+  "claimId": "CLM-900038",
+  "policy": {
+   "number": "POL-700002"
+  },
+  "lossDate": "2024-02-29",
+  "reportedAt": "2024-03-07T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100060",
+   "fullName": "Omar Larsen"
+  },
+  "reserveAmount": 1066.93,
+  "paidAmount": 17467.35,
+  "status": "REOPENED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "14592",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-04T22:03:01Z"
+ },
+ {
+  "claimId": "CLM-900039",
+  "policy": {
+   "number": "POL-700135"
+  },
+  "lossDate": "2024-06-24",
+  "reportedAt": "2024-07-01T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100004",
+   "fullName": "Zara Cohen"
+  },
+  "reserveAmount": 5202.41,
+  "paidAmount": 15053.56,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "93852",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-12T21:42:36Z"
+ },
+ {
+  "claimId": "CLM-900040",
+  "policy": {
+   "number": "POL-700031"
+  },
+  "lossDate": "2024-06-24",
+  "reportedAt": "2024-06-28T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100102",
+   "fullName": "Ethan Rossi"
+  },
+  "reserveAmount": 5214.71,
+  "paidAmount": 7949.76,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "20167",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-17T06:34:11Z"
+ },
+ {
+  "claimId": "CLM-900041",
+  "policy": {
+   "number": "POL-700092"
+  },
+  "lossDate": "2024-05-14",
+  "reportedAt": "2024-05-16T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100088",
+   "fullName": "Zara Okafor"
+  },
+  "reserveAmount": 14899.79,
+  "paidAmount": 5491.21,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "40864",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-12T17:56:01Z"
+ },
+ {
+  "claimId": "CLM-900042",
+  "policy": {
+   "number": "POL-700001"
+  },
+  "lossDate": "2024-07-06",
+  "reportedAt": "2024-07-10T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100110",
+   "fullName": "Hana Ito"
+  },
+  "reserveAmount": 7484.93,
+  "paidAmount": 15948.89,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "96682",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-06T14:38:11Z"
+ },
+ {
+  "claimId": "CLM-900043",
+  "policy": {
+   "number": "POL-700084"
+  },
+  "lossDate": "2023-05-05",
+  "reportedAt": "2023-05-09T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100095",
+   "fullName": "Ravi Cohen"
+  },
+  "reserveAmount": 8825.35,
+  "paidAmount": 5165.94,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "02466",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-20T13:30:08Z"
+ },
+ {
+  "claimId": "CLM-900044",
+  "policy": {
+   "number": "POL-700105"
+  },
+  "lossDate": "2023-06-30",
+  "reportedAt": "2023-07-04T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100071",
+   "fullName": "Grace Silva"
+  },
+  "reserveAmount": 22462.09,
+  "paidAmount": 13906.84,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "95614",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-05T23:13:03Z"
+ },
+ {
+  "claimId": "CLM-900045",
+  "policy": {
+   "number": "POL-700109"
+  },
+  "lossDate": "2024-08-26",
+  "reportedAt": "2024-08-31T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100052",
+   "fullName": "Ava Nguyen"
+  },
+  "reserveAmount": 17110.82,
+  "paidAmount": 2748.38,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "57440",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-27T01:55:08Z"
+ },
+ {
+  "claimId": "CLM-900046",
+  "policy": {
+   "number": "POL-700189"
+  },
+  "lossDate": "2024-06-29",
+  "reportedAt": "2024-06-30T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100039",
+   "fullName": "Priya Larsen"
+  },
+  "reserveAmount": 14951.27,
+  "paidAmount": 6213.02,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "92138",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-23T08:28:29Z"
+ },
+ {
+  "claimId": "CLM-900047",
+  "policy": {
+   "number": "POL-700107"
+  },
+  "lossDate": "2024-10-02",
+  "reportedAt": "2024-10-04T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100101",
+   "fullName": "Mateo Smith"
+  },
+  "reserveAmount": 11424.69,
+  "paidAmount": 8578.45,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "59175",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-11T18:00:06Z"
+ },
+ {
+  "claimId": "CLM-900048",
+  "policy": {
+   "number": "POL-700041"
+  },
+  "lossDate": "2024-03-08",
+  "reportedAt": "2024-03-16T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100038",
+   "fullName": "Chloe Kim"
+  },
+  "reserveAmount": 1203.65,
+  "paidAmount": 5885.19,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "38805",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-07T21:17:54Z"
+ },
+ {
+  "claimId": "CLM-900049",
+  "policy": {
+   "number": "POL-700011"
+  },
+  "lossDate": "2024-10-04",
+  "reportedAt": "2024-10-12T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100079",
+   "fullName": "Chloe Okafor"
+  },
+  "reserveAmount": 16305.09,
+  "paidAmount": 6021.84,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "90743",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-28T03:30:33Z"
+ },
+ {
+  "claimId": "CLM-900050",
+  "policy": {
+   "number": "POL-700082"
+  },
+  "lossDate": "2024-06-14",
+  "reportedAt": "2024-06-16T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100016",
+   "fullName": "Omar Rossi"
+  },
+  "reserveAmount": 21519.28,
+  "paidAmount": 1844.16,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "46942",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-20T16:47:33Z"
+ },
+ {
+  "claimId": "CLM-900051",
+  "policy": {
+   "number": "POL-700125"
+  },
+  "lossDate": "2023-05-10",
+  "reportedAt": "2023-05-10T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100032",
+   "fullName": "Zara Brown"
+  },
+  "reserveAmount": 7460.6,
+  "paidAmount": 12476.13,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "44681",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-08T05:38:25Z"
+ },
+ {
+  "claimId": "CLM-900052",
+  "policy": {
+   "number": "POL-700107"
+  },
+  "lossDate": "2023-12-14",
+  "reportedAt": "2023-12-14T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100043",
+   "fullName": "Sofia Reddy"
+  },
+  "reserveAmount": 7847.22,
+  "paidAmount": 9135.95,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "41852",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-24T15:01:14Z"
+ },
+ {
+  "claimId": "CLM-900053",
+  "policy": {
+   "number": "POL-700097"
+  },
+  "lossDate": "2024-08-17",
+  "reportedAt": "2024-08-20T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100036",
+   "fullName": "Ravi Okafor"
+  },
+  "reserveAmount": 17059.89,
+  "paidAmount": 6285.9,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "37817",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-11T15:32:51Z"
+ },
+ {
+  "claimId": "CLM-900054",
+  "policy": {
+   "number": "POL-700093"
+  },
+  "lossDate": "2024-05-18",
+  "reportedAt": "2024-05-25T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100052",
+   "fullName": "Ava Okafor"
+  },
+  "reserveAmount": 11770.88,
+  "paidAmount": 8189.98,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "91211",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-20T13:36:30Z"
+ },
+ {
+  "claimId": "CLM-900055",
+  "policy": {
+   "number": "POL-700171"
+  },
+  "lossDate": "2024-06-11",
+  "reportedAt": "2024-06-11T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100008",
+   "fullName": "Noah Silva"
+  },
+  "reserveAmount": 19532.18,
+  "paidAmount": 6395.73,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "57686",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-12T02:57:50Z"
+ },
+ {
+  "claimId": "CLM-900056",
+  "policy": {
+   "number": "POL-700043"
+  },
+  "lossDate": "2023-07-25",
+  "reportedAt": "2023-07-26T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100095",
+   "fullName": "Sofia Murphy"
+  },
+  "reserveAmount": 17599.04,
+  "paidAmount": 14792.69,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "95125",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-18T19:37:41Z"
+ },
+ {
+  "claimId": "CLM-900057",
+  "policy": {
+   "number": "POL-700126"
+  },
+  "lossDate": "2023-07-19",
+  "reportedAt": "2023-07-27T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100011",
+   "fullName": "Noah Okafor"
+  },
+  "reserveAmount": 16075.8,
+  "paidAmount": 5854.43,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "14035",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-22T02:47:23Z"
+ },
+ {
+  "claimId": "CLM-900058",
+  "policy": {
+   "number": "POL-700035"
+  },
+  "lossDate": "2024-07-11",
+  "reportedAt": "2024-07-16T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100089",
+   "fullName": "Ethan Murphy"
+  },
+  "reserveAmount": 6186.95,
+  "paidAmount": 1741.49,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "39683",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-27T12:12:23Z"
+ },
+ {
+  "claimId": "CLM-900059",
+  "policy": {
+   "number": "POL-700079"
+  },
+  "lossDate": "2023-05-01",
+  "reportedAt": "2023-05-03T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100014",
+   "fullName": "Isla Garcia"
+  },
+  "reserveAmount": 5720.95,
+  "paidAmount": 13753.4,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "65919",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-18T18:58:46Z"
+ },
+ {
+  "claimId": "CLM-900060",
+  "policy": {
+   "number": "POL-700114"
+  },
+  "lossDate": "2023-04-07",
+  "reportedAt": "2023-04-14T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100052",
+   "fullName": "Priya Larsen"
+  },
+  "reserveAmount": 16516.25,
+  "paidAmount": 7559.73,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "10773",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-16T21:12:58Z"
+ },
+ {
+  "claimId": "CLM-900061",
+  "policy": {
+   "number": "POL-700108"
+  },
+  "lossDate": "2023-09-08",
+  "reportedAt": "2023-09-16T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100069",
+   "fullName": "Sofia Reddy"
+  },
+  "reserveAmount": 23436.14,
+  "paidAmount": 12591.96,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "39290",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-20T23:22:32Z"
+ },
+ {
+  "claimId": "CLM-900062",
+  "policy": {
+   "number": "POL-700103"
+  },
+  "lossDate": "2024-04-30",
+  "reportedAt": "2024-05-01T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100110",
+   "fullName": "Omar Patel"
+  },
+  "reserveAmount": 18733.99,
+  "paidAmount": 8576.45,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "29774",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-28T22:41:46Z"
+ },
+ {
+  "claimId": "CLM-900063",
+  "policy": {
+   "number": "POL-700170"
+  },
+  "lossDate": "2024-03-24",
+  "reportedAt": "2024-03-26T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100049",
+   "fullName": "Omar Patel"
+  },
+  "reserveAmount": 24042.05,
+  "paidAmount": 8036.56,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "06927",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-09T14:48:17Z"
+ },
+ {
+  "claimId": "CLM-900064",
+  "policy": {
+   "number": "POL-700162"
+  },
+  "lossDate": "2024-03-29",
+  "reportedAt": "2024-04-03T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100012",
+   "fullName": "Zara Ito"
+  },
+  "reserveAmount": 4572.19,
+  "paidAmount": 9182.39,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "72615",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-05T15:47:06Z"
+ },
+ {
+  "claimId": "CLM-900065",
+  "policy": {
+   "number": "POL-700041"
+  },
+  "lossDate": "2023-06-07",
+  "reportedAt": "2023-06-09T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100054",
+   "fullName": "Arjun Cohen"
+  },
+  "reserveAmount": 6770.9,
+  "paidAmount": 6259.15,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "08271",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-05T14:33:44Z"
+ },
+ {
+  "claimId": "CLM-900066",
+  "policy": {
+   "number": "POL-700122"
+  },
+  "lossDate": "2024-07-28",
+  "reportedAt": "2024-08-05T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100096",
+   "fullName": "Mateo Silva"
+  },
+  "reserveAmount": 21594.63,
+  "paidAmount": 15282.37,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "42664",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-05T05:19:20Z"
+ },
+ {
+  "claimId": "CLM-900067",
+  "policy": {
+   "number": "POL-700029"
+  },
+  "lossDate": "2023-03-29",
+  "reportedAt": "2023-04-06T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Noah Cohen"
+  },
+  "reserveAmount": 1754.71,
+  "paidAmount": 8872.83,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "64342",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-01T12:07:12Z"
+ },
+ {
+  "claimId": "CLM-900068",
+  "policy": {
+   "number": "POL-700152"
+  },
+  "lossDate": "2024-08-15",
+  "reportedAt": "2024-08-19T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100029",
+   "fullName": "Hana Larsen"
+  },
+  "reserveAmount": 13761.13,
+  "paidAmount": 8452.84,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "28956",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-17T00:26:15Z"
+ },
+ {
+  "claimId": "CLM-900069",
+  "policy": {
+   "number": "POL-700104"
+  },
+  "lossDate": "2024-03-13",
+  "reportedAt": "2024-03-21T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100077",
+   "fullName": "Chloe Brown"
+  },
+  "reserveAmount": 4033.47,
+  "paidAmount": 8988.01,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "88063",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-03T08:37:46Z"
+ },
+ {
+  "claimId": "CLM-900070",
+  "policy": {
+   "number": "POL-700119"
+  },
+  "lossDate": "2023-07-06",
+  "reportedAt": "2023-07-09T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100112",
+   "fullName": "Noah Patel"
+  },
+  "reserveAmount": 21775.13,
+  "paidAmount": 5547.54,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "20230",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-21T20:19:02Z"
+ },
+ {
+  "claimId": "CLM-900071",
+  "policy": {
+   "number": "POL-700141"
+  },
+  "lossDate": "2024-09-03",
+  "reportedAt": "2024-09-11T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100030",
+   "fullName": "Hana Haddad"
+  },
+  "reserveAmount": 12081.41,
+  "paidAmount": 4036.42,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "93112",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-05T05:08:17Z"
+ },
+ {
+  "claimId": "CLM-900072",
+  "policy": {
+   "number": "POL-700003"
+  },
+  "lossDate": "2023-12-20",
+  "reportedAt": "2023-12-24T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100042",
+   "fullName": "Liam Haddad"
+  },
+  "reserveAmount": 6956.63,
+  "paidAmount": 13368.89,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "37204",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-15T13:07:47Z"
+ },
+ {
+  "claimId": "CLM-900073",
+  "policy": {
+   "number": "POL-700064"
+  },
+  "lossDate": "2023-11-12",
+  "reportedAt": "2023-11-19T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100033",
+   "fullName": "Sofia Brown"
+  },
+  "reserveAmount": 10894.69,
+  "paidAmount": 11.3,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "07513",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-03T00:37:22Z"
+ },
+ {
+  "claimId": "CLM-900074",
+  "policy": {
+   "number": "POL-700170"
+  },
+  "lossDate": "2023-12-29",
+  "reportedAt": "2023-12-29T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100000",
+   "fullName": "Arjun Okafor"
+  },
+  "reserveAmount": 10884.39,
+  "paidAmount": 2066.79,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "85582",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-05T11:16:20Z"
+ },
+ {
+  "claimId": "CLM-900075",
+  "policy": {
+   "number": "POL-700193"
+  },
+  "lossDate": "2024-01-28",
+  "reportedAt": "2024-01-31T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100085",
+   "fullName": "Maya Rossi"
+  },
+  "reserveAmount": 16203.52,
+  "paidAmount": 14676.68,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "39314",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-24T14:02:35Z"
+ },
+ {
+  "claimId": "CLM-900076",
+  "policy": {
+   "number": "POL-700181"
+  },
+  "lossDate": "2023-08-12",
+  "reportedAt": "2023-08-15T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100045",
+   "fullName": "Arjun Larsen"
+  },
+  "reserveAmount": 1743.74,
+  "paidAmount": 4696.23,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "67464",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-07T14:33:07Z"
+ },
+ {
+  "claimId": "CLM-900077",
+  "policy": {
+   "number": "POL-700075"
+  },
+  "lossDate": "2024-01-06",
+  "reportedAt": "2024-01-06T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Arjun Silva"
+  },
+  "reserveAmount": 11545.88,
+  "paidAmount": 8326.01,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "04115",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-06T18:57:29Z"
+ },
+ {
+  "claimId": "CLM-900078",
+  "policy": {
+   "number": "POL-700127"
+  },
+  "lossDate": "2023-10-18",
+  "reportedAt": "2023-10-23T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100023",
+   "fullName": "Ethan Patel"
+  },
+  "reserveAmount": 7389.87,
+  "paidAmount": 2575.7,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "34820",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-13T02:21:11Z"
+ },
+ {
+  "claimId": "CLM-900079",
+  "policy": {
+   "number": "POL-700046"
+  },
+  "lossDate": "2023-07-21",
+  "reportedAt": "2023-07-23T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100065",
+   "fullName": "Priya Okafor"
+  },
+  "reserveAmount": 19310.53,
+  "paidAmount": 1986.56,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "55123",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-13T21:25:08Z"
+ },
+ {
+  "claimId": "CLM-900080",
+  "policy": {
+   "number": "POL-700002"
+  },
+  "lossDate": "2024-04-02",
+  "reportedAt": "2024-04-10T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100080",
+   "fullName": "Sofia Nguyen"
+  },
+  "reserveAmount": 4207.87,
+  "paidAmount": 10044.95,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "89201",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-20T16:31:54Z"
+ },
+ {
+  "claimId": "CLM-900081",
+  "policy": {
+   "number": "POL-700102"
+  },
+  "lossDate": "2024-01-16",
+  "reportedAt": "2024-01-17T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100090",
+   "fullName": "Maya Chen"
+  },
+  "reserveAmount": 23187.47,
+  "paidAmount": 12569.34,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "62081",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-15T02:25:50Z"
+ },
+ {
+  "claimId": "CLM-900082",
+  "policy": {
+   "number": "POL-700002"
+  },
+  "lossDate": "2023-06-22",
+  "reportedAt": "2023-06-22T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100066",
+   "fullName": "Liam Patel"
+  },
+  "reserveAmount": 20369.86,
+  "paidAmount": 12448.84,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "77607",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-18T16:40:16Z"
+ },
+ {
+  "claimId": "CLM-900083",
+  "policy": {
+   "number": "POL-700092"
+  },
+  "lossDate": "2024-03-24",
+  "reportedAt": "2024-03-28T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100066",
+   "fullName": "Hana Silva"
+  },
+  "reserveAmount": 3177.3,
+  "paidAmount": 9798.7,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "37495",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-09T07:29:48Z"
+ },
+ {
+  "claimId": "CLM-900084",
+  "policy": {
+   "number": "POL-700099"
+  },
+  "lossDate": "2023-12-05",
+  "reportedAt": "2023-12-05T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100084",
+   "fullName": "Omar Cohen"
+  },
+  "reserveAmount": 8144.97,
+  "paidAmount": 17707.34,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "69852",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-01T14:01:51Z"
+ },
+ {
+  "claimId": "CLM-900085",
+  "policy": {
+   "number": "POL-700196"
+  },
+  "lossDate": "2023-04-15",
+  "reportedAt": "2023-04-20T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100026",
+   "fullName": "Kofi Brown"
+  },
+  "reserveAmount": 15952.72,
+  "paidAmount": 15798.11,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "67797",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-20T02:47:14Z"
+ },
+ {
+  "claimId": "CLM-900086",
+  "policy": {
+   "number": "POL-700105"
+  },
+  "lossDate": "2024-08-30",
+  "reportedAt": "2024-09-01T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100012",
+   "fullName": "Chloe Kim"
+  },
+  "reserveAmount": 16142.19,
+  "paidAmount": 11444.61,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "59474",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-06T15:48:46Z"
+ },
+ {
+  "claimId": "CLM-900087",
+  "policy": {
+   "number": "POL-700018"
+  },
+  "lossDate": "2023-06-05",
+  "reportedAt": "2023-06-10T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100068",
+   "fullName": "Wei Nguyen"
+  },
+  "reserveAmount": 11270.62,
+  "paidAmount": 5516.43,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "36079",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-29T03:37:37Z"
+ },
+ {
+  "claimId": "CLM-900088",
+  "policy": {
+   "number": "POL-700086"
+  },
+  "lossDate": "2024-10-12",
+  "reportedAt": "2024-10-14T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Liam Ito"
+  },
+  "reserveAmount": 4991.1,
+  "paidAmount": 2484.53,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "73398",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-07T12:06:09Z"
+ },
+ {
+  "claimId": "CLM-900089",
+  "policy": {
+   "number": "POL-700151"
+  },
+  "lossDate": "2023-12-27",
+  "reportedAt": "2024-01-01T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100038",
+   "fullName": "Maya Okafor"
+  },
+  "reserveAmount": 19276.12,
+  "paidAmount": 13387.37,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "13183",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-17T13:55:54Z"
+ },
+ {
+  "claimId": "CLM-900090",
+  "policy": {
+   "number": "POL-700009"
+  },
+  "lossDate": "2024-05-31",
+  "reportedAt": "2024-06-02T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Elena Okafor"
+  },
+  "reserveAmount": 20644.82,
+  "paidAmount": 15115.7,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "78108",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-10T14:36:13Z"
+ },
+ {
+  "claimId": "CLM-900091",
+  "policy": {
+   "number": "POL-700086"
+  },
+  "lossDate": "2024-02-15",
+  "reportedAt": "2024-02-16T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100012",
+   "fullName": "Kofi Nguyen"
+  },
+  "reserveAmount": 15716.41,
+  "paidAmount": 1758.73,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "99222",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-27T23:52:22Z"
+ },
+ {
+  "claimId": "CLM-900092",
+  "policy": {
+   "number": "POL-700045"
+  },
+  "lossDate": "2023-07-25",
+  "reportedAt": "2023-07-30T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100084",
+   "fullName": "Priya Larsen"
+  },
+  "reserveAmount": 10539.91,
+  "paidAmount": 2338.51,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "52168",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-26T23:50:42Z"
+ },
+ {
+  "claimId": "CLM-900093",
+  "policy": {
+   "number": "POL-700055"
+  },
+  "lossDate": "2023-10-06",
+  "reportedAt": "2023-10-08T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100113",
+   "fullName": "Ava Murphy"
+  },
+  "reserveAmount": 11098.19,
+  "paidAmount": 3611.4,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "47576",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-07T04:17:34Z"
+ },
+ {
+  "claimId": "CLM-900094",
+  "policy": {
+   "number": "POL-700084"
+  },
+  "lossDate": "2023-04-30",
+  "reportedAt": "2023-05-07T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100008",
+   "fullName": "Elena Cohen"
+  },
+  "reserveAmount": 16354.12,
+  "paidAmount": 7615.17,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "42894",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-17T18:02:52Z"
+ },
+ {
+  "claimId": "CLM-900095",
+  "policy": {
+   "number": "POL-700015"
+  },
+  "lossDate": "2023-11-29",
+  "reportedAt": "2023-11-30T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100093",
+   "fullName": "Priya Ito"
+  },
+  "reserveAmount": 21409.02,
+  "paidAmount": 15391.27,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "97151",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-18T20:21:05Z"
+ },
+ {
+  "claimId": "CLM-900096",
+  "policy": {
+   "number": "POL-700042"
+  },
+  "lossDate": "2023-12-15",
+  "reportedAt": "2023-12-15T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100104",
+   "fullName": "Grace Brown"
+  },
+  "reserveAmount": 12872.08,
+  "paidAmount": 4056.3,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "46983",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-22T02:24:58Z"
+ },
+ {
+  "claimId": "CLM-900097",
+  "policy": {
+   "number": "POL-700060"
+  },
+  "lossDate": "2023-05-25",
+  "reportedAt": "2023-05-25T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100011",
+   "fullName": "Ava Murphy"
+  },
+  "reserveAmount": 6299.73,
+  "paidAmount": 13101.79,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "91844",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-04T14:31:51Z"
+ },
+ {
+  "claimId": "CLM-900098",
+  "policy": {
+   "number": "POL-700124"
+  },
+  "lossDate": "2023-12-02",
+  "reportedAt": "2023-12-04T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100004",
+   "fullName": "Ava Smith"
+  },
+  "reserveAmount": 19651.4,
+  "paidAmount": 8100.96,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "43393",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-14T17:34:07Z"
+ },
+ {
+  "claimId": "CLM-900099",
+  "policy": {
+   "number": "POL-700168"
+  },
+  "lossDate": "2024-03-11",
+  "reportedAt": "2024-03-17T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100070",
+   "fullName": "Arjun Kim"
+  },
+  "reserveAmount": 7761.91,
+  "paidAmount": 4757.88,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "62868",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-12T10:58:58Z"
+ },
+ {
+  "claimId": "CLM-900100",
+  "policy": {
+   "number": "POL-700000"
+  },
+  "lossDate": "2023-10-23",
+  "reportedAt": "2023-10-28T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Omar Reddy"
+  },
+  "reserveAmount": 10361.18,
+  "paidAmount": 6799.85,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "61357",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-11T18:03:55Z"
+ },
+ {
+  "claimId": "CLM-900101",
+  "policy": {
+   "number": "POL-700053"
+  },
+  "lossDate": "2024-02-19",
+  "reportedAt": "2024-02-20T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100008",
+   "fullName": "Ravi Rossi"
+  },
+  "reserveAmount": 4070.42,
+  "paidAmount": 17447.38,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "39422",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-21T22:18:03Z"
+ },
+ {
+  "claimId": "CLM-900102",
+  "policy": {
+   "number": "POL-700017"
+  },
+  "lossDate": "2024-04-09",
+  "reportedAt": "2024-04-12T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100055",
+   "fullName": "Elena Ito"
+  },
+  "reserveAmount": 5103.74,
+  "paidAmount": 15843.59,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "65771",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-10T23:09:33Z"
+ },
+ {
+  "claimId": "CLM-900103",
+  "policy": {
+   "number": "POL-700051"
+  },
+  "lossDate": "2023-08-24",
+  "reportedAt": "2023-08-25T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100018",
+   "fullName": "Lucas Smith"
+  },
+  "reserveAmount": 5289.66,
+  "paidAmount": 8060.96,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "13544",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-30T05:48:46Z"
+ },
+ {
+  "claimId": "CLM-900104",
+  "policy": {
+   "number": "POL-700045"
+  },
+  "lossDate": "2023-06-06",
+  "reportedAt": "2023-06-11T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100048",
+   "fullName": "Wei Murphy"
+  },
+  "reserveAmount": 10389.62,
+  "paidAmount": 1994.11,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "20751",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-13T19:01:11Z"
+ },
+ {
+  "claimId": "CLM-900105",
+  "policy": {
+   "number": "POL-700011"
+  },
+  "lossDate": "2024-04-24",
+  "reportedAt": "2024-05-02T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100095",
+   "fullName": "Lucas Patel"
+  },
+  "reserveAmount": 11261.93,
+  "paidAmount": 3070.46,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "90414",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-29T21:03:52Z"
+ },
+ {
+  "claimId": "CLM-900106",
+  "policy": {
+   "number": "POL-700081"
+  },
+  "lossDate": "2024-02-03",
+  "reportedAt": "2024-02-10T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100033",
+   "fullName": "Sofia Nguyen"
+  },
+  "reserveAmount": 2177.62,
+  "paidAmount": 3178.99,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "43787",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-13T18:17:08Z"
+ },
+ {
+  "claimId": "CLM-900107",
+  "policy": {
+   "number": "POL-700058"
+  },
+  "lossDate": "2024-04-13",
+  "reportedAt": "2024-04-13T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Isla Okafor"
+  },
+  "reserveAmount": 17219.2,
+  "paidAmount": 6718.09,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "43684",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-15T06:26:00Z"
+ },
+ {
+  "claimId": "CLM-900108",
+  "policy": {
+   "number": "POL-700088"
+  },
+  "lossDate": "2023-12-15",
+  "reportedAt": "2023-12-22T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100047",
+   "fullName": "Wei Reddy"
+  },
+  "reserveAmount": 17731.14,
+  "paidAmount": 5396.35,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "54236",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-29T16:32:18Z"
+ },
+ {
+  "claimId": "CLM-900109",
+  "policy": {
+   "number": "POL-700188"
+  },
+  "lossDate": "2023-12-26",
+  "reportedAt": "2023-12-26T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100075",
+   "fullName": "Liam Ito"
+  },
+  "reserveAmount": 19589.75,
+  "paidAmount": 6351.64,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "57964",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-16T15:59:28Z"
+ },
+ {
+  "claimId": "CLM-900110",
+  "policy": {
+   "number": "POL-700074"
+  },
+  "lossDate": "2024-03-21",
+  "reportedAt": "2024-03-24T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Maya Ito"
+  },
+  "reserveAmount": 10422.75,
+  "paidAmount": 16466.99,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "57648",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-29T17:31:29Z"
+ },
+ {
+  "claimId": "CLM-900111",
+  "policy": {
+   "number": "POL-700159"
+  },
+  "lossDate": "2024-09-16",
+  "reportedAt": "2024-09-20T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100048",
+   "fullName": "Noah Garcia"
+  },
+  "reserveAmount": 8260.2,
+  "paidAmount": 3583.54,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "15166",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-29T01:25:49Z"
+ },
+ {
+  "claimId": "CLM-900112",
+  "policy": {
+   "number": "POL-700199"
+  },
+  "lossDate": "2024-05-01",
+  "reportedAt": "2024-05-02T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100004",
+   "fullName": "Kofi Brown"
+  },
+  "reserveAmount": 3869.1,
+  "paidAmount": 12530.24,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "15531",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-30T23:59:36Z"
+ },
+ {
+  "claimId": "CLM-900113",
+  "policy": {
+   "number": "POL-700032"
+  },
+  "lossDate": "2024-10-10",
+  "reportedAt": "2024-10-15T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100041",
+   "fullName": "Sofia Smith"
+  },
+  "reserveAmount": 10882.55,
+  "paidAmount": 9330.06,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "08593",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-15T03:30:30Z"
+ },
+ {
+  "claimId": "CLM-900114",
+  "policy": {
+   "number": "POL-700102"
+  },
+  "lossDate": "2024-10-12",
+  "reportedAt": "2024-10-15T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100047",
+   "fullName": "Priya Murphy"
+  },
+  "reserveAmount": 10520.41,
+  "paidAmount": 7860.46,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "54187",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-20T15:44:24Z"
+ },
+ {
+  "claimId": "CLM-900115",
+  "policy": {
+   "number": "POL-700182"
+  },
+  "lossDate": "2023-12-07",
+  "reportedAt": "2023-12-14T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100075",
+   "fullName": "Elena Haddad"
+  },
+  "reserveAmount": 24760.7,
+  "paidAmount": 3837.13,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "19242",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-07T12:00:34Z"
+ },
+ {
+  "claimId": "CLM-900116",
+  "policy": {
+   "number": "POL-700192"
+  },
+  "lossDate": "2024-07-01",
+  "reportedAt": "2024-07-05T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100098",
+   "fullName": "Ethan Murphy"
+  },
+  "reserveAmount": 12144.06,
+  "paidAmount": 414.5,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "90913",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-01T13:52:54Z"
+ },
+ {
+  "claimId": "CLM-900117",
+  "policy": {
+   "number": "POL-700162"
+  },
+  "lossDate": "2024-04-23",
+  "reportedAt": "2024-05-01T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100069",
+   "fullName": "Chloe Silva"
+  },
+  "reserveAmount": 9050.22,
+  "paidAmount": 12431.47,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "63191",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-04T06:48:20Z"
+ },
+ {
+  "claimId": "CLM-900118",
+  "policy": {
+   "number": "POL-700088"
+  },
+  "lossDate": "2024-07-12",
+  "reportedAt": "2024-07-13T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100068",
+   "fullName": "Ravi Patel"
+  },
+  "reserveAmount": 18124.73,
+  "paidAmount": 3024.97,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "83932",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-04T03:01:59Z"
+ },
+ {
+  "claimId": "CLM-900119",
+  "policy": {
+   "number": "POL-700093"
+  },
+  "lossDate": "2024-01-16",
+  "reportedAt": "2024-01-16T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100014",
+   "fullName": "Noah Cohen"
+  },
+  "reserveAmount": 7607.34,
+  "paidAmount": 15355.23,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "43327",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-29T18:39:56Z"
+ },
+ {
+  "claimId": "CLM-900120",
+  "policy": {
+   "number": "POL-700017"
+  },
+  "lossDate": "2023-08-23",
+  "reportedAt": "2023-08-29T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100073",
+   "fullName": "Chloe Ito"
+  },
+  "reserveAmount": 24035.77,
+  "paidAmount": 4468.63,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "11425",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-09T15:45:10Z"
+ },
+ {
+  "claimId": "CLM-900121",
+  "policy": {
+   "number": "POL-700042"
+  },
+  "lossDate": "2023-12-05",
+  "reportedAt": "2023-12-06T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100028",
+   "fullName": "Isla Silva"
+  },
+  "reserveAmount": 21479.44,
+  "paidAmount": 3694.34,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "08054",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-16T04:04:43Z"
+ },
+ {
+  "claimId": "CLM-900122",
+  "policy": {
+   "number": "POL-700119"
+  },
+  "lossDate": "2023-08-13",
+  "reportedAt": "2023-08-21T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100107",
+   "fullName": "Ethan Smith"
+  },
+  "reserveAmount": 21749.35,
+  "paidAmount": 14126.41,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "49646",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-18T17:56:24Z"
+ },
+ {
+  "claimId": "CLM-900123",
+  "policy": {
+   "number": "POL-700081"
+  },
+  "lossDate": "2024-10-14",
+  "reportedAt": "2024-10-22T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100094",
+   "fullName": "Sofia Brown"
+  },
+  "reserveAmount": 1170.21,
+  "paidAmount": 4380.04,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "98142",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-29T15:44:14Z"
+ },
+ {
+  "claimId": "CLM-900124",
+  "policy": {
+   "number": "POL-700130"
+  },
+  "lossDate": "2023-09-22",
+  "reportedAt": "2023-09-29T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100052",
+   "fullName": "Zara Ito"
+  },
+  "reserveAmount": 15507.24,
+  "paidAmount": 9046.71,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "06085",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-04T00:59:35Z"
+ },
+ {
+  "claimId": "CLM-900125",
+  "policy": {
+   "number": "POL-700061"
+  },
+  "lossDate": "2023-06-18",
+  "reportedAt": "2023-06-26T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100040",
+   "fullName": "Ava Reddy"
+  },
+  "reserveAmount": 958.36,
+  "paidAmount": 5223.03,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "65700",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-12T22:35:17Z"
+ },
+ {
+  "claimId": "CLM-900126",
+  "policy": {
+   "number": "POL-700076"
+  },
+  "lossDate": "2023-09-03",
+  "reportedAt": "2023-09-07T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100063",
+   "fullName": "Ravi Ito"
+  },
+  "reserveAmount": 12413.03,
+  "paidAmount": 12686.68,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "73933",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-04T14:41:15Z"
+ },
+ {
+  "claimId": "CLM-900127",
+  "policy": {
+   "number": "POL-700134"
+  },
+  "lossDate": "2023-06-14",
+  "reportedAt": "2023-06-16T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100077",
+   "fullName": "Mateo Murphy"
+  },
+  "reserveAmount": 10139.8,
+  "paidAmount": 15251.34,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "88075",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-08T15:54:10Z"
+ },
+ {
+  "claimId": "CLM-900128",
+  "policy": {
+   "number": "POL-700031"
+  },
+  "lossDate": "2023-07-26",
+  "reportedAt": "2023-08-01T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100115",
+   "fullName": "Zara Garcia"
+  },
+  "reserveAmount": 4058.8,
+  "paidAmount": 12067.76,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "42408",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-23T08:54:26Z"
+ },
+ {
+  "claimId": "CLM-900129",
+  "policy": {
+   "number": "POL-700054"
+  },
+  "lossDate": "2024-03-18",
+  "reportedAt": "2024-03-24T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100082",
+   "fullName": "Priya Reddy"
+  },
+  "reserveAmount": 10268.67,
+  "paidAmount": 1356.61,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "55018",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-12T02:32:30Z"
+ },
+ {
+  "claimId": "CLM-900130",
+  "policy": {
+   "number": "POL-700025"
+  },
+  "lossDate": "2023-04-03",
+  "reportedAt": "2023-04-05T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100055",
+   "fullName": "Ravi Murphy"
+  },
+  "reserveAmount": 10409.36,
+  "paidAmount": 16417.51,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "94081",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-29T09:46:44Z"
+ },
+ {
+  "claimId": "CLM-900131",
+  "policy": {
+   "number": "POL-700198"
+  },
+  "lossDate": "2024-01-22",
+  "reportedAt": "2024-01-28T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100009",
+   "fullName": "Priya Brown"
+  },
+  "reserveAmount": 22887.9,
+  "paidAmount": 5985.4,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "85684",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-26T06:08:04Z"
+ },
+ {
+  "claimId": "CLM-900132",
+  "policy": {
+   "number": "POL-700015"
+  },
+  "lossDate": "2024-03-28",
+  "reportedAt": "2024-03-31T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100082",
+   "fullName": "Ethan Rossi"
+  },
+  "reserveAmount": 8224.92,
+  "paidAmount": 12652.98,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "91365",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-03T20:50:54Z"
+ },
+ {
+  "claimId": "CLM-900133",
+  "policy": {
+   "number": "POL-700118"
+  },
+  "lossDate": "2024-08-31",
+  "reportedAt": "2024-09-04T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100062",
+   "fullName": "Isla Kim"
+  },
+  "reserveAmount": 6888.44,
+  "paidAmount": 13197.87,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "90483",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-21T16:17:45Z"
+ },
+ {
+  "claimId": "CLM-900134",
+  "policy": {
+   "number": "POL-700121"
+  },
+  "lossDate": "2024-01-25",
+  "reportedAt": "2024-02-01T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100043",
+   "fullName": "Kofi Nguyen"
+  },
+  "reserveAmount": 1899.83,
+  "paidAmount": 16816.9,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "46916",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-24T21:58:11Z"
+ },
+ {
+  "claimId": "CLM-900135",
+  "policy": {
+   "number": "POL-700182"
+  },
+  "lossDate": "2024-08-19",
+  "reportedAt": "2024-08-27T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100107",
+   "fullName": "Wei Garcia"
+  },
+  "reserveAmount": 24016.94,
+  "paidAmount": 17054.63,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "50172",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-24T08:54:08Z"
+ },
+ {
+  "claimId": "CLM-900136",
+  "policy": {
+   "number": "POL-700073"
+  },
+  "lossDate": "2023-05-09",
+  "reportedAt": "2023-05-15T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100023",
+   "fullName": "Arjun Reddy"
+  },
+  "reserveAmount": 3035.92,
+  "paidAmount": 5975.37,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "29873",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-13T13:13:40Z"
+ },
+ {
+  "claimId": "CLM-900137",
+  "policy": {
+   "number": "POL-700091"
+  },
+  "lossDate": "2024-02-04",
+  "reportedAt": "2024-02-04T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100111",
+   "fullName": "Chloe Haddad"
+  },
+  "reserveAmount": 22645.39,
+  "paidAmount": 13357.55,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "65298",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-16T04:18:23Z"
+ },
+ {
+  "claimId": "CLM-900138",
+  "policy": {
+   "number": "POL-700001"
+  },
+  "lossDate": "2023-05-28",
+  "reportedAt": "2023-06-04T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100099",
+   "fullName": "Grace Rossi"
+  },
+  "reserveAmount": 19743.03,
+  "paidAmount": 3834.94,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "71052",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-28T12:12:21Z"
+ },
+ {
+  "claimId": "CLM-900139",
+  "policy": {
+   "number": "POL-700078"
+  },
+  "lossDate": "2024-02-13",
+  "reportedAt": "2024-02-18T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100098",
+   "fullName": "Ravi Chen"
+  },
+  "reserveAmount": 1399.8,
+  "paidAmount": 3650.05,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "80813",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-17T19:31:51Z"
+ },
+ {
+  "claimId": "CLM-900140",
+  "policy": {
+   "number": "POL-700032"
+  },
+  "lossDate": "2023-09-11",
+  "reportedAt": "2023-09-15T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100047",
+   "fullName": "Elena Reddy"
+  },
+  "reserveAmount": 22291.46,
+  "paidAmount": 12498.04,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "33629",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-17T10:28:42Z"
+ },
+ {
+  "claimId": "CLM-900141",
+  "policy": {
+   "number": "POL-700052"
+  },
+  "lossDate": "2024-10-16",
+  "reportedAt": "2024-10-18T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100036",
+   "fullName": "Maya Larsen"
+  },
+  "reserveAmount": 18363.55,
+  "paidAmount": 446.78,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "83785",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-06T08:42:29Z"
+ },
+ {
+  "claimId": "CLM-900142",
+  "policy": {
+   "number": "POL-700091"
+  },
+  "lossDate": "2023-05-30",
+  "reportedAt": "2023-05-30T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100058",
+   "fullName": "Mateo Ito"
+  },
+  "reserveAmount": 15506.2,
+  "paidAmount": 6733.18,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "82872",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-30T14:32:36Z"
+ },
+ {
+  "claimId": "CLM-900143",
+  "policy": {
+   "number": "POL-700179"
+  },
+  "lossDate": "2024-03-01",
+  "reportedAt": "2024-03-06T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100056",
+   "fullName": "Sofia Nguyen"
+  },
+  "reserveAmount": 2088.28,
+  "paidAmount": 17375.6,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "02494",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-16T12:17:35Z"
+ },
+ {
+  "claimId": "CLM-900144",
+  "policy": {
+   "number": "POL-700030"
+  },
+  "lossDate": "2023-03-18",
+  "reportedAt": "2023-03-19T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100036",
+   "fullName": "Wei Nguyen"
+  },
+  "reserveAmount": 11963.17,
+  "paidAmount": 10567.64,
+  "status": "CLOSED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "05705",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-08T04:37:31Z"
+ },
+ {
+  "claimId": "CLM-900145",
+  "policy": {
+   "number": "POL-700146"
+  },
+  "lossDate": "2024-01-15",
+  "reportedAt": "2024-01-22T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100064",
+   "fullName": "Elena Patel"
+  },
+  "reserveAmount": 14012.68,
+  "paidAmount": 3219.59,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "73461",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-15T17:15:55Z"
+ },
+ {
+  "claimId": "CLM-900146",
+  "policy": {
+   "number": "POL-700113"
+  },
+  "lossDate": "2024-03-11",
+  "reportedAt": "2024-03-15T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100010",
+   "fullName": "Wei Brown"
+  },
+  "reserveAmount": 11433.15,
+  "paidAmount": 3762.66,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "81800",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-18T02:37:02Z"
+ },
+ {
+  "claimId": "CLM-900147",
+  "policy": {
+   "number": "POL-700186"
+  },
+  "lossDate": "2023-12-06",
+  "reportedAt": "2023-12-12T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100011",
+   "fullName": "Mateo Kim"
+  },
+  "reserveAmount": 11904.38,
+  "paidAmount": 14697.35,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "73482",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-16T00:55:13Z"
+ },
+ {
+  "claimId": "CLM-900148",
+  "policy": {
+   "number": "POL-700098"
+  },
+  "lossDate": "2024-04-18",
+  "reportedAt": "2024-04-21T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100025",
+   "fullName": "Liam Murphy"
+  },
+  "reserveAmount": 9738.0,
+  "paidAmount": 17013.87,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "52805",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-02T18:46:17Z"
+ },
+ {
+  "claimId": "CLM-900149",
+  "policy": {
+   "number": "POL-700062"
+  },
+  "lossDate": "2023-06-16",
+  "reportedAt": "2023-06-24T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100017",
+   "fullName": "Ava Garcia"
+  },
+  "reserveAmount": 5370.19,
+  "paidAmount": 13608.18,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "03487",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-24T02:34:12Z"
+ },
+ {
+  "claimId": "CLM-900150",
+  "policy": {
+   "number": "POL-700034"
+  },
+  "lossDate": "2023-09-14",
+  "reportedAt": "2023-09-16T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100077",
+   "fullName": "Omar Silva"
+  },
+  "reserveAmount": 22897.87,
+  "paidAmount": 15387.88,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "16605",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-02T14:43:11Z"
+ },
+ {
+  "claimId": "CLM-900151",
+  "policy": {
+   "number": "POL-700178"
+  },
+  "lossDate": "2024-05-23",
+  "reportedAt": "2024-05-25T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100046",
+   "fullName": "Ravi Okafor"
+  },
+  "reserveAmount": 2389.36,
+  "paidAmount": 13884.42,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "60740",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-21T12:10:56Z"
+ },
+ {
+  "claimId": "CLM-900152",
+  "policy": {
+   "number": "POL-700051"
+  },
+  "lossDate": "2023-06-10",
+  "reportedAt": "2023-06-10T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100085",
+   "fullName": "Priya Rossi"
+  },
+  "reserveAmount": 9958.93,
+  "paidAmount": 16532.71,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "23819",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-04T13:20:26Z"
+ },
+ {
+  "claimId": "CLM-900153",
+  "policy": {
+   "number": "POL-700164"
+  },
+  "lossDate": "2023-04-11",
+  "reportedAt": "2023-04-11T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100067",
+   "fullName": "Ava Smith"
+  },
+  "reserveAmount": 1448.84,
+  "paidAmount": 6313.58,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "44615",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-19T02:13:42Z"
+ },
+ {
+  "claimId": "CLM-900154",
+  "policy": {
+   "number": "POL-700168"
+  },
+  "lossDate": "2024-08-03",
+  "reportedAt": "2024-08-05T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100046",
+   "fullName": "Wei Patel"
+  },
+  "reserveAmount": 5632.3,
+  "paidAmount": 5417.72,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "65145",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-15T17:56:28Z"
+ },
+ {
+  "claimId": "CLM-900155",
+  "policy": {
+   "number": "POL-700089"
+  },
+  "lossDate": "2024-03-17",
+  "reportedAt": "2024-03-21T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100072",
+   "fullName": "Lucas Cohen"
+  },
+  "reserveAmount": 18362.65,
+  "paidAmount": 3104.48,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "35241",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-16T16:47:15Z"
+ },
+ {
+  "claimId": "CLM-900156",
+  "policy": {
+   "number": "POL-700089"
+  },
+  "lossDate": "2023-05-14",
+  "reportedAt": "2023-05-21T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100059",
+   "fullName": "Arjun Ito"
+  },
+  "reserveAmount": 8735.91,
+  "paidAmount": 5259.52,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "27290",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-02T09:48:09Z"
+ },
+ {
+  "claimId": "CLM-900157",
+  "policy": {
+   "number": "POL-700155"
+  },
+  "lossDate": "2024-09-22",
+  "reportedAt": "2024-09-27T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100017",
+   "fullName": "Omar Reddy"
+  },
+  "reserveAmount": 19872.3,
+  "paidAmount": 16305.46,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "37074",
+   "state": "OH"
+  },
+  "_ingest_ts": "2025-01-05T17:28:06Z"
+ },
+ {
+  "claimId": "CLM-900158",
+  "policy": {
+   "number": "POL-700142"
+  },
+  "lossDate": "2024-02-07",
+  "reportedAt": "2024-02-14T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100056",
+   "fullName": "Omar Chen"
+  },
+  "reserveAmount": 13653.04,
+  "paidAmount": 1237.71,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "18350",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-20T11:13:25Z"
+ },
+ {
+  "claimId": "CLM-900159",
+  "policy": {
+   "number": "POL-700019"
+  },
+  "lossDate": "2024-01-16",
+  "reportedAt": "2024-01-23T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100112",
+   "fullName": "Sofia Chen"
+  },
+  "reserveAmount": 20398.58,
+  "paidAmount": 2974.21,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "35449",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-30T07:30:02Z"
+ },
+ {
+  "claimId": "CLM-900160",
+  "policy": {
+   "number": "POL-700069"
+  },
+  "lossDate": "2023-11-15",
+  "reportedAt": "2023-11-22T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100099",
+   "fullName": "Ava Murphy"
+  },
+  "reserveAmount": 11491.97,
+  "paidAmount": 2625.25,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "02145",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-27T16:10:55Z"
+ },
+ {
+  "claimId": "CLM-900161",
+  "policy": {
+   "number": "POL-700171"
+  },
+  "lossDate": "2023-09-16",
+  "reportedAt": "2023-09-24T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100022",
+   "fullName": "Hana Patel"
+  },
+  "reserveAmount": 2632.57,
+  "paidAmount": 9588.69,
+  "status": "REOPENED",
+  "lossCause": "fire",
+  "location": {
+   "zip": "75118",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-29T20:13:24Z"
+ },
+ {
+  "claimId": "CLM-900162",
+  "policy": {
+   "number": "POL-700076"
+  },
+  "lossDate": "2024-09-16",
+  "reportedAt": "2024-09-20T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100106",
+   "fullName": "Kofi Larsen"
+  },
+  "reserveAmount": 20845.77,
+  "paidAmount": 17491.84,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "46410",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-05T12:57:46Z"
+ },
+ {
+  "claimId": "CLM-900163",
+  "policy": {
+   "number": "POL-700033"
+  },
+  "lossDate": "2024-02-03",
+  "reportedAt": "2024-02-11T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100061",
+   "fullName": "Ravi Patel"
+  },
+  "reserveAmount": 8022.82,
+  "paidAmount": 15385.6,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "66132",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-04T08:13:08Z"
+ },
+ {
+  "claimId": "CLM-900164",
+  "policy": {
+   "number": "POL-700071"
+  },
+  "lossDate": "2023-03-29",
+  "reportedAt": "2023-04-05T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100070",
+   "fullName": "Kofi Patel"
+  },
+  "reserveAmount": 18467.3,
+  "paidAmount": 15494.55,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "53116",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-30T00:53:31Z"
+ },
+ {
+  "claimId": "CLM-900165",
+  "policy": {
+   "number": "POL-700099"
+  },
+  "lossDate": "2024-07-19",
+  "reportedAt": "2024-07-22T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100037",
+   "fullName": "Mateo Haddad"
+  },
+  "reserveAmount": 1722.26,
+  "paidAmount": 3018.14,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "34328",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-08T00:20:19Z"
+ },
+ {
+  "claimId": "CLM-900166",
+  "policy": {
+   "number": "POL-700194"
+  },
+  "lossDate": "2023-05-04",
+  "reportedAt": "2023-05-08T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100051",
+   "fullName": "Sofia Ito"
+  },
+  "reserveAmount": 14857.06,
+  "paidAmount": 6971.77,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "87297",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-22T04:04:47Z"
+ },
+ {
+  "claimId": "CLM-900167",
+  "policy": {
+   "number": "POL-700157"
+  },
+  "lossDate": "2024-10-19",
+  "reportedAt": "2024-10-26T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100106",
+   "fullName": "Noah Kim"
+  },
+  "reserveAmount": 15635.7,
+  "paidAmount": 13902.94,
+  "status": "REOPENED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "67835",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-16T23:23:03Z"
+ },
+ {
+  "claimId": "CLM-900168",
+  "policy": {
+   "number": "POL-700127"
+  },
+  "lossDate": "2024-05-13",
+  "reportedAt": "2024-05-20T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100053",
+   "fullName": "Wei Cohen"
+  },
+  "reserveAmount": 8210.25,
+  "paidAmount": 13543.24,
+  "status": "REOPENED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "73362",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-03T11:23:14Z"
+ },
+ {
+  "claimId": "CLM-900169",
+  "policy": {
+   "number": "POL-700072"
+  },
+  "lossDate": "2023-07-09",
+  "reportedAt": "2023-07-13T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100110",
+   "fullName": "Grace Garcia"
+  },
+  "reserveAmount": 21628.07,
+  "paidAmount": 15555.29,
+  "status": "CLOSED",
+  "lossCause": "theft",
+  "location": {
+   "zip": "93013",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-18T00:15:32Z"
+ },
+ {
+  "claimId": "CLM-900170",
+  "policy": {
+   "number": "POL-700034"
+  },
+  "lossDate": "2024-01-02",
+  "reportedAt": "2024-01-05T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100030",
+   "fullName": "Chloe Brown"
+  },
+  "reserveAmount": 19519.98,
+  "paidAmount": 14505.16,
+  "status": "SUBROGATION",
+  "lossCause": "theft",
+  "location": {
+   "zip": "86766",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-26T20:43:17Z"
+ },
+ {
+  "claimId": "CLM-900171",
+  "policy": {
+   "number": "POL-700012"
+  },
+  "lossDate": "2023-12-19",
+  "reportedAt": "2023-12-23T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100071",
+   "fullName": "Liam Murphy"
+  },
+  "reserveAmount": 18196.67,
+  "paidAmount": 13781.95,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "95399",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-12T03:31:03Z"
+ },
+ {
+  "claimId": "CLM-900172",
+  "policy": {
+   "number": "POL-700172"
+  },
+  "lossDate": "2023-04-22",
+  "reportedAt": "2023-04-30T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100057",
+   "fullName": "Noah Ito"
+  },
+  "reserveAmount": 2116.19,
+  "paidAmount": 6593.62,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "66610",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-11T23:48:06Z"
+ },
+ {
+  "claimId": "CLM-900173",
+  "policy": {
+   "number": "POL-700017"
+  },
+  "lossDate": "2024-04-30",
+  "reportedAt": "2024-05-04T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100024",
+   "fullName": "Liam Garcia"
+  },
+  "reserveAmount": 12619.07,
+  "paidAmount": 9524.38,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "70076",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-17T23:30:04Z"
+ },
+ {
+  "claimId": "CLM-900174",
+  "policy": {
+   "number": "POL-700064"
+  },
+  "lossDate": "2023-12-02",
+  "reportedAt": "2023-12-05T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100022",
+   "fullName": "Wei Murphy"
+  },
+  "reserveAmount": 9060.85,
+  "paidAmount": 4792.74,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "05506",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-10T15:05:16Z"
+ },
+ {
+  "claimId": "CLM-900175",
+  "policy": {
+   "number": "POL-700015"
+  },
+  "lossDate": "2023-09-27",
+  "reportedAt": "2023-09-29T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100032",
+   "fullName": "Ravi Silva"
+  },
+  "reserveAmount": 13607.24,
+  "paidAmount": 69.78,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "15981",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-18T20:34:15Z"
+ },
+ {
+  "claimId": "CLM-900176",
+  "policy": {
+   "number": "POL-700089"
+  },
+  "lossDate": "2023-08-28",
+  "reportedAt": "2023-08-30T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100032",
+   "fullName": "Ava Ito"
+  },
+  "reserveAmount": 6659.92,
+  "paidAmount": 805.67,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "03059",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-15T21:11:16Z"
+ },
+ {
+  "claimId": "CLM-900177",
+  "policy": {
+   "number": "POL-700126"
+  },
+  "lossDate": "2024-02-04",
+  "reportedAt": "2024-02-11T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100047",
+   "fullName": "Hana Larsen"
+  },
+  "reserveAmount": 23519.23,
+  "paidAmount": 2801.0,
+  "status": "REOPENED",
+  "lossCause": "water",
+  "location": {
+   "zip": "45917",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-27T21:37:04Z"
+ },
+ {
+  "claimId": "CLM-900178",
+  "policy": {
+   "number": "POL-700146"
+  },
+  "lossDate": "2024-03-06",
+  "reportedAt": "2024-03-13T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100035",
+   "fullName": "Elena Larsen"
+  },
+  "reserveAmount": 24112.84,
+  "paidAmount": 3178.01,
+  "status": "OPEN",
+  "lossCause": "collision",
+  "location": {
+   "zip": "76821",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-17T16:57:50Z"
+ },
+ {
+  "claimId": "CLM-900179",
+  "policy": {
+   "number": "POL-700058"
+  },
+  "lossDate": "2023-09-23",
+  "reportedAt": "2023-09-28T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100057",
+   "fullName": "Isla Nguyen"
+  },
+  "reserveAmount": 22052.45,
+  "paidAmount": 14555.39,
+  "status": "SUBROGATION",
+  "lossCause": "hail",
+  "location": {
+   "zip": "73999",
+   "state": "NY"
+  },
+  "_ingest_ts": "2025-01-19T08:47:34Z"
+ },
+ {
+  "claimId": "CLM-900180",
+  "policy": {
+   "number": "POL-700099"
+  },
+  "lossDate": "2023-05-24",
+  "reportedAt": "2023-05-28T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100078",
+   "fullName": "Isla Larsen"
+  },
+  "reserveAmount": 19545.66,
+  "paidAmount": 8552.78,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "02393",
+   "state": "CA"
+  },
+  "_ingest_ts": "2025-01-28T05:58:47Z"
+ },
+ {
+  "claimId": "CLM-900181",
+  "policy": {
+   "number": "POL-700186"
+  },
+  "lossDate": "2024-05-06",
+  "reportedAt": "2024-05-08T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100044",
+   "fullName": "Arjun Patel"
+  },
+  "reserveAmount": 18097.44,
+  "paidAmount": 5867.82,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "22093",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-08T21:48:42Z"
+ },
+ {
+  "claimId": "CLM-900182",
+  "policy": {
+   "number": "POL-700091"
+  },
+  "lossDate": "2024-04-02",
+  "reportedAt": "2024-04-03T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100036",
+   "fullName": "Kofi Silva"
+  },
+  "reserveAmount": 14920.93,
+  "paidAmount": 1097.25,
+  "status": "OPEN",
+  "lossCause": "fire",
+  "location": {
+   "zip": "14959",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-28T17:37:22Z"
+ },
+ {
+  "claimId": "CLM-900183",
+  "policy": {
+   "number": "POL-700075"
+  },
+  "lossDate": "2023-03-02",
+  "reportedAt": "2023-03-03T18:15:00Z",
+  "claimant": {
+   "customerRef": "C100071",
+   "fullName": "Ava Brown"
+  },
+  "reserveAmount": 13254.61,
+  "paidAmount": 15781.46,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "71362",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-06T07:11:43Z"
+ },
+ {
+  "claimId": "CLM-900184",
+  "policy": {
+   "number": "POL-700194"
+  },
+  "lossDate": "2024-09-21",
+  "reportedAt": "2024-09-24T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100109",
+   "fullName": "Maya Okafor"
+  },
+  "reserveAmount": 19910.61,
+  "paidAmount": 3179.36,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "12334",
+   "state": "TX"
+  },
+  "_ingest_ts": "2025-01-20T22:52:14Z"
+ },
+ {
+  "claimId": "CLM-900185",
+  "policy": {
+   "number": "POL-700024"
+  },
+  "lossDate": "2023-10-02",
+  "reportedAt": "2023-10-07T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100052",
+   "fullName": "Chloe Reddy"
+  },
+  "reserveAmount": 3382.4,
+  "paidAmount": 6790.51,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "75307",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-30T01:13:13Z"
+ },
+ {
+  "claimId": "CLM-900186",
+  "policy": {
+   "number": "POL-700017"
+  },
+  "lossDate": "2024-04-05",
+  "reportedAt": "2024-04-11T19:15:00Z",
+  "claimant": {
+   "customerRef": "C100010",
+   "fullName": "Ava Ito"
+  },
+  "reserveAmount": 9128.44,
+  "paidAmount": 8855.98,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "88328",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-03T02:25:40Z"
+ },
+ {
+  "claimId": "CLM-900187",
+  "policy": {
+   "number": "POL-700186"
+  },
+  "lossDate": "2023-04-30",
+  "reportedAt": "2023-05-01T13:15:00Z",
+  "claimant": {
+   "customerRef": "C100051",
+   "fullName": "Maya Rossi"
+  },
+  "reserveAmount": 20481.02,
+  "paidAmount": 549.93,
+  "status": "REOPENED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "91161",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-14T17:29:07Z"
+ },
+ {
+  "claimId": "CLM-900188",
+  "policy": {
+   "number": "POL-700112"
+  },
+  "lossDate": "2024-03-31",
+  "reportedAt": "2024-04-02T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100021",
+   "fullName": "Ethan Silva"
+  },
+  "reserveAmount": 14599.7,
+  "paidAmount": 9582.85,
+  "status": "OPEN",
+  "lossCause": "hail",
+  "location": {
+   "zip": "17882",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-03T21:51:50Z"
+ },
+ {
+  "claimId": "CLM-900189",
+  "policy": {
+   "number": "POL-700187"
+  },
+  "lossDate": "2023-07-22",
+  "reportedAt": "2023-07-23T16:15:00Z",
+  "claimant": {
+   "customerRef": "C100058",
+   "fullName": "Chloe Brown"
+  },
+  "reserveAmount": 10783.48,
+  "paidAmount": 9048.29,
+  "status": "OPEN",
+  "lossCause": "water",
+  "location": {
+   "zip": "77765",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-22T13:18:23Z"
+ },
+ {
+  "claimId": "CLM-900190",
+  "policy": {
+   "number": "POL-700110"
+  },
+  "lossDate": "2023-06-30",
+  "reportedAt": "2023-06-30T10:15:00Z",
+  "claimant": {
+   "customerRef": "C100053",
+   "fullName": "Ethan Silva"
+  },
+  "reserveAmount": 12346.65,
+  "paidAmount": 8773.64,
+  "status": "SUBROGATION",
+  "lossCause": "collision",
+  "location": {
+   "zip": "70484",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-11T02:25:52Z"
+ },
+ {
+  "claimId": "CLM-900191",
+  "policy": {
+   "number": "POL-700149"
+  },
+  "lossDate": "2023-08-12",
+  "reportedAt": "2023-08-12T09:15:00Z",
+  "claimant": {
+   "customerRef": "C100033",
+   "fullName": "Wei Smith"
+  },
+  "reserveAmount": 10228.02,
+  "paidAmount": 1038.72,
+  "status": "OPEN",
+  "lossCause": "theft",
+  "location": {
+   "zip": "48217",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-15T05:48:28Z"
+ },
+ {
+  "claimId": "CLM-900192",
+  "policy": {
+   "number": "POL-700049"
+  },
+  "lossDate": "2023-10-10",
+  "reportedAt": "2023-10-12T17:15:00Z",
+  "claimant": {
+   "customerRef": "C100050",
+   "fullName": "Wei Garcia"
+  },
+  "reserveAmount": 7157.7,
+  "paidAmount": 12697.52,
+  "status": "CLOSED",
+  "lossCause": "collision",
+  "location": {
+   "zip": "47009",
+   "state": "WA"
+  },
+  "_ingest_ts": "2025-01-16T07:05:53Z"
+ },
+ {
+  "claimId": "CLM-900193",
+  "policy": {
+   "number": "POL-700016"
+  },
+  "lossDate": "2024-03-27",
+  "reportedAt": "2024-04-02T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100087",
+   "fullName": "Priya Larsen"
+  },
+  "reserveAmount": 3028.97,
+  "paidAmount": 9798.63,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "25928",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-19T14:15:35Z"
+ },
+ {
+  "claimId": "CLM-900194",
+  "policy": {
+   "number": "POL-700086"
+  },
+  "lossDate": "2024-03-01",
+  "reportedAt": "2024-03-01T08:15:00Z",
+  "claimant": {
+   "customerRef": "C100112",
+   "fullName": "Maya Larsen"
+  },
+  "reserveAmount": 16241.79,
+  "paidAmount": 9649.79,
+  "status": "SUBROGATION",
+  "lossCause": "fire",
+  "location": {
+   "zip": "12427",
+   "state": "AZ"
+  },
+  "_ingest_ts": "2025-01-13T04:23:32Z"
+ },
+ {
+  "claimId": "CLM-900195",
+  "policy": {
+   "number": "POL-700064"
+  },
+  "lossDate": "2023-11-08",
+  "reportedAt": "2023-11-13T12:15:00Z",
+  "claimant": {
+   "customerRef": "C100003",
+   "fullName": "Kofi Rossi"
+  },
+  "reserveAmount": 10360.74,
+  "paidAmount": 9525.65,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "91253",
+   "state": "GA"
+  },
+  "_ingest_ts": "2025-01-09T22:19:27Z"
+ },
+ {
+  "claimId": "CLM-900196",
+  "policy": {
+   "number": "POL-700104"
+  },
+  "lossDate": "2023-11-22",
+  "reportedAt": "2023-11-29T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100068",
+   "fullName": "Grace Cohen"
+  },
+  "reserveAmount": 2195.13,
+  "paidAmount": 11222.64,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "67164",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-20T10:39:17Z"
+ },
+ {
+  "claimId": "CLM-900197",
+  "policy": {
+   "number": "POL-700182"
+  },
+  "lossDate": "2023-06-04",
+  "reportedAt": "2023-06-04T11:15:00Z",
+  "claimant": {
+   "customerRef": "C100115",
+   "fullName": "Arjun Okafor"
+  },
+  "reserveAmount": 24873.32,
+  "paidAmount": 12744.74,
+  "status": "SUBROGATION",
+  "lossCause": "water",
+  "location": {
+   "zip": "74573",
+   "state": "IL"
+  },
+  "_ingest_ts": "2025-01-30T03:35:57Z"
+ },
+ {
+  "claimId": "CLM-900198",
+  "policy": {
+   "number": "POL-700090"
+  },
+  "lossDate": "2023-09-05",
+  "reportedAt": "2023-09-13T14:15:00Z",
+  "claimant": {
+   "customerRef": "C100048",
+   "fullName": "Wei Haddad"
+  },
+  "reserveAmount": 7879.66,
+  "paidAmount": 11180.85,
+  "status": "CLOSED",
+  "lossCause": "water",
+  "location": {
+   "zip": "64807",
+   "state": "MA"
+  },
+  "_ingest_ts": "2025-01-29T05:55:03Z"
+ },
+ {
+  "claimId": "CLM-900199",
+  "policy": {
+   "number": "POL-700177"
+  },
+  "lossDate": "2023-11-25",
+  "reportedAt": "2023-11-29T15:15:00Z",
+  "claimant": {
+   "customerRef": "C100108",
+   "fullName": "Grace Haddad"
+  },
+  "reserveAmount": 14628.07,
+  "paidAmount": 5205.33,
+  "status": "CLOSED",
+  "lossCause": "hail",
+  "location": {
+   "zip": "27372",
+   "state": "NC"
+  },
+  "_ingest_ts": "2025-01-15T22:17:52Z"
+ }
+]

@@ -1,0 +1,31 @@
+npi,provider_name,specialty,practice_zip,practice_state,accepting_new
+1507223578,Dr. Hana Murphy,Cardiology,99901,IL,true
+1338169154,Dr. Maya Rossi,Orthopedics,24230,OH,true
+1315738116,Dr. Omar Chen,Psychiatry,14105,NY,true
+1306058807,Dr. Priya Smith,Orthopedics,53511,OH,false
+1579764764,Dr. Elena Okafor,Pulmonology,41914,MA,true
+1489509403,Dr. Kofi Larsen,Family Medicine,16467,WA,true
+1136795790,Dr. Omar Smith,Family Medicine,24817,AZ,true
+1877095028,Dr. Isla Patel,Family Medicine,15768,MA,false
+1748552707,Dr. Lucas Nguyen,Family Medicine,97738,AZ,true
+1175265203,Dr. Mateo Larsen,Cardiology,27751,NY,false
+1306094830,Dr. Noah Okafor,Psychiatry,65825,MA,true
+1863772255,Dr. Ethan Reddy,Cardiology,81816,AZ,true
+1508792982,Dr. Kofi Murphy,Orthopedics,52852,IL,false
+1534799032,Dr. Noah Chen,Family Medicine,81569,CA,true
+1154358443,Dr. Elena Okafor,Psychiatry,96911,NY,false
+1577629107,Dr. Omar Kim,Cardiology,71911,GA,true
+1549437857,Dr. Elena Kim,Family Medicine,40262,AZ,false
+1833823688,Dr. Noah Brown,Family Medicine,95020,NY,false
+1696018008,Dr. Elena Haddad,Orthopedics,02931,NC,true
+1869367023,Dr. Isla Brown,Cardiology,25377,NY,true
+1449523158,Dr. Chloe Patel,Orthopedics,29306,MA,false
+1578329749,Dr. Kofi Okafor,Psychiatry,15229,AZ,false
+1827206481,Dr. Mateo Larsen,Orthopedics,20108,NC,false
+1247500915,Dr. Elena Kim,Cardiology,17686,OH,false
+1624289168,Dr. Liam Brown,Family Medicine,61988,OH,false
+1652675644,Dr. Ethan Silva,Pulmonology,33371,WA,false
+1811735335,Dr. Ethan Reddy,Psychiatry,36682,IL,true
+1882784747,Dr. Priya Silva,Orthopedics,15744,AZ,false
+1771672724,Dr. Mateo Cohen,Family Medicine,78740,TX,true
+1293989323,Dr. Arjun Silva,Pulmonology,18334,TX,true

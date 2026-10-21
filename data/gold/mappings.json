@@ -1,0 +1,134 @@
+{
+ "description": "Hand-labelled gold alignment for the 12 synthetic sources. Values are ontology local names (ob:<name>); null means the column has no ontology concept and should stay unmapped.",
+ "sources": {
+  "insurance/policy_admin.csv": {
+   "POL_NO": "policyNumber",
+   "HOLDER_ID": "customerId",
+   "HOLDER_NM": "customerName",
+   "EFF_DT": "policyEffectiveDate",
+   "EXP_DT": "policyExpirationDate",
+   "PREM_AMT": "premiumAmount",
+   "LOB_CD": "lineOfBusiness",
+   "ST_CD": "stateCode",
+   "AGT_ID": "agentId",
+   "ETL_BATCH_ID": null
+  },
+  "insurance/claims_events.json": {
+   "claimId": "claimId",
+   "policy.number": "policyNumber",
+   "lossDate": "lossDate",
+   "reportedAt": "claimReportedTimestamp",
+   "claimant.customerRef": "customerId",
+   "claimant.fullName": "customerName",
+   "reserveAmount": "reserveAmount",
+   "paidAmount": "paidAmount",
+   "status": "claimStatus",
+   "lossCause": "lossCause",
+   "location.zip": "postalCode",
+   "location.state": "stateCode",
+   "_ingest_ts": null
+  },
+  "insurance/agents_crm.csv": {
+   "agent_code": "agentId",
+   "agent_full_name": "agentName",
+   "agency": "agencyName",
+   "region": "salesRegion",
+   "hire_date": "agentHireDate",
+   "email": "agentEmail"
+  },
+  "retail/pos_sales.csv": {
+   "txn_id": "transactionId",
+   "store_no": "storeId",
+   "sku": "productSku",
+   "qty": "quantity",
+   "unit_price": "unitPrice",
+   "disc_amt": "discountAmount",
+   "txn_ts": "saleTimestamp",
+   "cust_loyalty_id": "customerId",
+   "cashier": null
+  },
+  "retail/ecommerce_orders.json": {
+   "order_id": "orderId",
+   "customer.id": "customerId",
+   "customer.email": "customerEmail",
+   "customer.name": "customerName",
+   "placed_at": "orderTimestamp",
+   "items_total": "orderSubtotal",
+   "shipping_fee": "shippingFee",
+   "ship_to.postal_code": "postalCode",
+   "ship_to.country": "countryCode",
+   "channel": "salesChannel"
+  },
+  "retail/product_catalog.csv": {
+   "product_sku": "productSku",
+   "product_title": "productName",
+   "category_lvl1": "productCategory",
+   "brand_name": "brandName",
+   "list_price": "listPrice",
+   "launch_dt": "productLaunchDate"
+  },
+  "healthcare/ehr_encounters.json": {
+   "encounterId": "encounterId",
+   "patient.mrn": "patientMrn",
+   "patient.dob": "patientBirthDate",
+   "patient.sex": "patientSex",
+   "admitDate": "admitDate",
+   "dischargeDate": "dischargeDate",
+   "encounterType": "encounterType",
+   "primaryDx": "primaryDiagnosisCode",
+   "attendingNpi": "providerNpi",
+   "facility.code": "facilityCode",
+   "facility.state": "stateCode",
+   "totalCharges": "totalCharges"
+  },
+  "healthcare/pharmacy_fills.csv": {
+   "rx_id": "prescriptionId",
+   "patient_mrn": "patientMrn",
+   "ndc_code": "ndcCode",
+   "fill_dt": "fillDate",
+   "days_supply": "daysSupply",
+   "qty_dispensed": "quantityDispensed",
+   "copay_amt": "copayAmount",
+   "prescriber_npi": "providerNpi"
+  },
+  "healthcare/provider_directory.csv": {
+   "npi": "providerNpi",
+   "provider_name": "providerName",
+   "specialty": "providerSpecialty",
+   "practice_zip": "postalCode",
+   "practice_state": "stateCode",
+   "accepting_new": "acceptingNewPatients"
+  },
+  "finance/ledger_entries.csv": {
+   "je_id": "journalEntryId",
+   "acct_no": "accountNumber",
+   "posting_date": "postingDate",
+   "debit_amt": "debitAmount",
+   "credit_amt": "creditAmount",
+   "cost_center": "costCenter",
+   "currency_cd": "currencyCode",
+   "memo": null
+  },
+  "finance/card_transactions.json": {
+   "txnRef": "cardTransactionId",
+   "card.last4": "cardLast4",
+   "card.holderId": "customerId",
+   "auth_ts": "authorizationTimestamp",
+   "amount.value": "transactionAmount",
+   "amount.currency": "currencyCode",
+   "merchant.name": "merchantName",
+   "merchant.mcc": "merchantCategoryCode",
+   "merchant.city": "city",
+   "merchant.country": "countryCode",
+   "isFraudFlag": "fraudFlag"
+  },
+  "finance/branch_registry.csv": {
+   "branch_id": "branchId",
+   "branch_name": "branchName",
+   "branch_city": "city",
+   "branch_state": "stateCode",
+   "opened_on": "branchOpenDate",
+   "manager_name": "managerName"
+  }
+ }
+}

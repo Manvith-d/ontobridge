@@ -1,0 +1,148 @@
+@prefix ob:   <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://manvith-d.github.io/ontobridge/ontology/finance> a owl:Ontology ;
+  dcterms:title "OntoBridge finance ontology" ;
+  rdfs:comment "Properties used to align finance sources. Synonyms are generic industry terms, not copies of any source column." .
+
+# ---- Properties ---------------------------------------------------------------------
+ob:journalEntryId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "journal entry identifier"@en ;
+  skos:altLabel "journal entry id"@en, "journal id"@en, "entry id"@en ;
+  rdfs:comment "Business key of a general ledger journal entry."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "finance" .
+
+ob:accountNumber a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "GL account number"@en ;
+  skos:altLabel "account number"@en, "gl account"@en, "account code"@en ;
+  rdfs:comment "General ledger account."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AccountDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "finance" .
+
+ob:postingDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "posting date"@en ;
+  skos:altLabel "post date"@en, "posted on"@en, "gl date"@en ;
+  rdfs:comment "Date the entry posted to the ledger."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "finance" .
+
+ob:debitAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "debit amount"@en ;
+  skos:altLabel "debit"@en, "dr amount"@en ;
+  rdfs:comment "Debit side of the entry."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "finance" .
+
+ob:creditAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "credit amount"@en ;
+  skos:altLabel "credit"@en, "cr amount"@en ;
+  rdfs:comment "Credit side of the entry."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "finance" .
+
+ob:costCenter a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "cost center"@en ;
+  skos:altLabel "cost centre"@en, "department code"@en, "responsibility center"@en ;
+  rdfs:comment "Cost center the entry is charged to."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:AccountDimension ;
+  ob:domainArea "finance" .
+
+ob:cardTransactionId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "card transaction identifier"@en ;
+  skos:altLabel "transaction reference"@en, "authorization id"@en, "card transaction id"@en ;
+  rdfs:comment "Business key of a card authorization."@en ;
+  rdfs:range xsd:string ;
+  ob:domainArea "finance" .
+
+ob:cardLast4 a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "card last four digits"@en ;
+  skos:altLabel "last four"@en, "pan last four"@en, "card suffix"@en ;
+  rdfs:comment "Last four digits of the card number."@en ;
+  rdfs:range xsd:string ;
+  ob:valuePattern "^\\d{4}$" ;
+  ob:domainArea "finance" .
+
+ob:authorizationTimestamp a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "authorization timestamp"@en ;
+  skos:altLabel "authorized at"@en, "authorization time"@en ;
+  rdfs:comment "When the card transaction was authorized."@en ;
+  rdfs:range xsd:dateTime ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "finance" .
+
+ob:transactionAmount a owl:DatatypeProperty, qb:MeasureProperty ;
+  rdfs:label "transaction amount"@en ;
+  skos:altLabel "amount"@en, "transaction value"@en, "purchase amount"@en ;
+  rdfs:comment "Amount of the card transaction."@en ;
+  rdfs:range xsd:decimal ;
+  ob:domainArea "finance" .
+
+ob:merchantName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "merchant name"@en ;
+  skos:altLabel "payee"@en, "merchant dba"@en, "doing business as"@en ;
+  rdfs:comment "Doing-business-as name of the merchant."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:MerchantDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "finance" .
+
+ob:merchantCategoryCode a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "merchant category code"@en ;
+  skos:altLabel "mcc"@en, "category code"@en ;
+  rdfs:comment "ISO 18245 merchant category code."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:MerchantDimension ;
+  ob:valuePattern "^\\d{4}$" ;
+  ob:domainArea "finance" .
+
+ob:fraudFlag a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "fraud flag"@en ;
+  skos:altLabel "fraud indicator"@en, "suspected fraud"@en, "is fraud"@en ;
+  rdfs:comment "Whether the transaction was flagged as fraud."@en ;
+  rdfs:range xsd:boolean ;
+  ob:domainArea "finance" .
+
+ob:branchId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "branch identifier"@en ;
+  skos:altLabel "branch id"@en, "branch code"@en, "branch number"@en ;
+  rdfs:comment "Business key of a bank branch."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:BranchDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "finance" .
+
+ob:branchName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "branch name"@en ;
+  skos:altLabel "office name"@en, "branch office"@en ;
+  rdfs:comment "Name of the branch."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:BranchDimension ;
+  ob:domainArea "finance" .
+
+ob:branchOpenDate a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "branch open date"@en ;
+  skos:altLabel "opened on"@en, "opening date"@en, "open date"@en ;
+  rdfs:comment "Date the branch opened."@en ;
+  rdfs:range xsd:date ;
+  ob:conformedDimension ob:DateDimension ;
+  ob:domainArea "finance" .
+
+ob:managerName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "branch manager name"@en ;
+  skos:altLabel "manager"@en, "branch manager"@en ;
+  rdfs:comment "Name of the branch manager."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:BranchDimension ;
+  ob:domainArea "finance" .
+

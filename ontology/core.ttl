@@ -1,0 +1,128 @@
+@prefix ob:   <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://manvith-d.github.io/ontobridge/ontology/core> a owl:Ontology ;
+  dcterms:title "OntoBridge core ontology" ;
+  rdfs:comment "Properties used to align core sources. Synonyms are generic industry terms, not copies of any source column." .
+
+# ---- Modeling vocabulary -------------------------------------------------------------
+ob:IdentifierProperty a owl:Class ; rdfs:subClassOf qb:ComponentProperty ;
+  rdfs:label "identifier property" ; rdfs:comment "Business key of an entity or event (a degenerate dimension in a fact)." .
+ob:ConformedDimension a owl:Class ; rdfs:label "conformed dimension" ;
+  rdfs:comment "A dimension shared across sources and domains, built once and reused." .
+ob:conformedDimension a owl:ObjectProperty ; rdfs:label "conformed dimension" ; rdfs:range ob:ConformedDimension .
+ob:naturalKey a owl:DatatypeProperty ; rdfs:label "natural key" ; rdfs:range xsd:boolean ;
+  rdfs:comment "True when the property is the business key of its conformed dimension." .
+ob:tableName a owl:DatatypeProperty ; rdfs:range xsd:string .
+ob:domainArea a owl:DatatypeProperty ; rdfs:range xsd:string .
+ob:valuePattern a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:comment "Regular expression typical values match." .
+ob:CustomerDimension a ob:ConformedDimension ; rdfs:label "customer" ; ob:tableName "dim_customer" .
+ob:LocationDimension a ob:ConformedDimension ; rdfs:label "location" ; ob:tableName "dim_location" .
+ob:CurrencyDimension a ob:ConformedDimension ; rdfs:label "currency" ; ob:tableName "dim_currency" .
+ob:PolicyDimension a ob:ConformedDimension ; rdfs:label "policy" ; ob:tableName "dim_policy" .
+ob:AgentDimension a ob:ConformedDimension ; rdfs:label "agent" ; ob:tableName "dim_agent" .
+ob:StoreDimension a ob:ConformedDimension ; rdfs:label "store" ; ob:tableName "dim_store" .
+ob:ProductDimension a ob:ConformedDimension ; rdfs:label "product" ; ob:tableName "dim_product" .
+ob:PatientDimension a ob:ConformedDimension ; rdfs:label "patient" ; ob:tableName "dim_patient" .
+ob:ProviderDimension a ob:ConformedDimension ; rdfs:label "provider" ; ob:tableName "dim_provider" .
+ob:FacilityDimension a ob:ConformedDimension ; rdfs:label "facility" ; ob:tableName "dim_facility" .
+ob:AccountDimension a ob:ConformedDimension ; rdfs:label "account" ; ob:tableName "dim_account" .
+ob:MerchantDimension a ob:ConformedDimension ; rdfs:label "merchant" ; ob:tableName "dim_merchant" .
+ob:BranchDimension a ob:ConformedDimension ; rdfs:label "branch" ; ob:tableName "dim_branch" .
+ob:DateDimension a ob:ConformedDimension ; rdfs:label "date" ; ob:tableName "dim_date" .
+
+# ---- Alignment and lineage vocabulary (PROV-O) ----------------------------------------
+ob:SourceDataset a owl:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A CSV or JSON extract an agent aligned." .
+ob:SourceColumn a owl:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "One column (or dotted JSON path) of a source dataset." .
+ob:ColumnMapping a owl:Class ; rdfs:subClassOf prov:Entity ;
+  rdfs:comment "An agent's or reviewer's decision that a source column carries an ontology property." .
+ob:LakehouseColumn a owl:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A column of a generated silver or gold table." .
+ob:inDataset a owl:ObjectProperty ; rdfs:domain ob:SourceColumn ; rdfs:range ob:SourceDataset .
+ob:sourceColumn a owl:ObjectProperty ; rdfs:domain ob:ColumnMapping ; rdfs:range ob:SourceColumn .
+ob:targetProperty a owl:ObjectProperty ; rdfs:domain ob:ColumnMapping .
+ob:alignedTo a owl:ObjectProperty ; rdfs:domain ob:SourceColumn ;
+  rdfs:comment "Shortcut for an accepted mapping: the column carries this property." .
+ob:columnName a owl:AnnotationProperty .
+ob:status a owl:AnnotationProperty .
+ob:score a owl:AnnotationProperty .
+ob:method a owl:AnnotationProperty .
+
+# ---- Properties ---------------------------------------------------------------------
+ob:customerId a owl:DatatypeProperty, ob:IdentifierProperty ;
+  rdfs:label "customer identifier"@en ;
+  skos:altLabel "customer id"@en, "client id"@en, "policyholder id"@en, "account holder id"@en, "member id"@en, "loyalty id"@en, "customer number"@en, "customer reference"@en ;
+  rdfs:comment "Identifies the person or business that buys or holds a product."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:CustomerDimension ;
+  ob:naturalKey true ;
+  ob:domainArea "core" .
+
+ob:customerName a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "customer name"@en ;
+  skos:altLabel "client name"@en, "policyholder name"@en, "cardholder name"@en, "customer full name"@en, "insured name"@en, "claimant name"@en ;
+  rdfs:comment "Display name of the customer."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:CustomerDimension ;
+  ob:domainArea "core" .
+
+ob:customerEmail a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "customer email address"@en ;
+  skos:altLabel "email"@en, "e-mail"@en, "contact email"@en, "customer email"@en ;
+  rdfs:comment "Primary email address of the customer."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:CustomerDimension ;
+  ob:valuePattern "^[^@\\s]+@[^@\\s]+\\.[a-z]{2,}$" ;
+  ob:domainArea "core" .
+
+ob:stateCode a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "state code"@en ;
+  skos:altLabel "state"@en, "province"@en, "us state"@en, "state abbreviation"@en ;
+  rdfs:comment "Two-letter state or province code."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:LocationDimension ;
+  ob:valuePattern "^[A-Z]{2}$" ;
+  ob:domainArea "core" .
+
+ob:postalCode a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "postal code"@en ;
+  skos:altLabel "zip"@en, "zip code"@en, "postcode"@en, "postal"@en ;
+  rdfs:comment "Postal or ZIP code."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:LocationDimension ;
+  ob:valuePattern "^\\d{5}$" ;
+  ob:domainArea "core" .
+
+ob:countryCode a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "country code"@en ;
+  skos:altLabel "country"@en, "iso country"@en ;
+  rdfs:comment "ISO 3166 two-letter country code."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:LocationDimension ;
+  ob:valuePattern "^[A-Z]{2}$" ;
+  ob:domainArea "core" .
+
+ob:city a owl:DatatypeProperty, qb:AttributeProperty ;
+  rdfs:label "city"@en ;
+  skos:altLabel "town"@en, "municipality"@en, "city name"@en ;
+  rdfs:comment "City or town name."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:LocationDimension ;
+  ob:domainArea "core" .
+
+ob:currencyCode a owl:DatatypeProperty, qb:DimensionProperty ;
+  rdfs:label "currency code"@en ;
+  skos:altLabel "currency"@en, "iso currency"@en, "ccy"@en ;
+  rdfs:comment "ISO 4217 currency code."@en ;
+  rdfs:range xsd:string ;
+  ob:conformedDimension ob:CurrencyDimension ;
+  ob:naturalKey true ;
+  ob:valuePattern "^[A-Z]{3}$" ;
+  ob:domainArea "core" .
+

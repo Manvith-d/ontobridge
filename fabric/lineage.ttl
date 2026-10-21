@@ -1,0 +1,704 @@
+@prefix ob: <https://manvith-d.github.io/ontobridge/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/finance.fact_card_transactions> a qb:DataStructureDefinition ;
+    rdfs:label "finance.fact_card_transactions" ;
+    qb:component [ qb:dimension ob:currencyCode ],
+        [ qb:dimension ob:customerId ],
+        [ qb:dimension ob:merchantName ],
+        [ qb:dimension ob:fraudFlag ],
+        [ qb:measure ob:transactionAmount ],
+        [ qb:dimension ob:cardLast4 ],
+        [ qb:dimension ob:countryCode ],
+        [ qb:dimension ob:cardTransactionId ],
+        [ qb:dimension ob:city ],
+        [ qb:dimension ob:authorizationTimestamp ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/finance.fact_ledger_entries> a qb:DataStructureDefinition ;
+    rdfs:label "finance.fact_ledger_entries" ;
+    qb:component [ qb:dimension ob:journalEntryId ],
+        [ qb:dimension ob:accountNumber ],
+        [ qb:dimension ob:postingDate ],
+        [ qb:measure ob:creditAmount ],
+        [ qb:measure ob:debitAmount ],
+        [ qb:dimension ob:currencyCode ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/healthcare.fact_ehr_encounters> a qb:DataStructureDefinition ;
+    rdfs:label "healthcare.fact_ehr_encounters" ;
+    qb:component [ qb:dimension ob:providerNpi ],
+        [ qb:dimension ob:admitDate ],
+        [ qb:measure ob:totalCharges ],
+        [ qb:dimension ob:stateCode ],
+        [ qb:dimension ob:patientMrn ],
+        [ qb:dimension ob:facilityCode ],
+        [ qb:dimension ob:encounterType ],
+        [ qb:dimension ob:dischargeDate ],
+        [ qb:dimension ob:encounterId ],
+        [ qb:dimension ob:primaryDiagnosisCode ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/healthcare.fact_pharmacy_fills> a qb:DataStructureDefinition ;
+    rdfs:label "healthcare.fact_pharmacy_fills" ;
+    qb:component [ qb:dimension ob:prescriptionId ],
+        [ qb:dimension ob:providerNpi ],
+        [ qb:measure ob:quantityDispensed ],
+        [ qb:dimension ob:fillDate ],
+        [ qb:measure ob:daysSupply ],
+        [ qb:measure ob:copayAmount ],
+        [ qb:dimension ob:patientMrn ],
+        [ qb:dimension ob:ndcCode ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/insurance.fact_claims_events> a qb:DataStructureDefinition ;
+    rdfs:label "insurance.fact_claims_events" ;
+    qb:component [ qb:dimension ob:lossCause ],
+        [ qb:dimension ob:postalCode ],
+        [ qb:measure ob:reserveAmount ],
+        [ qb:measure ob:paidAmount ],
+        [ qb:dimension ob:claimStatus ],
+        [ qb:dimension ob:customerId ],
+        [ qb:dimension ob:claimId ],
+        [ qb:dimension ob:policyNumber ],
+        [ qb:dimension ob:lossDate ],
+        [ qb:dimension ob:stateCode ],
+        [ qb:dimension ob:claimReportedTimestamp ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/insurance.fact_policy_admin> a qb:DataStructureDefinition ;
+    rdfs:label "insurance.fact_policy_admin" ;
+    qb:component [ qb:dimension ob:agentId ],
+        [ qb:dimension ob:policyExpirationDate ],
+        [ qb:dimension ob:customerId ],
+        [ qb:dimension ob:policyEffectiveDate ],
+        [ qb:dimension ob:policyNumber ],
+        [ qb:measure ob:premiumAmount ],
+        [ qb:dimension ob:stateCode ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/retail.fact_ecommerce_orders> a qb:DataStructureDefinition ;
+    rdfs:label "retail.fact_ecommerce_orders" ;
+    qb:component [ qb:dimension ob:orderTimestamp ],
+        [ qb:measure ob:orderSubtotal ],
+        [ qb:dimension ob:customerId ],
+        [ qb:dimension ob:salesChannel ],
+        [ qb:dimension ob:countryCode ],
+        [ qb:dimension ob:postalCode ],
+        [ qb:measure ob:shippingFee ],
+        [ qb:dimension ob:orderId ] .
+
+<https://manvith-d.github.io/ontobridge/id/dsd/retail.fact_pos_sales> a qb:DataStructureDefinition ;
+    rdfs:label "retail.fact_pos_sales" ;
+    qb:component [ qb:dimension ob:transactionId ],
+        [ qb:dimension ob:storeId ],
+        [ qb:dimension ob:saleTimestamp ],
+        [ qb:measure ob:quantity ],
+        [ qb:measure ob:unitPrice ],
+        [ qb:dimension ob:customerId ],
+        [ qb:measure ob:discountAmount ],
+        [ qb:dimension ob:productSku ] .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_account#account_number> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_account.account_number" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#acct_no> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_account#cost_center> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_account.cost_center" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#cost_center> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#branch_id> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.branch_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#branch_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#branch_name> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.branch_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#branch_name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#branch_open_date> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.branch_open_date" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#opened_on> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#city> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.city" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#branch_city> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#manager_name> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.manager_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#manager_name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_branch#state_code> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_branch.state_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/branch_registry.csv#branch_state> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_currency#currency_code> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_currency.currency_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#amount.currency>,
+        <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#currency_cd> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_customer#customer_id> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_customer.customer_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#card.holderId> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_location#city> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_location.city" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.city> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_location#country_code> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_location.country_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.country> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_merchant#merchant_category_code> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_merchant.merchant_category_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.mcc> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.dim_merchant#merchant_name> a ob:LakehouseColumn ;
+    rdfs:label "finance.dim_merchant.merchant_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#authorization_date_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.authorization_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#auth_ts> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#authorization_timestamp> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.authorization_timestamp" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#auth_ts> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#card_last_4> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.card_last_4" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#card.last4> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#card_transaction_id> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.card_transaction_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#txnRef> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#currency_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.currency_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#amount.currency> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#customer_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.customer_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#card.holderId> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#fraud_flag> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.fraud_flag" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#isFraudFlag> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#location_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.location_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.city>,
+        <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.country> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#merchant_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.merchant_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#merchant.name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_card_transactions#transaction_amount> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_card_transactions.transaction_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/card_transactions.json#amount.value> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#account_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.account_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#acct_no> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#credit_amount> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.credit_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#credit_amt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#currency_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.currency_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#currency_cd> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#debit_amount> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.debit_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#debit_amt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#journal_entry_id> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.journal_entry_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#je_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/finance.fact_ledger_entries#posting_date_key> a ob:LakehouseColumn ;
+    rdfs:label "finance.fact_ledger_entries.posting_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/finance/ledger_entries.csv#posting_date> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_facility#facility_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_facility.facility_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#facility.code> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_location#state_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_location.state_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#facility.state> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_patient#patient_birth_date> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_patient.patient_birth_date" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#patient.dob> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_patient#patient_mrn> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_patient.patient_mrn" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#patient.mrn>,
+        <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#patient_mrn> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_patient#patient_sex> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_patient.patient_sex" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#patient.sex> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#accepting_new_patients> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.accepting_new_patients" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#accepting_new> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#postal_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.postal_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#practice_zip> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#provider_name> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.provider_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#provider_name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#provider_npi> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.provider_npi" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#attendingNpi>,
+        <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#prescriber_npi>,
+        <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#npi> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#provider_specialty> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.provider_specialty" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#specialty> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.dim_provider#state_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.dim_provider.state_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#facility.state>,
+        <https://manvith-d.github.io/ontobridge/id/source/healthcare/provider_directory.csv#practice_state> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#admit_date_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.admit_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#admitDate> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#discharge_date_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.discharge_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#dischargeDate> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#encounter_id> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.encounter_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#encounterId> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#encounter_type> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.encounter_type" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#encounterType> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#facility_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.facility_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#facility.code> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#location_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.location_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#facility.state> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#patient_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.patient_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#patient.mrn> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#primary_diagnosis_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.primary_diagnosis_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#primaryDx> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#provider_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.provider_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#attendingNpi> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_ehr_encounters#total_charges> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_ehr_encounters.total_charges" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/ehr_encounters.json#totalCharges> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#copay_amount> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.copay_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#copay_amt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#days_supply> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.days_supply" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#days_supply> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#fill_date_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.fill_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#fill_dt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#ndc_code> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.ndc_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#ndc_code> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#patient_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.patient_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#patient_mrn> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#prescription_id> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.prescription_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#rx_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#provider_key> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.provider_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#prescriber_npi> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/healthcare.fact_pharmacy_fills#quantity_dispensed> a ob:LakehouseColumn ;
+    rdfs:label "healthcare.fact_pharmacy_fills.quantity_dispensed" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/healthcare/pharmacy_fills.csv#qty_dispensed> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#agency_name> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.agency_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#agency> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#agent_email> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.agent_email" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#email> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#agent_hire_date> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.agent_hire_date" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#hire_date> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#agent_id> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.agent_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#agent_code>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#AGT_ID> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#agent_name> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.agent_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#agent_full_name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_agent#sales_region> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_agent.sales_region" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/agents_crm.csv#region> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_customer#customer_id> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_customer.customer_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#claimant.customerRef>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#HOLDER_ID> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_customer#customer_name> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_customer.customer_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#claimant.fullName>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#HOLDER_NM> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_location#postal_code> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_location.postal_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#location.zip> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_location#state_code> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_location.state_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#location.state>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#ST_CD> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_policy#line_of_business> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_policy.line_of_business" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#LOB_CD> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.dim_policy#policy_number> a ob:LakehouseColumn ;
+    rdfs:label "insurance.dim_policy.policy_number" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#policy.number>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#POL_NO> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#claim_id> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.claim_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#claimId> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#claim_reported_date_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.claim_reported_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#reportedAt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#claim_reported_timestamp> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.claim_reported_timestamp" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#reportedAt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#claim_status> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.claim_status" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#status> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#customer_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.customer_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#claimant.customerRef> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#location_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.location_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#location.state>,
+        <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#location.zip> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#loss_cause> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.loss_cause" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#lossCause> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#loss_date_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.loss_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#lossDate> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#paid_amount> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.paid_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#paidAmount> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#policy_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.policy_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#policy.number> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_claims_events#reserve_amount> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_claims_events.reserve_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/claims_events.json#reserveAmount> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#agent_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.agent_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#AGT_ID> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#customer_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.customer_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#HOLDER_ID> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#location_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.location_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#ST_CD> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#policy_effective_date_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.policy_effective_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#EFF_DT> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#policy_expiration_date_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.policy_expiration_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#EXP_DT> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#policy_key> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.policy_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#POL_NO> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/insurance.fact_policy_admin#premium_amount> a ob:LakehouseColumn ;
+    rdfs:label "insurance.fact_policy_admin.premium_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/insurance/policy_admin.csv#PREM_AMT> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_customer#customer_email> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_customer.customer_email" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#customer.email> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_customer#customer_id> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_customer.customer_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#customer.id>,
+        <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#cust_loyalty_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_customer#customer_name> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_customer.customer_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#customer.name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_location#country_code> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_location.country_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#ship_to.country> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_location#postal_code> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_location.postal_code" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#ship_to.postal_code> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#brand_name> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.brand_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#brand_name> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#list_price> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.list_price" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#list_price> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#product_category> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.product_category" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#category_lvl1> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#product_launch_date> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.product_launch_date" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#launch_dt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#product_name> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.product_name" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#product_title> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_product#product_sku> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_product.product_sku" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#sku>,
+        <https://manvith-d.github.io/ontobridge/id/source/retail/product_catalog.csv#product_sku> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.dim_store#store_id> a ob:LakehouseColumn ;
+    rdfs:label "retail.dim_store.store_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#store_no> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#customer_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.customer_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#customer.id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#location_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.location_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#ship_to.country>,
+        <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#ship_to.postal_code> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#order_date_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.order_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#placed_at> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#order_id> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.order_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#order_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#order_subtotal> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.order_subtotal" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#items_total> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#order_timestamp> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.order_timestamp" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#placed_at> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#sales_channel> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.sales_channel" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#channel> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_ecommerce_orders#shipping_fee> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_ecommerce_orders.shipping_fee" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/ecommerce_orders.json#shipping_fee> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#customer_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.customer_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#cust_loyalty_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#discount_amount> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.discount_amount" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#disc_amt> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#product_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.product_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#sku> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#quantity> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.quantity" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#qty> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#sale_date_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.sale_date_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#txn_ts> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#sale_timestamp> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.sale_timestamp" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#txn_ts> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#store_key> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.store_key" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#store_no> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#transaction_id> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.transaction_id" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#txn_id> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/lakehouse/retail.fact_pos_sales#unit_price> a ob:LakehouseColumn ;
+    rdfs:label "retail.fact_pos_sales.unit_price" ;
+    prov:wasDerivedFrom <https://manvith-d.github.io/ontobridge/id/source/retail/pos_sales.csv#unit_price> ;
+    prov:wasGeneratedBy <https://manvith-d.github.io/ontobridge/id/activity/star-schema> .
+
+<https://manvith-d.github.io/ontobridge/id/activity/star-schema> a prov:Activity .
+

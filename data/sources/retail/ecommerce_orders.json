@@ -1,0 +1,3202 @@
+[
+ {
+  "order_id": "ORD-200000",
+  "customer": {
+   "id": "C100000",
+   "email": "c100000@mail.example",
+   "name": "Zara Kim"
+  },
+  "placed_at": "2024-02-23T21:34:24Z",
+  "items_total": 361.76,
+  "shipping_fee": 15.8,
+  "ship_to": {
+   "postal_code": "45779",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200001",
+  "customer": {
+   "id": "C100032",
+   "email": "c100032@mail.example",
+   "name": "Maya Kim"
+  },
+  "placed_at": "2024-05-24T16:41:44Z",
+  "items_total": 75.34,
+  "shipping_fee": 1.58,
+  "ship_to": {
+   "postal_code": "09338",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200002",
+  "customer": {
+   "id": "C100055",
+   "email": "c100055@mail.example",
+   "name": "Priya Reddy"
+  },
+  "placed_at": "2024-01-29T00:24:36Z",
+  "items_total": 83.9,
+  "shipping_fee": 13.23,
+  "ship_to": {
+   "postal_code": "06769",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200003",
+  "customer": {
+   "id": "C100115",
+   "email": "c100115@mail.example",
+   "name": "Priya Haddad"
+  },
+  "placed_at": "2024-12-01T16:10:01Z",
+  "items_total": 211.65,
+  "shipping_fee": 20.12,
+  "ship_to": {
+   "postal_code": "39101",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200004",
+  "customer": {
+   "id": "C100043",
+   "email": "c100043@mail.example",
+   "name": "Kofi Murphy"
+  },
+  "placed_at": "2024-02-18T08:40:03Z",
+  "items_total": 544.12,
+  "shipping_fee": 17.1,
+  "ship_to": {
+   "postal_code": "27734",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200005",
+  "customer": {
+   "id": "C100099",
+   "email": "c100099@mail.example",
+   "name": "Zara Smith"
+  },
+  "placed_at": "2024-02-17T10:40:29Z",
+  "items_total": 525.01,
+  "shipping_fee": 1.56,
+  "ship_to": {
+   "postal_code": "67597",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200006",
+  "customer": {
+   "id": "C100106",
+   "email": "c100106@mail.example",
+   "name": "Ravi Okafor"
+  },
+  "placed_at": "2024-12-07T01:31:12Z",
+  "items_total": 438.53,
+  "shipping_fee": 22.02,
+  "ship_to": {
+   "postal_code": "06595",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200007",
+  "customer": {
+   "id": "C100059",
+   "email": "c100059@mail.example",
+   "name": "Sofia Rossi"
+  },
+  "placed_at": "2024-01-04T06:13:33Z",
+  "items_total": 478.01,
+  "shipping_fee": 12.14,
+  "ship_to": {
+   "postal_code": "92367",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200008",
+  "customer": {
+   "id": "C100086",
+   "email": "c100086@mail.example",
+   "name": "Kofi Reddy"
+  },
+  "placed_at": "2024-09-27T23:25:26Z",
+  "items_total": 609.77,
+  "shipping_fee": 3.87,
+  "ship_to": {
+   "postal_code": "98190",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200009",
+  "customer": {
+   "id": "C100032",
+   "email": "c100032@mail.example",
+   "name": "Chloe Cohen"
+  },
+  "placed_at": "2024-01-15T21:45:18Z",
+  "items_total": 539.3,
+  "shipping_fee": 10.79,
+  "ship_to": {
+   "postal_code": "27720",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200010",
+  "customer": {
+   "id": "C100056",
+   "email": "c100056@mail.example",
+   "name": "Kofi Patel"
+  },
+  "placed_at": "2024-07-21T11:03:10Z",
+  "items_total": 253.11,
+  "shipping_fee": 15.33,
+  "ship_to": {
+   "postal_code": "98139",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200011",
+  "customer": {
+   "id": "C100060",
+   "email": "c100060@mail.example",
+   "name": "Noah Ito"
+  },
+  "placed_at": "2024-07-28T05:29:16Z",
+  "items_total": 550.03,
+  "shipping_fee": 15.77,
+  "ship_to": {
+   "postal_code": "46540",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200012",
+  "customer": {
+   "id": "C100090",
+   "email": "c100090@mail.example",
+   "name": "Kofi Ito"
+  },
+  "placed_at": "2024-05-10T07:03:22Z",
+  "items_total": 446.13,
+  "shipping_fee": 3.61,
+  "ship_to": {
+   "postal_code": "64893",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200013",
+  "customer": {
+   "id": "C100055",
+   "email": "c100055@mail.example",
+   "name": "Omar Chen"
+  },
+  "placed_at": "2024-07-28T01:39:50Z",
+  "items_total": 121.21,
+  "shipping_fee": 1.83,
+  "ship_to": {
+   "postal_code": "82677",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200014",
+  "customer": {
+   "id": "C100030",
+   "email": "c100030@mail.example",
+   "name": "Zara Patel"
+  },
+  "placed_at": "2024-08-15T05:04:03Z",
+  "items_total": 339.84,
+  "shipping_fee": 5.24,
+  "ship_to": {
+   "postal_code": "84344",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200015",
+  "customer": {
+   "id": "C100055",
+   "email": "c100055@mail.example",
+   "name": "Isla Okafor"
+  },
+  "placed_at": "2024-11-24T15:34:57Z",
+  "items_total": 497.67,
+  "shipping_fee": 3.33,
+  "ship_to": {
+   "postal_code": "87771",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200016",
+  "customer": {
+   "id": "C100096",
+   "email": "c100096@mail.example",
+   "name": "Grace Larsen"
+  },
+  "placed_at": "2024-03-03T23:17:28Z",
+  "items_total": 300.01,
+  "shipping_fee": 14.44,
+  "ship_to": {
+   "postal_code": "83124",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200017",
+  "customer": {
+   "id": "C100011",
+   "email": "c100011@mail.example",
+   "name": "Zara Chen"
+  },
+  "placed_at": "2024-10-27T20:53:16Z",
+  "items_total": 349.62,
+  "shipping_fee": 11.13,
+  "ship_to": {
+   "postal_code": "29004",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200018",
+  "customer": {
+   "id": "C100054",
+   "email": "c100054@mail.example",
+   "name": "Lucas Haddad"
+  },
+  "placed_at": "2024-06-25T23:33:28Z",
+  "items_total": 137.78,
+  "shipping_fee": 6.2,
+  "ship_to": {
+   "postal_code": "32659",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200019",
+  "customer": {
+   "id": "C100100",
+   "email": "c100100@mail.example",
+   "name": "Liam Nguyen"
+  },
+  "placed_at": "2024-11-21T03:19:01Z",
+  "items_total": 18.05,
+  "shipping_fee": 16.18,
+  "ship_to": {
+   "postal_code": "53367",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200020",
+  "customer": {
+   "id": "C100033",
+   "email": "c100033@mail.example",
+   "name": "Liam Patel"
+  },
+  "placed_at": "2024-02-14T17:32:31Z",
+  "items_total": 375.71,
+  "shipping_fee": 23.31,
+  "ship_to": {
+   "postal_code": "30839",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200021",
+  "customer": {
+   "id": "C100014",
+   "email": "c100014@mail.example",
+   "name": "Mateo Chen"
+  },
+  "placed_at": "2024-07-11T19:12:36Z",
+  "items_total": 567.89,
+  "shipping_fee": 7.7,
+  "ship_to": {
+   "postal_code": "19018",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200022",
+  "customer": {
+   "id": "C100056",
+   "email": "c100056@mail.example",
+   "name": "Kofi Patel"
+  },
+  "placed_at": "2024-11-20T10:15:36Z",
+  "items_total": 203.15,
+  "shipping_fee": 8.26,
+  "ship_to": {
+   "postal_code": "24610",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200023",
+  "customer": {
+   "id": "C100113",
+   "email": "c100113@mail.example",
+   "name": "Isla Smith"
+  },
+  "placed_at": "2024-08-08T06:02:15Z",
+  "items_total": 35.6,
+  "shipping_fee": 2.03,
+  "ship_to": {
+   "postal_code": "51003",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200024",
+  "customer": {
+   "id": "C100004",
+   "email": "c100004@mail.example",
+   "name": "Kofi Kim"
+  },
+  "placed_at": "2024-12-30T09:09:20Z",
+  "items_total": 358.06,
+  "shipping_fee": 22.37,
+  "ship_to": {
+   "postal_code": "66791",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200025",
+  "customer": {
+   "id": "C100071",
+   "email": "c100071@mail.example",
+   "name": "Sofia Garcia"
+  },
+  "placed_at": "2024-04-17T05:36:38Z",
+  "items_total": 596.98,
+  "shipping_fee": 16.03,
+  "ship_to": {
+   "postal_code": "24327",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200026",
+  "customer": {
+   "id": "C100079",
+   "email": "c100079@mail.example",
+   "name": "Zara Okafor"
+  },
+  "placed_at": "2024-11-14T13:01:28Z",
+  "items_total": 607.8,
+  "shipping_fee": 9.01,
+  "ship_to": {
+   "postal_code": "78823",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200027",
+  "customer": {
+   "id": "C100041",
+   "email": "c100041@mail.example",
+   "name": "Ravi Chen"
+  },
+  "placed_at": "2024-01-10T20:48:05Z",
+  "items_total": 395.64,
+  "shipping_fee": 21.8,
+  "ship_to": {
+   "postal_code": "85816",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200028",
+  "customer": {
+   "id": "C100059",
+   "email": "c100059@mail.example",
+   "name": "Ethan Nguyen"
+  },
+  "placed_at": "2024-09-01T20:31:29Z",
+  "items_total": 646.96,
+  "shipping_fee": 5.07,
+  "ship_to": {
+   "postal_code": "17764",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200029",
+  "customer": {
+   "id": "C100003",
+   "email": "c100003@mail.example",
+   "name": "Elena Garcia"
+  },
+  "placed_at": "2024-09-15T10:48:55Z",
+  "items_total": 313.09,
+  "shipping_fee": 15.21,
+  "ship_to": {
+   "postal_code": "58322",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200030",
+  "customer": {
+   "id": "C100044",
+   "email": "c100044@mail.example",
+   "name": "Ravi Patel"
+  },
+  "placed_at": "2024-02-09T17:11:03Z",
+  "items_total": 385.82,
+  "shipping_fee": 13.6,
+  "ship_to": {
+   "postal_code": "31843",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200031",
+  "customer": {
+   "id": "C100078",
+   "email": "c100078@mail.example",
+   "name": "Ravi Brown"
+  },
+  "placed_at": "2024-05-28T10:52:00Z",
+  "items_total": 509.14,
+  "shipping_fee": 0.42,
+  "ship_to": {
+   "postal_code": "34747",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200032",
+  "customer": {
+   "id": "C100045",
+   "email": "c100045@mail.example",
+   "name": "Wei Silva"
+  },
+  "placed_at": "2024-09-05T21:31:14Z",
+  "items_total": 28.61,
+  "shipping_fee": 20.57,
+  "ship_to": {
+   "postal_code": "38466",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200033",
+  "customer": {
+   "id": "C100057",
+   "email": "c100057@mail.example",
+   "name": "Kofi Ito"
+  },
+  "placed_at": "2024-06-04T16:25:04Z",
+  "items_total": 473.07,
+  "shipping_fee": 10.66,
+  "ship_to": {
+   "postal_code": "07425",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200034",
+  "customer": {
+   "id": "C100037",
+   "email": "c100037@mail.example",
+   "name": "Liam Silva"
+  },
+  "placed_at": "2024-12-13T13:29:16Z",
+  "items_total": 467.23,
+  "shipping_fee": 14.01,
+  "ship_to": {
+   "postal_code": "22424",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200035",
+  "customer": {
+   "id": "C100035",
+   "email": "c100035@mail.example",
+   "name": "Sofia Kim"
+  },
+  "placed_at": "2024-05-13T15:04:13Z",
+  "items_total": 393.88,
+  "shipping_fee": 7.41,
+  "ship_to": {
+   "postal_code": "49340",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200036",
+  "customer": {
+   "id": "C100001",
+   "email": "c100001@mail.example",
+   "name": "Hana Brown"
+  },
+  "placed_at": "2024-08-14T20:21:41Z",
+  "items_total": 597.52,
+  "shipping_fee": 15.94,
+  "ship_to": {
+   "postal_code": "22387",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200037",
+  "customer": {
+   "id": "C100047",
+   "email": "c100047@mail.example",
+   "name": "Isla Kim"
+  },
+  "placed_at": "2024-04-03T04:11:55Z",
+  "items_total": 612.56,
+  "shipping_fee": 8.05,
+  "ship_to": {
+   "postal_code": "24396",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200038",
+  "customer": {
+   "id": "C100011",
+   "email": "c100011@mail.example",
+   "name": "Arjun Haddad"
+  },
+  "placed_at": "2024-10-12T04:54:34Z",
+  "items_total": 240.56,
+  "shipping_fee": 20.49,
+  "ship_to": {
+   "postal_code": "05104",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200039",
+  "customer": {
+   "id": "C100118",
+   "email": "c100118@mail.example",
+   "name": "Chloe Ito"
+  },
+  "placed_at": "2024-08-26T10:48:06Z",
+  "items_total": 588.66,
+  "shipping_fee": 18.47,
+  "ship_to": {
+   "postal_code": "69698",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200040",
+  "customer": {
+   "id": "C100025",
+   "email": "c100025@mail.example",
+   "name": "Omar Haddad"
+  },
+  "placed_at": "2024-04-11T09:21:00Z",
+  "items_total": 296.54,
+  "shipping_fee": 16.88,
+  "ship_to": {
+   "postal_code": "94232",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200041",
+  "customer": {
+   "id": "C100084",
+   "email": "c100084@mail.example",
+   "name": "Mateo Patel"
+  },
+  "placed_at": "2024-10-03T12:59:44Z",
+  "items_total": 477.57,
+  "shipping_fee": 11.12,
+  "ship_to": {
+   "postal_code": "15398",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200042",
+  "customer": {
+   "id": "C100068",
+   "email": "c100068@mail.example",
+   "name": "Omar Rossi"
+  },
+  "placed_at": "2024-10-22T01:09:49Z",
+  "items_total": 175.32,
+  "shipping_fee": 12.78,
+  "ship_to": {
+   "postal_code": "36025",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200043",
+  "customer": {
+   "id": "C100099",
+   "email": "c100099@mail.example",
+   "name": "Hana Silva"
+  },
+  "placed_at": "2024-10-25T05:04:37Z",
+  "items_total": 458.67,
+  "shipping_fee": 9.12,
+  "ship_to": {
+   "postal_code": "53490",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200044",
+  "customer": {
+   "id": "C100019",
+   "email": "c100019@mail.example",
+   "name": "Ravi Kim"
+  },
+  "placed_at": "2024-05-06T05:46:57Z",
+  "items_total": 194.88,
+  "shipping_fee": 24.51,
+  "ship_to": {
+   "postal_code": "66141",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200045",
+  "customer": {
+   "id": "C100095",
+   "email": "c100095@mail.example",
+   "name": "Grace Smith"
+  },
+  "placed_at": "2024-04-23T13:15:31Z",
+  "items_total": 539.07,
+  "shipping_fee": 14.13,
+  "ship_to": {
+   "postal_code": "12589",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200046",
+  "customer": {
+   "id": "C100108",
+   "email": "c100108@mail.example",
+   "name": "Isla Garcia"
+  },
+  "placed_at": "2024-08-26T18:30:28Z",
+  "items_total": 210.65,
+  "shipping_fee": 5.07,
+  "ship_to": {
+   "postal_code": "18891",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200047",
+  "customer": {
+   "id": "C100042",
+   "email": "c100042@mail.example",
+   "name": "Zara Silva"
+  },
+  "placed_at": "2024-02-28T06:13:42Z",
+  "items_total": 222.46,
+  "shipping_fee": 24.68,
+  "ship_to": {
+   "postal_code": "04698",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200048",
+  "customer": {
+   "id": "C100072",
+   "email": "c100072@mail.example",
+   "name": "Arjun Larsen"
+  },
+  "placed_at": "2024-05-04T11:41:56Z",
+  "items_total": 187.32,
+  "shipping_fee": 19.17,
+  "ship_to": {
+   "postal_code": "83096",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200049",
+  "customer": {
+   "id": "C100061",
+   "email": "c100061@mail.example",
+   "name": "Maya Murphy"
+  },
+  "placed_at": "2024-09-20T07:37:12Z",
+  "items_total": 286.95,
+  "shipping_fee": 20.23,
+  "ship_to": {
+   "postal_code": "95996",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200050",
+  "customer": {
+   "id": "C100039",
+   "email": "c100039@mail.example",
+   "name": "Liam Patel"
+  },
+  "placed_at": "2024-02-13T05:08:17Z",
+  "items_total": 177.69,
+  "shipping_fee": 9.33,
+  "ship_to": {
+   "postal_code": "47753",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200051",
+  "customer": {
+   "id": "C100080",
+   "email": "c100080@mail.example",
+   "name": "Liam Garcia"
+  },
+  "placed_at": "2024-02-13T13:17:18Z",
+  "items_total": 104.5,
+  "shipping_fee": 5.52,
+  "ship_to": {
+   "postal_code": "86753",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200052",
+  "customer": {
+   "id": "C100060",
+   "email": "c100060@mail.example",
+   "name": "Arjun Reddy"
+  },
+  "placed_at": "2024-10-24T05:59:32Z",
+  "items_total": 487.08,
+  "shipping_fee": 2.39,
+  "ship_to": {
+   "postal_code": "74624",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200053",
+  "customer": {
+   "id": "C100109",
+   "email": "c100109@mail.example",
+   "name": "Zara Okafor"
+  },
+  "placed_at": "2024-07-03T20:18:57Z",
+  "items_total": 425.82,
+  "shipping_fee": 2.19,
+  "ship_to": {
+   "postal_code": "55101",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200054",
+  "customer": {
+   "id": "C100001",
+   "email": "c100001@mail.example",
+   "name": "Lucas Nguyen"
+  },
+  "placed_at": "2024-04-03T14:32:55Z",
+  "items_total": 184.35,
+  "shipping_fee": 3.69,
+  "ship_to": {
+   "postal_code": "79551",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200055",
+  "customer": {
+   "id": "C100082",
+   "email": "c100082@mail.example",
+   "name": "Priya Kim"
+  },
+  "placed_at": "2024-11-18T02:05:11Z",
+  "items_total": 609.06,
+  "shipping_fee": 9.19,
+  "ship_to": {
+   "postal_code": "56333",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200056",
+  "customer": {
+   "id": "C100096",
+   "email": "c100096@mail.example",
+   "name": "Ava Brown"
+  },
+  "placed_at": "2024-10-30T18:11:56Z",
+  "items_total": 132.29,
+  "shipping_fee": 0.45,
+  "ship_to": {
+   "postal_code": "28347",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200057",
+  "customer": {
+   "id": "C100042",
+   "email": "c100042@mail.example",
+   "name": "Zara Silva"
+  },
+  "placed_at": "2024-05-30T14:23:21Z",
+  "items_total": 520.87,
+  "shipping_fee": 7.94,
+  "ship_to": {
+   "postal_code": "25467",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200058",
+  "customer": {
+   "id": "C100050",
+   "email": "c100050@mail.example",
+   "name": "Elena Brown"
+  },
+  "placed_at": "2024-06-28T19:21:14Z",
+  "items_total": 635.78,
+  "shipping_fee": 9.52,
+  "ship_to": {
+   "postal_code": "51008",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200059",
+  "customer": {
+   "id": "C100118",
+   "email": "c100118@mail.example",
+   "name": "Kofi Nguyen"
+  },
+  "placed_at": "2024-08-03T19:31:22Z",
+  "items_total": 42.94,
+  "shipping_fee": 24.79,
+  "ship_to": {
+   "postal_code": "86953",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200060",
+  "customer": {
+   "id": "C100076",
+   "email": "c100076@mail.example",
+   "name": "Kofi Ito"
+  },
+  "placed_at": "2024-06-18T23:28:20Z",
+  "items_total": 160.06,
+  "shipping_fee": 5.98,
+  "ship_to": {
+   "postal_code": "87679",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200061",
+  "customer": {
+   "id": "C100033",
+   "email": "c100033@mail.example",
+   "name": "Elena Reddy"
+  },
+  "placed_at": "2024-04-08T09:39:27Z",
+  "items_total": 196.11,
+  "shipping_fee": 24.19,
+  "ship_to": {
+   "postal_code": "70960",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200062",
+  "customer": {
+   "id": "C100053",
+   "email": "c100053@mail.example",
+   "name": "Priya Chen"
+  },
+  "placed_at": "2024-12-16T11:03:47Z",
+  "items_total": 643.21,
+  "shipping_fee": 7.36,
+  "ship_to": {
+   "postal_code": "79263",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200063",
+  "customer": {
+   "id": "C100042",
+   "email": "c100042@mail.example",
+   "name": "Mateo Nguyen"
+  },
+  "placed_at": "2024-10-17T14:22:47Z",
+  "items_total": 625.2,
+  "shipping_fee": 23.55,
+  "ship_to": {
+   "postal_code": "66465",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200064",
+  "customer": {
+   "id": "C100051",
+   "email": "c100051@mail.example",
+   "name": "Wei Nguyen"
+  },
+  "placed_at": "2024-04-27T22:06:16Z",
+  "items_total": 243.47,
+  "shipping_fee": 8.32,
+  "ship_to": {
+   "postal_code": "91496",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200065",
+  "customer": {
+   "id": "C100100",
+   "email": "c100100@mail.example",
+   "name": "Wei Okafor"
+  },
+  "placed_at": "2024-10-11T21:56:16Z",
+  "items_total": 177.41,
+  "shipping_fee": 10.15,
+  "ship_to": {
+   "postal_code": "61513",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200066",
+  "customer": {
+   "id": "C100049",
+   "email": "c100049@mail.example",
+   "name": "Wei Brown"
+  },
+  "placed_at": "2024-10-17T03:53:26Z",
+  "items_total": 617.05,
+  "shipping_fee": 17.52,
+  "ship_to": {
+   "postal_code": "72873",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200067",
+  "customer": {
+   "id": "C100095",
+   "email": "c100095@mail.example",
+   "name": "Ava Smith"
+  },
+  "placed_at": "2024-04-17T15:28:36Z",
+  "items_total": 369.14,
+  "shipping_fee": 21.57,
+  "ship_to": {
+   "postal_code": "99243",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200068",
+  "customer": {
+   "id": "C100041",
+   "email": "c100041@mail.example",
+   "name": "Liam Rossi"
+  },
+  "placed_at": "2024-10-15T00:05:54Z",
+  "items_total": 369.63,
+  "shipping_fee": 14.23,
+  "ship_to": {
+   "postal_code": "43207",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200069",
+  "customer": {
+   "id": "C100053",
+   "email": "c100053@mail.example",
+   "name": "Maya Haddad"
+  },
+  "placed_at": "2024-02-09T11:31:19Z",
+  "items_total": 179.25,
+  "shipping_fee": 13.59,
+  "ship_to": {
+   "postal_code": "52396",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200070",
+  "customer": {
+   "id": "C100079",
+   "email": "c100079@mail.example",
+   "name": "Isla Patel"
+  },
+  "placed_at": "2024-05-03T21:33:23Z",
+  "items_total": 151.48,
+  "shipping_fee": 10.77,
+  "ship_to": {
+   "postal_code": "10897",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200071",
+  "customer": {
+   "id": "C100024",
+   "email": "c100024@mail.example",
+   "name": "Maya Cohen"
+  },
+  "placed_at": "2024-05-31T07:42:36Z",
+  "items_total": 344.93,
+  "shipping_fee": 19.53,
+  "ship_to": {
+   "postal_code": "59517",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200072",
+  "customer": {
+   "id": "C100096",
+   "email": "c100096@mail.example",
+   "name": "Lucas Ito"
+  },
+  "placed_at": "2024-11-10T15:26:24Z",
+  "items_total": 421.23,
+  "shipping_fee": 12.16,
+  "ship_to": {
+   "postal_code": "97253",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200073",
+  "customer": {
+   "id": "C100080",
+   "email": "c100080@mail.example",
+   "name": "Ravi Smith"
+  },
+  "placed_at": "2024-09-01T14:49:13Z",
+  "items_total": 286.36,
+  "shipping_fee": 16.38,
+  "ship_to": {
+   "postal_code": "75397",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200074",
+  "customer": {
+   "id": "C100117",
+   "email": "c100117@mail.example",
+   "name": "Chloe Chen"
+  },
+  "placed_at": "2024-02-17T21:43:47Z",
+  "items_total": 189.94,
+  "shipping_fee": 19.68,
+  "ship_to": {
+   "postal_code": "36941",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200075",
+  "customer": {
+   "id": "C100005",
+   "email": "c100005@mail.example",
+   "name": "Maya Ito"
+  },
+  "placed_at": "2024-01-20T01:08:25Z",
+  "items_total": 626.72,
+  "shipping_fee": 4.65,
+  "ship_to": {
+   "postal_code": "06381",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200076",
+  "customer": {
+   "id": "C100098",
+   "email": "c100098@mail.example",
+   "name": "Zara Brown"
+  },
+  "placed_at": "2024-10-16T00:31:18Z",
+  "items_total": 178.55,
+  "shipping_fee": 11.37,
+  "ship_to": {
+   "postal_code": "60707",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200077",
+  "customer": {
+   "id": "C100053",
+   "email": "c100053@mail.example",
+   "name": "Chloe Nguyen"
+  },
+  "placed_at": "2024-09-02T03:01:11Z",
+  "items_total": 346.4,
+  "shipping_fee": 22.86,
+  "ship_to": {
+   "postal_code": "10391",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200078",
+  "customer": {
+   "id": "C100108",
+   "email": "c100108@mail.example",
+   "name": "Liam Brown"
+  },
+  "placed_at": "2024-09-24T16:20:21Z",
+  "items_total": 124.78,
+  "shipping_fee": 11.52,
+  "ship_to": {
+   "postal_code": "84988",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200079",
+  "customer": {
+   "id": "C100000",
+   "email": "c100000@mail.example",
+   "name": "Wei Nguyen"
+  },
+  "placed_at": "2024-08-04T03:49:49Z",
+  "items_total": 93.25,
+  "shipping_fee": 0.99,
+  "ship_to": {
+   "postal_code": "15064",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200080",
+  "customer": {
+   "id": "C100092",
+   "email": "c100092@mail.example",
+   "name": "Hana Patel"
+  },
+  "placed_at": "2024-04-29T02:22:44Z",
+  "items_total": 331.36,
+  "shipping_fee": 22.69,
+  "ship_to": {
+   "postal_code": "91194",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200081",
+  "customer": {
+   "id": "C100076",
+   "email": "c100076@mail.example",
+   "name": "Grace Reddy"
+  },
+  "placed_at": "2024-08-16T00:22:32Z",
+  "items_total": 50.22,
+  "shipping_fee": 19.25,
+  "ship_to": {
+   "postal_code": "87497",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200082",
+  "customer": {
+   "id": "C100022",
+   "email": "c100022@mail.example",
+   "name": "Noah Silva"
+  },
+  "placed_at": "2024-12-08T11:08:41Z",
+  "items_total": 626.28,
+  "shipping_fee": 17.04,
+  "ship_to": {
+   "postal_code": "57727",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200083",
+  "customer": {
+   "id": "C100026",
+   "email": "c100026@mail.example",
+   "name": "Mateo Kim"
+  },
+  "placed_at": "2024-06-21T22:03:48Z",
+  "items_total": 388.68,
+  "shipping_fee": 20.19,
+  "ship_to": {
+   "postal_code": "50220",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200084",
+  "customer": {
+   "id": "C100088",
+   "email": "c100088@mail.example",
+   "name": "Omar Smith"
+  },
+  "placed_at": "2024-03-14T11:17:45Z",
+  "items_total": 327.58,
+  "shipping_fee": 16.96,
+  "ship_to": {
+   "postal_code": "75343",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200085",
+  "customer": {
+   "id": "C100023",
+   "email": "c100023@mail.example",
+   "name": "Mateo Cohen"
+  },
+  "placed_at": "2024-08-31T20:20:49Z",
+  "items_total": 324.1,
+  "shipping_fee": 10.99,
+  "ship_to": {
+   "postal_code": "48414",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200086",
+  "customer": {
+   "id": "C100083",
+   "email": "c100083@mail.example",
+   "name": "Wei Ito"
+  },
+  "placed_at": "2024-07-02T03:39:29Z",
+  "items_total": 310.48,
+  "shipping_fee": 4.11,
+  "ship_to": {
+   "postal_code": "38058",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200087",
+  "customer": {
+   "id": "C100029",
+   "email": "c100029@mail.example",
+   "name": "Omar Okafor"
+  },
+  "placed_at": "2024-03-07T17:39:44Z",
+  "items_total": 313.9,
+  "shipping_fee": 20.65,
+  "ship_to": {
+   "postal_code": "22863",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200088",
+  "customer": {
+   "id": "C100085",
+   "email": "c100085@mail.example",
+   "name": "Chloe Smith"
+  },
+  "placed_at": "2024-05-10T18:06:13Z",
+  "items_total": 24.35,
+  "shipping_fee": 0.53,
+  "ship_to": {
+   "postal_code": "08536",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200089",
+  "customer": {
+   "id": "C100077",
+   "email": "c100077@mail.example",
+   "name": "Priya Okafor"
+  },
+  "placed_at": "2024-09-12T20:10:11Z",
+  "items_total": 459.57,
+  "shipping_fee": 15.8,
+  "ship_to": {
+   "postal_code": "14274",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200090",
+  "customer": {
+   "id": "C100115",
+   "email": "c100115@mail.example",
+   "name": "Lucas Murphy"
+  },
+  "placed_at": "2024-09-21T17:03:02Z",
+  "items_total": 25.42,
+  "shipping_fee": 4.7,
+  "ship_to": {
+   "postal_code": "98222",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200091",
+  "customer": {
+   "id": "C100075",
+   "email": "c100075@mail.example",
+   "name": "Zara Patel"
+  },
+  "placed_at": "2024-06-13T06:09:51Z",
+  "items_total": 528.8,
+  "shipping_fee": 12.41,
+  "ship_to": {
+   "postal_code": "06013",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200092",
+  "customer": {
+   "id": "C100055",
+   "email": "c100055@mail.example",
+   "name": "Lucas Silva"
+  },
+  "placed_at": "2024-02-06T07:30:00Z",
+  "items_total": 283.02,
+  "shipping_fee": 7.48,
+  "ship_to": {
+   "postal_code": "23168",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200093",
+  "customer": {
+   "id": "C100090",
+   "email": "c100090@mail.example",
+   "name": "Omar Haddad"
+  },
+  "placed_at": "2024-07-17T20:03:47Z",
+  "items_total": 303.95,
+  "shipping_fee": 21.46,
+  "ship_to": {
+   "postal_code": "47485",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200094",
+  "customer": {
+   "id": "C100022",
+   "email": "c100022@mail.example",
+   "name": "Sofia Silva"
+  },
+  "placed_at": "2024-12-29T04:39:07Z",
+  "items_total": 54.54,
+  "shipping_fee": 11.44,
+  "ship_to": {
+   "postal_code": "82590",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200095",
+  "customer": {
+   "id": "C100110",
+   "email": "c100110@mail.example",
+   "name": "Arjun Larsen"
+  },
+  "placed_at": "2024-09-06T08:43:07Z",
+  "items_total": 241.75,
+  "shipping_fee": 9.63,
+  "ship_to": {
+   "postal_code": "69627",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200096",
+  "customer": {
+   "id": "C100074",
+   "email": "c100074@mail.example",
+   "name": "Priya Smith"
+  },
+  "placed_at": "2024-05-08T19:16:29Z",
+  "items_total": 434.01,
+  "shipping_fee": 19.3,
+  "ship_to": {
+   "postal_code": "69359",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200097",
+  "customer": {
+   "id": "C100036",
+   "email": "c100036@mail.example",
+   "name": "Kofi Okafor"
+  },
+  "placed_at": "2024-03-07T08:46:50Z",
+  "items_total": 279.79,
+  "shipping_fee": 7.65,
+  "ship_to": {
+   "postal_code": "07504",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200098",
+  "customer": {
+   "id": "C100090",
+   "email": "c100090@mail.example",
+   "name": "Priya Garcia"
+  },
+  "placed_at": "2024-01-10T00:45:04Z",
+  "items_total": 355.45,
+  "shipping_fee": 15.65,
+  "ship_to": {
+   "postal_code": "98224",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200099",
+  "customer": {
+   "id": "C100063",
+   "email": "c100063@mail.example",
+   "name": "Hana Ito"
+  },
+  "placed_at": "2024-03-26T16:19:49Z",
+  "items_total": 529.56,
+  "shipping_fee": 23.51,
+  "ship_to": {
+   "postal_code": "81424",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200100",
+  "customer": {
+   "id": "C100017",
+   "email": "c100017@mail.example",
+   "name": "Lucas Garcia"
+  },
+  "placed_at": "2024-04-22T15:17:54Z",
+  "items_total": 513.57,
+  "shipping_fee": 6.35,
+  "ship_to": {
+   "postal_code": "32407",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200101",
+  "customer": {
+   "id": "C100074",
+   "email": "c100074@mail.example",
+   "name": "Ravi Patel"
+  },
+  "placed_at": "2024-04-05T04:24:37Z",
+  "items_total": 207.86,
+  "shipping_fee": 1.1,
+  "ship_to": {
+   "postal_code": "67593",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200102",
+  "customer": {
+   "id": "C100013",
+   "email": "c100013@mail.example",
+   "name": "Chloe Haddad"
+  },
+  "placed_at": "2024-04-15T22:48:58Z",
+  "items_total": 517.47,
+  "shipping_fee": 11.55,
+  "ship_to": {
+   "postal_code": "41996",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200103",
+  "customer": {
+   "id": "C100036",
+   "email": "c100036@mail.example",
+   "name": "Maya Ito"
+  },
+  "placed_at": "2024-04-22T15:38:06Z",
+  "items_total": 63.54,
+  "shipping_fee": 24.95,
+  "ship_to": {
+   "postal_code": "76985",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200104",
+  "customer": {
+   "id": "C100112",
+   "email": "c100112@mail.example",
+   "name": "Wei Rossi"
+  },
+  "placed_at": "2024-11-02T03:10:23Z",
+  "items_total": 417.24,
+  "shipping_fee": 16.37,
+  "ship_to": {
+   "postal_code": "47494",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200105",
+  "customer": {
+   "id": "C100046",
+   "email": "c100046@mail.example",
+   "name": "Chloe Patel"
+  },
+  "placed_at": "2024-06-10T05:34:13Z",
+  "items_total": 341.06,
+  "shipping_fee": 18.4,
+  "ship_to": {
+   "postal_code": "94479",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200106",
+  "customer": {
+   "id": "C100000",
+   "email": "c100000@mail.example",
+   "name": "Ethan Chen"
+  },
+  "placed_at": "2024-09-26T02:37:59Z",
+  "items_total": 256.89,
+  "shipping_fee": 6.23,
+  "ship_to": {
+   "postal_code": "19454",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200107",
+  "customer": {
+   "id": "C100083",
+   "email": "c100083@mail.example",
+   "name": "Elena Haddad"
+  },
+  "placed_at": "2024-04-13T15:21:49Z",
+  "items_total": 99.91,
+  "shipping_fee": 11.79,
+  "ship_to": {
+   "postal_code": "66596",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200108",
+  "customer": {
+   "id": "C100049",
+   "email": "c100049@mail.example",
+   "name": "Arjun Nguyen"
+  },
+  "placed_at": "2024-09-07T13:08:28Z",
+  "items_total": 80.01,
+  "shipping_fee": 17.31,
+  "ship_to": {
+   "postal_code": "17838",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200109",
+  "customer": {
+   "id": "C100075",
+   "email": "c100075@mail.example",
+   "name": "Priya Okafor"
+  },
+  "placed_at": "2024-05-07T20:37:06Z",
+  "items_total": 46.89,
+  "shipping_fee": 0.91,
+  "ship_to": {
+   "postal_code": "29015",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200110",
+  "customer": {
+   "id": "C100069",
+   "email": "c100069@mail.example",
+   "name": "Ava Rossi"
+  },
+  "placed_at": "2024-07-26T05:55:58Z",
+  "items_total": 353.72,
+  "shipping_fee": 13.02,
+  "ship_to": {
+   "postal_code": "96261",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200111",
+  "customer": {
+   "id": "C100055",
+   "email": "c100055@mail.example",
+   "name": "Liam Murphy"
+  },
+  "placed_at": "2024-10-27T14:46:56Z",
+  "items_total": 238.78,
+  "shipping_fee": 17.64,
+  "ship_to": {
+   "postal_code": "31588",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200112",
+  "customer": {
+   "id": "C100057",
+   "email": "c100057@mail.example",
+   "name": "Liam Ito"
+  },
+  "placed_at": "2024-11-19T12:27:24Z",
+  "items_total": 252.79,
+  "shipping_fee": 19.94,
+  "ship_to": {
+   "postal_code": "11788",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200113",
+  "customer": {
+   "id": "C100038",
+   "email": "c100038@mail.example",
+   "name": "Maya Kim"
+  },
+  "placed_at": "2024-10-22T12:25:35Z",
+  "items_total": 458.85,
+  "shipping_fee": 3.95,
+  "ship_to": {
+   "postal_code": "29063",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200114",
+  "customer": {
+   "id": "C100039",
+   "email": "c100039@mail.example",
+   "name": "Liam Kim"
+  },
+  "placed_at": "2024-08-08T12:00:20Z",
+  "items_total": 428.67,
+  "shipping_fee": 23.41,
+  "ship_to": {
+   "postal_code": "58754",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200115",
+  "customer": {
+   "id": "C100115",
+   "email": "c100115@mail.example",
+   "name": "Ethan Brown"
+  },
+  "placed_at": "2024-10-01T01:55:23Z",
+  "items_total": 21.44,
+  "shipping_fee": 4.53,
+  "ship_to": {
+   "postal_code": "96011",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200116",
+  "customer": {
+   "id": "C100007",
+   "email": "c100007@mail.example",
+   "name": "Lucas Garcia"
+  },
+  "placed_at": "2024-02-23T18:30:11Z",
+  "items_total": 300.3,
+  "shipping_fee": 11.66,
+  "ship_to": {
+   "postal_code": "22809",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200117",
+  "customer": {
+   "id": "C100044",
+   "email": "c100044@mail.example",
+   "name": "Ravi Haddad"
+  },
+  "placed_at": "2024-08-27T13:44:22Z",
+  "items_total": 125.45,
+  "shipping_fee": 20.87,
+  "ship_to": {
+   "postal_code": "47450",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200118",
+  "customer": {
+   "id": "C100102",
+   "email": "c100102@mail.example",
+   "name": "Priya Chen"
+  },
+  "placed_at": "2024-02-02T21:06:56Z",
+  "items_total": 646.08,
+  "shipping_fee": 14.47,
+  "ship_to": {
+   "postal_code": "16128",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200119",
+  "customer": {
+   "id": "C100085",
+   "email": "c100085@mail.example",
+   "name": "Grace Garcia"
+  },
+  "placed_at": "2024-01-27T16:53:25Z",
+  "items_total": 68.24,
+  "shipping_fee": 13.92,
+  "ship_to": {
+   "postal_code": "91147",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200120",
+  "customer": {
+   "id": "C100064",
+   "email": "c100064@mail.example",
+   "name": "Ethan Cohen"
+  },
+  "placed_at": "2024-02-22T02:53:18Z",
+  "items_total": 143.69,
+  "shipping_fee": 3.38,
+  "ship_to": {
+   "postal_code": "10002",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200121",
+  "customer": {
+   "id": "C100084",
+   "email": "c100084@mail.example",
+   "name": "Mateo Patel"
+  },
+  "placed_at": "2024-01-18T00:25:49Z",
+  "items_total": 544.11,
+  "shipping_fee": 9.03,
+  "ship_to": {
+   "postal_code": "30492",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200122",
+  "customer": {
+   "id": "C100041",
+   "email": "c100041@mail.example",
+   "name": "Lucas Kim"
+  },
+  "placed_at": "2024-09-21T00:32:29Z",
+  "items_total": 258.64,
+  "shipping_fee": 19.52,
+  "ship_to": {
+   "postal_code": "21227",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200123",
+  "customer": {
+   "id": "C100065",
+   "email": "c100065@mail.example",
+   "name": "Kofi Okafor"
+  },
+  "placed_at": "2024-05-27T21:25:58Z",
+  "items_total": 34.51,
+  "shipping_fee": 6.65,
+  "ship_to": {
+   "postal_code": "34947",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200124",
+  "customer": {
+   "id": "C100084",
+   "email": "c100084@mail.example",
+   "name": "Wei Reddy"
+  },
+  "placed_at": "2024-03-13T15:47:46Z",
+  "items_total": 34.04,
+  "shipping_fee": 2.59,
+  "ship_to": {
+   "postal_code": "27322",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200125",
+  "customer": {
+   "id": "C100058",
+   "email": "c100058@mail.example",
+   "name": "Chloe Murphy"
+  },
+  "placed_at": "2024-03-09T17:53:09Z",
+  "items_total": 261.15,
+  "shipping_fee": 12.8,
+  "ship_to": {
+   "postal_code": "94701",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200126",
+  "customer": {
+   "id": "C100093",
+   "email": "c100093@mail.example",
+   "name": "Hana Murphy"
+  },
+  "placed_at": "2024-03-24T18:04:40Z",
+  "items_total": 58.42,
+  "shipping_fee": 10.36,
+  "ship_to": {
+   "postal_code": "89293",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200127",
+  "customer": {
+   "id": "C100101",
+   "email": "c100101@mail.example",
+   "name": "Hana Reddy"
+  },
+  "placed_at": "2024-09-21T07:40:23Z",
+  "items_total": 426.54,
+  "shipping_fee": 10.73,
+  "ship_to": {
+   "postal_code": "04457",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200128",
+  "customer": {
+   "id": "C100083",
+   "email": "c100083@mail.example",
+   "name": "Grace Rossi"
+  },
+  "placed_at": "2024-09-14T11:56:18Z",
+  "items_total": 551.6,
+  "shipping_fee": 8.63,
+  "ship_to": {
+   "postal_code": "86805",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200129",
+  "customer": {
+   "id": "C100046",
+   "email": "c100046@mail.example",
+   "name": "Isla Silva"
+  },
+  "placed_at": "2024-06-27T01:30:39Z",
+  "items_total": 484.84,
+  "shipping_fee": 23.5,
+  "ship_to": {
+   "postal_code": "19710",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200130",
+  "customer": {
+   "id": "C100008",
+   "email": "c100008@mail.example",
+   "name": "Arjun Chen"
+  },
+  "placed_at": "2024-07-21T19:38:31Z",
+  "items_total": 299.29,
+  "shipping_fee": 4.11,
+  "ship_to": {
+   "postal_code": "93772",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200131",
+  "customer": {
+   "id": "C100036",
+   "email": "c100036@mail.example",
+   "name": "Ava Haddad"
+  },
+  "placed_at": "2024-12-17T09:29:40Z",
+  "items_total": 350.07,
+  "shipping_fee": 19.25,
+  "ship_to": {
+   "postal_code": "87146",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200132",
+  "customer": {
+   "id": "C100072",
+   "email": "c100072@mail.example",
+   "name": "Arjun Smith"
+  },
+  "placed_at": "2024-07-19T21:44:52Z",
+  "items_total": 393.62,
+  "shipping_fee": 11.63,
+  "ship_to": {
+   "postal_code": "66919",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200133",
+  "customer": {
+   "id": "C100071",
+   "email": "c100071@mail.example",
+   "name": "Ava Smith"
+  },
+  "placed_at": "2024-03-22T22:13:57Z",
+  "items_total": 594.13,
+  "shipping_fee": 9.3,
+  "ship_to": {
+   "postal_code": "21444",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200134",
+  "customer": {
+   "id": "C100100",
+   "email": "c100100@mail.example",
+   "name": "Zara Brown"
+  },
+  "placed_at": "2024-03-07T14:25:57Z",
+  "items_total": 579.25,
+  "shipping_fee": 9.32,
+  "ship_to": {
+   "postal_code": "56674",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200135",
+  "customer": {
+   "id": "C100014",
+   "email": "c100014@mail.example",
+   "name": "Arjun Murphy"
+  },
+  "placed_at": "2024-12-10T16:51:31Z",
+  "items_total": 233.44,
+  "shipping_fee": 1.27,
+  "ship_to": {
+   "postal_code": "30080",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200136",
+  "customer": {
+   "id": "C100019",
+   "email": "c100019@mail.example",
+   "name": "Grace Cohen"
+  },
+  "placed_at": "2024-12-25T23:59:53Z",
+  "items_total": 616.05,
+  "shipping_fee": 17.65,
+  "ship_to": {
+   "postal_code": "40265",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200137",
+  "customer": {
+   "id": "C100089",
+   "email": "c100089@mail.example",
+   "name": "Chloe Garcia"
+  },
+  "placed_at": "2024-11-21T01:42:52Z",
+  "items_total": 255.41,
+  "shipping_fee": 13.59,
+  "ship_to": {
+   "postal_code": "73526",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200138",
+  "customer": {
+   "id": "C100040",
+   "email": "c100040@mail.example",
+   "name": "Noah Okafor"
+  },
+  "placed_at": "2024-09-17T10:53:55Z",
+  "items_total": 585.79,
+  "shipping_fee": 24.19,
+  "ship_to": {
+   "postal_code": "94583",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200139",
+  "customer": {
+   "id": "C100009",
+   "email": "c100009@mail.example",
+   "name": "Liam Murphy"
+  },
+  "placed_at": "2024-11-10T19:20:58Z",
+  "items_total": 62.23,
+  "shipping_fee": 24.58,
+  "ship_to": {
+   "postal_code": "60909",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200140",
+  "customer": {
+   "id": "C100009",
+   "email": "c100009@mail.example",
+   "name": "Liam Brown"
+  },
+  "placed_at": "2024-09-20T17:57:14Z",
+  "items_total": 336.67,
+  "shipping_fee": 9.21,
+  "ship_to": {
+   "postal_code": "75715",
+   "country": "CA"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200141",
+  "customer": {
+   "id": "C100059",
+   "email": "c100059@mail.example",
+   "name": "Omar Chen"
+  },
+  "placed_at": "2024-09-27T20:34:26Z",
+  "items_total": 458.66,
+  "shipping_fee": 22.17,
+  "ship_to": {
+   "postal_code": "73480",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200142",
+  "customer": {
+   "id": "C100041",
+   "email": "c100041@mail.example",
+   "name": "Noah Rossi"
+  },
+  "placed_at": "2024-08-17T21:49:02Z",
+  "items_total": 572.45,
+  "shipping_fee": 5.02,
+  "ship_to": {
+   "postal_code": "91690",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200143",
+  "customer": {
+   "id": "C100033",
+   "email": "c100033@mail.example",
+   "name": "Mateo Silva"
+  },
+  "placed_at": "2024-02-13T03:51:10Z",
+  "items_total": 288.94,
+  "shipping_fee": 4.15,
+  "ship_to": {
+   "postal_code": "80996",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200144",
+  "customer": {
+   "id": "C100103",
+   "email": "c100103@mail.example",
+   "name": "Hana Smith"
+  },
+  "placed_at": "2024-06-07T17:33:29Z",
+  "items_total": 31.93,
+  "shipping_fee": 12.79,
+  "ship_to": {
+   "postal_code": "05493",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200145",
+  "customer": {
+   "id": "C100015",
+   "email": "c100015@mail.example",
+   "name": "Omar Garcia"
+  },
+  "placed_at": "2024-05-29T00:52:03Z",
+  "items_total": 545.03,
+  "shipping_fee": 2.71,
+  "ship_to": {
+   "postal_code": "20646",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200146",
+  "customer": {
+   "id": "C100083",
+   "email": "c100083@mail.example",
+   "name": "Mateo Reddy"
+  },
+  "placed_at": "2024-11-16T08:05:01Z",
+  "items_total": 252.72,
+  "shipping_fee": 10.14,
+  "ship_to": {
+   "postal_code": "18749",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200147",
+  "customer": {
+   "id": "C100003",
+   "email": "c100003@mail.example",
+   "name": "Omar Kim"
+  },
+  "placed_at": "2024-05-21T18:52:06Z",
+  "items_total": 134.42,
+  "shipping_fee": 20.13,
+  "ship_to": {
+   "postal_code": "74054",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200148",
+  "customer": {
+   "id": "C100065",
+   "email": "c100065@mail.example",
+   "name": "Ethan Haddad"
+  },
+  "placed_at": "2024-11-17T01:40:40Z",
+  "items_total": 207.22,
+  "shipping_fee": 8.31,
+  "ship_to": {
+   "postal_code": "86129",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200149",
+  "customer": {
+   "id": "C100022",
+   "email": "c100022@mail.example",
+   "name": "Chloe Nguyen"
+  },
+  "placed_at": "2024-11-19T22:05:44Z",
+  "items_total": 261.65,
+  "shipping_fee": 11.01,
+  "ship_to": {
+   "postal_code": "29477",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200150",
+  "customer": {
+   "id": "C100012",
+   "email": "c100012@mail.example",
+   "name": "Ava Reddy"
+  },
+  "placed_at": "2024-08-27T14:48:43Z",
+  "items_total": 470.63,
+  "shipping_fee": 8.36,
+  "ship_to": {
+   "postal_code": "50915",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200151",
+  "customer": {
+   "id": "C100054",
+   "email": "c100054@mail.example",
+   "name": "Kofi Cohen"
+  },
+  "placed_at": "2024-10-06T04:41:39Z",
+  "items_total": 523.59,
+  "shipping_fee": 2.76,
+  "ship_to": {
+   "postal_code": "75741",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200152",
+  "customer": {
+   "id": "C100104",
+   "email": "c100104@mail.example",
+   "name": "Elena Patel"
+  },
+  "placed_at": "2024-01-14T17:00:48Z",
+  "items_total": 550.1,
+  "shipping_fee": 14.99,
+  "ship_to": {
+   "postal_code": "65216",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200153",
+  "customer": {
+   "id": "C100034",
+   "email": "c100034@mail.example",
+   "name": "Isla Kim"
+  },
+  "placed_at": "2024-08-27T14:00:09Z",
+  "items_total": 577.93,
+  "shipping_fee": 12.63,
+  "ship_to": {
+   "postal_code": "07485",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200154",
+  "customer": {
+   "id": "C100009",
+   "email": "c100009@mail.example",
+   "name": "Grace Haddad"
+  },
+  "placed_at": "2024-01-17T20:46:30Z",
+  "items_total": 31.03,
+  "shipping_fee": 19.19,
+  "ship_to": {
+   "postal_code": "09432",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200155",
+  "customer": {
+   "id": "C100085",
+   "email": "c100085@mail.example",
+   "name": "Priya Kim"
+  },
+  "placed_at": "2024-08-18T02:30:39Z",
+  "items_total": 443.01,
+  "shipping_fee": 12.57,
+  "ship_to": {
+   "postal_code": "64977",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200156",
+  "customer": {
+   "id": "C100008",
+   "email": "c100008@mail.example",
+   "name": "Elena Patel"
+  },
+  "placed_at": "2024-04-30T14:23:03Z",
+  "items_total": 36.12,
+  "shipping_fee": 16.35,
+  "ship_to": {
+   "postal_code": "09545",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200157",
+  "customer": {
+   "id": "C100098",
+   "email": "c100098@mail.example",
+   "name": "Ava Larsen"
+  },
+  "placed_at": "2024-05-28T00:21:06Z",
+  "items_total": 627.11,
+  "shipping_fee": 23.25,
+  "ship_to": {
+   "postal_code": "31448",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200158",
+  "customer": {
+   "id": "C100106",
+   "email": "c100106@mail.example",
+   "name": "Noah Brown"
+  },
+  "placed_at": "2024-09-14T02:24:28Z",
+  "items_total": 603.6,
+  "shipping_fee": 24.61,
+  "ship_to": {
+   "postal_code": "23485",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200159",
+  "customer": {
+   "id": "C100000",
+   "email": "c100000@mail.example",
+   "name": "Hana Kim"
+  },
+  "placed_at": "2024-12-11T04:23:46Z",
+  "items_total": 379.9,
+  "shipping_fee": 22.52,
+  "ship_to": {
+   "postal_code": "74462",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200160",
+  "customer": {
+   "id": "C100119",
+   "email": "c100119@mail.example",
+   "name": "Kofi Garcia"
+  },
+  "placed_at": "2024-05-05T19:58:13Z",
+  "items_total": 39.7,
+  "shipping_fee": 8.12,
+  "ship_to": {
+   "postal_code": "34843",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200161",
+  "customer": {
+   "id": "C100099",
+   "email": "c100099@mail.example",
+   "name": "Ava Murphy"
+  },
+  "placed_at": "2024-06-08T22:08:21Z",
+  "items_total": 237.86,
+  "shipping_fee": 2.12,
+  "ship_to": {
+   "postal_code": "94840",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200162",
+  "customer": {
+   "id": "C100092",
+   "email": "c100092@mail.example",
+   "name": "Wei Reddy"
+  },
+  "placed_at": "2024-10-12T11:08:14Z",
+  "items_total": 573.78,
+  "shipping_fee": 13.68,
+  "ship_to": {
+   "postal_code": "77966",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200163",
+  "customer": {
+   "id": "C100089",
+   "email": "c100089@mail.example",
+   "name": "Ravi Okafor"
+  },
+  "placed_at": "2024-04-11T21:13:55Z",
+  "items_total": 454.27,
+  "shipping_fee": 14.51,
+  "ship_to": {
+   "postal_code": "79895",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200164",
+  "customer": {
+   "id": "C100000",
+   "email": "c100000@mail.example",
+   "name": "Ravi Ito"
+  },
+  "placed_at": "2024-08-10T05:32:41Z",
+  "items_total": 438.47,
+  "shipping_fee": 14.47,
+  "ship_to": {
+   "postal_code": "11355",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200165",
+  "customer": {
+   "id": "C100117",
+   "email": "c100117@mail.example",
+   "name": "Lucas Reddy"
+  },
+  "placed_at": "2024-02-15T03:54:38Z",
+  "items_total": 221.45,
+  "shipping_fee": 23.17,
+  "ship_to": {
+   "postal_code": "99286",
+   "country": "CA"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200166",
+  "customer": {
+   "id": "C100051",
+   "email": "c100051@mail.example",
+   "name": "Sofia Brown"
+  },
+  "placed_at": "2024-08-11T00:34:19Z",
+  "items_total": 436.68,
+  "shipping_fee": 15.98,
+  "ship_to": {
+   "postal_code": "73520",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200167",
+  "customer": {
+   "id": "C100060",
+   "email": "c100060@mail.example",
+   "name": "Ava Rossi"
+  },
+  "placed_at": "2024-02-01T13:55:16Z",
+  "items_total": 268.24,
+  "shipping_fee": 21.57,
+  "ship_to": {
+   "postal_code": "38339",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200168",
+  "customer": {
+   "id": "C100021",
+   "email": "c100021@mail.example",
+   "name": "Chloe Smith"
+  },
+  "placed_at": "2024-11-05T22:56:41Z",
+  "items_total": 54.34,
+  "shipping_fee": 6.85,
+  "ship_to": {
+   "postal_code": "86347",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200169",
+  "customer": {
+   "id": "C100102",
+   "email": "c100102@mail.example",
+   "name": "Ethan Haddad"
+  },
+  "placed_at": "2024-09-14T17:49:59Z",
+  "items_total": 620.67,
+  "shipping_fee": 1.16,
+  "ship_to": {
+   "postal_code": "74445",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200170",
+  "customer": {
+   "id": "C100073",
+   "email": "c100073@mail.example",
+   "name": "Elena Chen"
+  },
+  "placed_at": "2024-09-03T00:53:02Z",
+  "items_total": 605.1,
+  "shipping_fee": 19.51,
+  "ship_to": {
+   "postal_code": "92067",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200171",
+  "customer": {
+   "id": "C100018",
+   "email": "c100018@mail.example",
+   "name": "Ethan Kim"
+  },
+  "placed_at": "2024-08-24T12:55:40Z",
+  "items_total": 142.37,
+  "shipping_fee": 13.59,
+  "ship_to": {
+   "postal_code": "94924",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200172",
+  "customer": {
+   "id": "C100013",
+   "email": "c100013@mail.example",
+   "name": "Ava Rossi"
+  },
+  "placed_at": "2024-01-09T07:01:24Z",
+  "items_total": 517.53,
+  "shipping_fee": 7.57,
+  "ship_to": {
+   "postal_code": "92098",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200173",
+  "customer": {
+   "id": "C100028",
+   "email": "c100028@mail.example",
+   "name": "Liam Murphy"
+  },
+  "placed_at": "2024-08-23T09:39:57Z",
+  "items_total": 424.82,
+  "shipping_fee": 23.3,
+  "ship_to": {
+   "postal_code": "85753",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200174",
+  "customer": {
+   "id": "C100037",
+   "email": "c100037@mail.example",
+   "name": "Hana Nguyen"
+  },
+  "placed_at": "2024-07-11T17:09:15Z",
+  "items_total": 544.52,
+  "shipping_fee": 18.58,
+  "ship_to": {
+   "postal_code": "31168",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200175",
+  "customer": {
+   "id": "C100116",
+   "email": "c100116@mail.example",
+   "name": "Priya Haddad"
+  },
+  "placed_at": "2024-01-25T12:48:32Z",
+  "items_total": 435.4,
+  "shipping_fee": 2.51,
+  "ship_to": {
+   "postal_code": "66023",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200176",
+  "customer": {
+   "id": "C100100",
+   "email": "c100100@mail.example",
+   "name": "Arjun Okafor"
+  },
+  "placed_at": "2024-03-09T10:47:11Z",
+  "items_total": 508.13,
+  "shipping_fee": 14.65,
+  "ship_to": {
+   "postal_code": "40468",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200177",
+  "customer": {
+   "id": "C100014",
+   "email": "c100014@mail.example",
+   "name": "Ravi Okafor"
+  },
+  "placed_at": "2024-03-31T06:27:24Z",
+  "items_total": 644.71,
+  "shipping_fee": 8.01,
+  "ship_to": {
+   "postal_code": "45249",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200178",
+  "customer": {
+   "id": "C100118",
+   "email": "c100118@mail.example",
+   "name": "Lucas Kim"
+  },
+  "placed_at": "2024-03-17T13:59:37Z",
+  "items_total": 284.35,
+  "shipping_fee": 22.25,
+  "ship_to": {
+   "postal_code": "47383",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200179",
+  "customer": {
+   "id": "C100041",
+   "email": "c100041@mail.example",
+   "name": "Liam Rossi"
+  },
+  "placed_at": "2024-12-08T18:17:31Z",
+  "items_total": 459.43,
+  "shipping_fee": 9.53,
+  "ship_to": {
+   "postal_code": "25439",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200180",
+  "customer": {
+   "id": "C100053",
+   "email": "c100053@mail.example",
+   "name": "Ava Silva"
+  },
+  "placed_at": "2024-09-04T09:20:11Z",
+  "items_total": 95.37,
+  "shipping_fee": 23.81,
+  "ship_to": {
+   "postal_code": "57157",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200181",
+  "customer": {
+   "id": "C100047",
+   "email": "c100047@mail.example",
+   "name": "Priya Garcia"
+  },
+  "placed_at": "2024-10-29T11:24:08Z",
+  "items_total": 448.36,
+  "shipping_fee": 0.15,
+  "ship_to": {
+   "postal_code": "20631",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200182",
+  "customer": {
+   "id": "C100049",
+   "email": "c100049@mail.example",
+   "name": "Priya Garcia"
+  },
+  "placed_at": "2024-04-02T09:22:19Z",
+  "items_total": 224.92,
+  "shipping_fee": 19.15,
+  "ship_to": {
+   "postal_code": "76571",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200183",
+  "customer": {
+   "id": "C100060",
+   "email": "c100060@mail.example",
+   "name": "Liam Rossi"
+  },
+  "placed_at": "2024-11-01T19:26:52Z",
+  "items_total": 361.78,
+  "shipping_fee": 2.63,
+  "ship_to": {
+   "postal_code": "36576",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200184",
+  "customer": {
+   "id": "C100001",
+   "email": "c100001@mail.example",
+   "name": "Isla Nguyen"
+  },
+  "placed_at": "2024-11-24T07:34:37Z",
+  "items_total": 498.96,
+  "shipping_fee": 0.92,
+  "ship_to": {
+   "postal_code": "23053",
+   "country": "GB"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200185",
+  "customer": {
+   "id": "C100111",
+   "email": "c100111@mail.example",
+   "name": "Arjun Smith"
+  },
+  "placed_at": "2024-05-28T22:07:56Z",
+  "items_total": 147.33,
+  "shipping_fee": 8.46,
+  "ship_to": {
+   "postal_code": "24558",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200186",
+  "customer": {
+   "id": "C100031",
+   "email": "c100031@mail.example",
+   "name": "Ava Kim"
+  },
+  "placed_at": "2024-01-20T21:55:44Z",
+  "items_total": 426.93,
+  "shipping_fee": 14.17,
+  "ship_to": {
+   "postal_code": "70407",
+   "country": "US"
+  },
+  "channel": "marketplace"
+ },
+ {
+  "order_id": "ORD-200187",
+  "customer": {
+   "id": "C100039",
+   "email": "c100039@mail.example",
+   "name": "Ethan Reddy"
+  },
+  "placed_at": "2024-10-18T03:49:21Z",
+  "items_total": 82.6,
+  "shipping_fee": 16.08,
+  "ship_to": {
+   "postal_code": "65368",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200188",
+  "customer": {
+   "id": "C100039",
+   "email": "c100039@mail.example",
+   "name": "Liam Nguyen"
+  },
+  "placed_at": "2024-04-01T12:24:15Z",
+  "items_total": 258.94,
+  "shipping_fee": 21.05,
+  "ship_to": {
+   "postal_code": "56114",
+   "country": "CA"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200189",
+  "customer": {
+   "id": "C100104",
+   "email": "c100104@mail.example",
+   "name": "Ava Patel"
+  },
+  "placed_at": "2024-11-11T06:27:27Z",
+  "items_total": 628.29,
+  "shipping_fee": 23.3,
+  "ship_to": {
+   "postal_code": "80759",
+   "country": "US"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200190",
+  "customer": {
+   "id": "C100053",
+   "email": "c100053@mail.example",
+   "name": "Arjun Haddad"
+  },
+  "placed_at": "2024-12-16T05:55:07Z",
+  "items_total": 262.71,
+  "shipping_fee": 2.42,
+  "ship_to": {
+   "postal_code": "48042",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200191",
+  "customer": {
+   "id": "C100068",
+   "email": "c100068@mail.example",
+   "name": "Zara Reddy"
+  },
+  "placed_at": "2024-08-07T15:14:40Z",
+  "items_total": 509.1,
+  "shipping_fee": 8.97,
+  "ship_to": {
+   "postal_code": "58293",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200192",
+  "customer": {
+   "id": "C100117",
+   "email": "c100117@mail.example",
+   "name": "Noah Haddad"
+  },
+  "placed_at": "2024-04-03T12:58:53Z",
+  "items_total": 624.21,
+  "shipping_fee": 24.21,
+  "ship_to": {
+   "postal_code": "35617",
+   "country": "US"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200193",
+  "customer": {
+   "id": "C100003",
+   "email": "c100003@mail.example",
+   "name": "Kofi Garcia"
+  },
+  "placed_at": "2024-12-04T04:24:28Z",
+  "items_total": 170.42,
+  "shipping_fee": 10.88,
+  "ship_to": {
+   "postal_code": "64097",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200194",
+  "customer": {
+   "id": "C100085",
+   "email": "c100085@mail.example",
+   "name": "Ava Ito"
+  },
+  "placed_at": "2024-01-20T09:15:11Z",
+  "items_total": 35.41,
+  "shipping_fee": 3.61,
+  "ship_to": {
+   "postal_code": "19346",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200195",
+  "customer": {
+   "id": "C100106",
+   "email": "c100106@mail.example",
+   "name": "Maya Brown"
+  },
+  "placed_at": "2024-06-04T18:06:04Z",
+  "items_total": 124.94,
+  "shipping_fee": 6.16,
+  "ship_to": {
+   "postal_code": "17798",
+   "country": "US"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200196",
+  "customer": {
+   "id": "C100085",
+   "email": "c100085@mail.example",
+   "name": "Ethan Rossi"
+  },
+  "placed_at": "2024-02-12T07:07:03Z",
+  "items_total": 363.41,
+  "shipping_fee": 23.45,
+  "ship_to": {
+   "postal_code": "71255",
+   "country": "GB"
+  },
+  "channel": "web"
+ },
+ {
+  "order_id": "ORD-200197",
+  "customer": {
+   "id": "C100040",
+   "email": "c100040@mail.example",
+   "name": "Ava Garcia"
+  },
+  "placed_at": "2024-01-16T23:47:57Z",
+  "items_total": 61.16,
+  "shipping_fee": 24.32,
+  "ship_to": {
+   "postal_code": "71585",
+   "country": "GB"
+  },
+  "channel": "ios"
+ },
+ {
+  "order_id": "ORD-200198",
+  "customer": {
+   "id": "C100015",
+   "email": "c100015@mail.example",
+   "name": "Chloe Larsen"
+  },
+  "placed_at": "2024-10-22T10:33:46Z",
+  "items_total": 299.73,
+  "shipping_fee": 15.48,
+  "ship_to": {
+   "postal_code": "64102",
+   "country": "CA"
+  },
+  "channel": "android"
+ },
+ {
+  "order_id": "ORD-200199",
+  "customer": {
+   "id": "C100034",
+   "email": "c100034@mail.example",
+   "name": "Arjun Brown"
+  },
+  "placed_at": "2024-06-13T02:03:01Z",
+  "items_total": 418.07,
+  "shipping_fee": 6.01,
+  "ship_to": {
+   "postal_code": "60254",
+   "country": "GB"
+  },
+  "channel": "marketplace"
+ }
+]
